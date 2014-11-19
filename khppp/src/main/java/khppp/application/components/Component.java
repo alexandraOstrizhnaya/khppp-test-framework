@@ -9,9 +9,11 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static java.lang.String.format;
 import static org.openqa.selenium.support.ui.ExpectedConditions.invisibilityOfElementLocated;
+import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfAllElementsLocatedBy;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 /**
@@ -27,6 +29,7 @@ public abstract class Component {
 
 	public Component(WebDriver driver) {
 		this.driver = driver;
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	public WebDriver getDriver() {
@@ -70,6 +73,12 @@ public abstract class Component {
 		LOG.info(format("Wait for %s", by));
 		WebDriverWait wait = new WebDriverWait(driver, timeOut);
 		return wait.until(visibilityOfElementLocated(by));
+	}
+
+	public List<WebElement> waitForAll(By by) {
+		LOG.info(format("Wait for %s", by));
+		WebDriverWait wait = new WebDriverWait(driver, TIME_OUT_IN_SECONDS);
+		return wait.until(visibilityOfAllElementsLocatedBy(by));
 	}
 
 	public WebElement waitFor(By by) {

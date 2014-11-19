@@ -1,19 +1,171 @@
-12:34:53.017 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->khppp
-12:35:00.504 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->userIncorrectLogin
-12:35:01.114 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
-12:35:02.179 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (18251f37-c29c-4009-8056-ac6c052a0dbe)] -> id: exampleInputEmail1] value Admin
-12:35:02.179 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
-12:35:02.659 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (18251f37-c29c-4009-8056-ac6c052a0dbe)] -> id: exampleInputPassword1] value AdminPassword111
-12:35:02.660 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
-12:35:02.836 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='auth_form']/table/tbody/tr[3]/td
-12:35:04.115 [main] INFO  khppp.custom.listeners.CustomListener - userIncorrectLogin --- SUCCESS
+15:46:49.574 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->Command line test 6e530825-c06d-43d8-afb5-152c58749280
+15:46:57.596 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->userIncorrectLogin
+15:46:58.027 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+15:46:58.895 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (250ba7fc-155b-4280-abe4-aef323494242)] -> id: exampleInputEmail1] value Admin
+15:46:58.896 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+15:46:59.411 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (250ba7fc-155b-4280-abe4-aef323494242)] -> id: exampleInputPassword1] value AdminPassword111
+15:46:59.411 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+15:46:59.595 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='auth_form']/table/tbody/tr[3]/td
+15:47:00.008 [main] INFO  khppp.custom.listeners.CustomListener - userIncorrectLogin --- SUCCESS
 
-12:35:04.162 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->userLogin
-12:35:04.365 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
-12:35:04.905 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (18251f37-c29c-4009-8056-ac6c052a0dbe)] -> id: exampleInputEmail1] value Admin_Admin
-12:35:04.905 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
-12:35:05.227 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (18251f37-c29c-4009-8056-ac6c052a0dbe)] -> id: exampleInputPassword1] value Admin111
-12:35:05.227 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
-12:35:05.489 [main] INFO  khppp.application.components.Component - Wait for By.selector: .user_status
-12:35:06.030 [main] INFO  khppp.custom.listeners.CustomListener - userLogin --- SUCCESS
+15:47:00.019 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->userLogin
+15:47:00.241 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+15:47:00.797 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (250ba7fc-155b-4280-abe4-aef323494242)] -> id: exampleInputEmail1] value Admin_Admin
+15:47:00.797 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+15:47:01.143 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (250ba7fc-155b-4280-abe4-aef323494242)] -> id: exampleInputPassword1] value Admin111
+15:47:01.144 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+15:47:01.320 [main] INFO  khppp.application.components.Component - Wait for By.selector: .user_status
+15:47:01.941 [main] INFO  khppp.custom.listeners.CustomListener - userLogin --- SUCCESS
+
+15:47:02.231 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->Command line test ea114e97-9a28-4d22-b34c-b40930f60f47
+15:47:08.579 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addUser
+15:47:09.015 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+15:47:10.528 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (172618a4-d467-4322-8b3c-51cc676a5630)] -> id: exampleInputEmail1] value Admin_Admin
+15:47:10.528 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+15:47:10.856 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (172618a4-d467-4322-8b3c-51cc676a5630)] -> id: exampleInputPassword1] value Admin111
+15:47:10.857 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+15:47:11.094 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Users')]
+15:47:11.660 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='wrap']//a[contains(.,'Add Users')]
+15:47:12.771 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='registration_table']//tr[1]/td[1]/input
+15:47:13.268 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (172618a4-d467-4322-8b3c-51cc676a5630)] -> xpath: //*[@id='registration_table']//tr[1]/td[1]/input] value sergio
+15:47:13.269 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='registration_table']//tr[1]/td[2]/input
+15:47:13.494 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (172618a4-d467-4322-8b3c-51cc676a5630)] -> xpath: //*[@id='registration_table']//tr[1]/td[2]/input] value sergio
+15:47:13.494 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='registration_form']/div/form/button[1]
+15:47:13.824 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //td[contains(.,'sergio')][1]
+15:47:23.878 [main] INFO  khppp.custom.listeners.CustomListener - addUser --- SUCCESS
+
+15:47:23.881 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->users
+15:47:24.257 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+15:47:57.181 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (172618a4-d467-4322-8b3c-51cc676a5630)] -> id: exampleInputEmail1] value Admin_Admin
+15:47:57.181 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+15:47:57.515 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (172618a4-d467-4322-8b3c-51cc676a5630)] -> id: exampleInputPassword1] value Admin111
+15:47:57.515 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+15:47:57.792 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Users')]
+15:47:58.227 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='table_body']/tr
+15:48:01.409 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[1]//td
+15:48:01.468 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[2]//td
+15:48:01.530 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[3]//td
+15:48:01.590 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[4]//td
+15:48:01.649 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[5]//td
+15:48:01.709 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[6]//td
+15:48:01.776 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[7]//td
+15:48:01.837 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[8]//td
+15:48:01.895 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[9]//td
+15:48:01.958 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[10]//td
+15:48:02.028 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[11]//td
+15:48:02.088 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[12]//td
+15:48:02.148 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[13]//td
+15:48:02.206 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[14]//td
+15:48:02.265 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[15]//td
+15:48:02.328 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[16]//td
+15:48:02.392 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[17]//td
+15:48:02.458 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[18]//td
+15:48:02.517 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[19]//td
+15:48:02.577 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[20]//td
+15:48:02.643 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[21]//td
+15:48:02.703 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[22]//td
+15:48:02.766 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[23]//td
+15:48:02.826 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[24]//td
+15:48:02.891 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[25]//td
+15:48:02.951 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[26]//td
+15:48:03.014 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[27]//td
+15:48:03.075 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[28]//td
+15:48:03.135 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[29]//td
+15:48:03.195 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[30]//td
+15:48:03.260 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[31]//td
+15:48:03.332 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[32]//td
+15:48:03.442 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[33]//td
+15:48:03.510 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[34]//td
+15:48:03.578 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[35]//td
+15:48:03.643 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[36]//td
+15:48:03.748 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[37]//td
+15:48:03.843 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[38]//td
+15:48:03.910 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[39]//td
+15:48:04.005 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[40]//td
+15:48:04.114 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[41]//td
+15:48:04.182 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[42]//td
+15:48:04.239 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[43]//td
+15:48:04.299 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[44]//td
+15:48:04.366 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[45]//td
+15:48:04.429 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[46]//td
+15:48:04.490 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[47]//td
+15:48:04.552 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[48]//td
+15:48:04.614 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[49]//td
+15:48:04.672 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[50]//td
+15:48:04.733 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[51]//td
+15:48:04.792 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[52]//td
+15:48:04.859 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[53]//td
+15:48:04.921 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[54]//td
+15:48:04.983 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[55]//td
+15:48:05.044 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[56]//td
+15:48:05.108 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[57]//td
+15:48:05.176 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[58]//td
+15:48:05.235 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[59]//td
+15:48:05.297 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[60]//td
+15:48:05.360 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[61]//td
+15:48:05.433 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[62]//td
+15:48:05.504 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[63]//td
+15:48:05.565 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[64]//td
+15:48:05.624 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[65]//td
+15:48:05.686 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[66]//td
+15:48:05.744 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[67]//td
+15:48:05.814 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[68]//td
+15:48:05.897 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[69]//td
+15:48:05.973 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[70]//td
+15:48:06.039 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[71]//td
+15:48:06.111 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[72]//td
+15:48:06.195 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[73]//td
+15:48:06.276 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[74]//td
+15:48:06.345 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[75]//td
+15:48:06.405 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[76]//td
+15:48:06.465 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[77]//td
+15:48:06.527 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[78]//td
+15:48:06.591 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[79]//td
+15:48:06.662 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[80]//td
+15:48:06.727 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[81]//td
+15:48:06.788 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[82]//td
+15:48:06.849 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[83]//td
+15:48:06.915 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[84]//td
+15:48:06.979 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[85]//td
+15:48:07.042 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[86]//td
+15:48:07.102 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[87]//td
+15:48:07.163 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[88]//td
+15:48:07.235 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[89]//td
+15:48:07.296 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[90]//td
+15:48:07.354 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[91]//td
+15:48:07.419 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[92]//td
+15:48:07.497 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[93]//td
+15:48:07.581 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[94]//td
+15:48:07.650 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[95]//td
+15:48:07.713 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[96]//td
+15:48:07.771 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[97]//td
+15:48:07.830 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[98]//td
+15:48:07.918 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[99]//td
+15:48:07.982 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[100]//td
+15:48:08.047 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[101]//td
+15:48:08.110 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[102]//td
+15:48:08.169 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[103]//td
+15:48:08.237 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[104]//td
+15:48:08.304 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[105]//td
+15:48:08.431 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[106]//td
+15:48:08.551 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[107]//td
+15:48:08.624 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[108]//td
+15:48:08.690 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[109]//td
+15:48:08.754 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[110]//td
+15:48:08.819 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[111]//td
+15:48:08.892 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[112]//td
+15:48:08.978 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[113]//td
+15:48:09.045 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[114]//td
+15:48:09.115 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[115]//td
+15:48:09.189 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[116]//td
+15:48:09.249 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[117]//td
+15:48:09.348 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[118]//td
+15:48:09.408 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[119]//td
+15:48:09.566 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[120]//td
+15:48:09.631 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[121]//td
+15:48:09.696 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //*[@id='table_group_journal']//tr[122]//td
+15:48:09.764 [main] ERROR khppp.custom.listeners.CustomListener - users --- FAILED
+15:48:09.764 [main] ERROR khppp.custom.listeners.CustomListener - java.lang.AssertionError: 
+Expected: <121>
+     but: was <122>
 

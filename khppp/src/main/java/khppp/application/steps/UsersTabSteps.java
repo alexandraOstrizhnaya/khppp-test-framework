@@ -1,7 +1,10 @@
 package khppp.application.steps;
 
 import khppp.application.components.UsersTab;
+import khppp.application.entitites.User;
 import khppp.factory.PageFactory;
+
+import java.util.List;
 
 /**
  * Created by Serhii_Pirohov on 18.11.2014.
@@ -14,8 +17,16 @@ public class UsersTabSteps {
         this.usersTab = factory.createPage(UsersTab.class);
     }
 
-    public void addUser(String firstName,String lastName,String role){
+    public void clickAddUsers(){
         usersTab.getAddUsersBtn().click();
+    }
+
+    public List<User> getAllUsers() {
+       return usersTab.getAllUsers();
+    }
+
+    public boolean userDisplayed(String name){
+        return usersTab.isCreateUserDisplayed(name);
     }
 
 }

@@ -1,5 +1,6 @@
 package khppp.tests;
 
+import khppp.application.steps.LoginSteps;
 import khppp.core.CoreTest;
 import khppp.custom.listeners.CustomListener;
 import khppp.custom.reporter.CustomReport;
@@ -21,12 +22,15 @@ public abstract class BaseCase {
 	CoreTest coreTest;
 	PageFactory pages;
 
+	LoginSteps loginSteps;
+
 	@BeforeClass
 	@Step("Start test run at {0}")
 	public void configure() throws IOException {
 		coreTest = new CoreTest();
 		coreTest.setUpDriver(System.getProperty("browser", DEFAULT_BROWSER));
 		pages = coreTest.getFactory();
+		loginSteps = new LoginSteps(pages);
 	}
 
 	@AfterClass
@@ -42,5 +46,13 @@ public abstract class BaseCase {
 	protected void open() {
 		coreTest.open();
 	}
+
+	protected void login(){
+		open();
+		loginSteps.login("Admin_Admin", "Admin111");
+	}
+
+
+
 
 }
