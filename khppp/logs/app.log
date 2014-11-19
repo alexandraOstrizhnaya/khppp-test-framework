@@ -1,35 +1,19 @@
-11:16:13.661 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->khppp
-11:16:23.899 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->userIncorrectLogin
-11:16:24.357 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
-11:16:26.148 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (c423b939-2921-49bb-a79e-a6ec5486d3d3)] -> id: exampleInputEmail1] value Admin
-11:16:26.149 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
-11:16:26.798 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (c423b939-2921-49bb-a79e-a6ec5486d3d3)] -> id: exampleInputPassword1] value AdminPassword111
-11:16:26.798 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
-11:16:27.465 [main] INFO  khppp.application.components.Component - Wait for By.selector: .user_status
-11:16:57.533 [main] ERROR khppp.custom.listeners.CustomListener - userIncorrectLogin --- FAILED
-11:16:57.537 [main] ERROR khppp.custom.listeners.CustomListener - org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.selector: .user_status
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'EPUAKHAW0177', ip: '9.221.152.158', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
-Session ID: c423b939-2921-49bb-a79e-a6ec5486d3d3
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=c423b939-2921-49bb-a79e-a6ec5486d3d3, version=33.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=true, takesScreenshot=true}]
+12:34:53.017 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->khppp
+12:35:00.504 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->userIncorrectLogin
+12:35:01.114 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+12:35:02.179 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (18251f37-c29c-4009-8056-ac6c052a0dbe)] -> id: exampleInputEmail1] value Admin
+12:35:02.179 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+12:35:02.659 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (18251f37-c29c-4009-8056-ac6c052a0dbe)] -> id: exampleInputPassword1] value AdminPassword111
+12:35:02.660 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+12:35:02.836 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='auth_form']/table/tbody/tr[3]/td
+12:35:04.115 [main] INFO  khppp.custom.listeners.CustomListener - userIncorrectLogin --- SUCCESS
 
-11:16:57.558 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->userLogin
-11:16:57.839 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
-11:16:58.513 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (c423b939-2921-49bb-a79e-a6ec5486d3d3)] -> id: exampleInputEmail1] value Admin_Admin
-11:16:58.513 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
-11:16:59.035 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (c423b939-2921-49bb-a79e-a6ec5486d3d3)] -> id: exampleInputPassword1] value AdminPassword111
-11:16:59.035 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
-11:16:59.315 [main] INFO  khppp.application.components.Component - Wait for By.selector: .user_status
-11:17:14.030 [main] ERROR khppp.custom.listeners.CustomListener - userLogin --- FAILED
-11:17:14.031 [main] ERROR khppp.custom.listeners.CustomListener - org.openqa.selenium.WebDriverException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
-System info: host: 'EPUAKHAW0177', ip: '9.221.152.158', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
-Driver info: driver.version: EventFiringWebDriver
-Command duration or timeout: 2.68 seconds
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'EPUAKHAW0177', ip: '9.221.152.158', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
-Session ID: c423b939-2921-49bb-a79e-a6ec5486d3d3
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=c423b939-2921-49bb-a79e-a6ec5486d3d3, version=33.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=true, takesScreenshot=true}]
+12:35:04.162 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->userLogin
+12:35:04.365 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+12:35:04.905 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (18251f37-c29c-4009-8056-ac6c052a0dbe)] -> id: exampleInputEmail1] value Admin_Admin
+12:35:04.905 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+12:35:05.227 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (18251f37-c29c-4009-8056-ac6c052a0dbe)] -> id: exampleInputPassword1] value Admin111
+12:35:05.227 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+12:35:05.489 [main] INFO  khppp.application.components.Component - Wait for By.selector: .user_status
+12:35:06.030 [main] INFO  khppp.custom.listeners.CustomListener - userLogin --- SUCCESS
 

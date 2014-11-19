@@ -28,4 +28,8 @@ public class LoginPage extends Component {
 		WebElement loginBtn = waitFor(id("login_button"));
 		loginBtn.click();
 	}
+
+	public WebElement getErrorMessage() {
+		return waitFor(xpath("//*[@id='auth_form']/table/tbody/tr[3]/td"));
+	}
 }

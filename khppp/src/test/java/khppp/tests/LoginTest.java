@@ -28,7 +28,7 @@ public class LoginTest extends BaseCase {
 	@Test
 	public void userLogin() {
 		open();
-		loginSteps.login("Admin_Admin", "AdminPassword111");
+		loginSteps.login("Admin_Admin", "Admin111");
 		assertThat(navBarSteps.loggedUserName(), equalTo("AdminAdmin (ADMIN)"));
 	}
 
@@ -36,7 +36,7 @@ public class LoginTest extends BaseCase {
 	public void userIncorrectLogin() {
 		open();
 		loginSteps.login("Admin", "AdminPassword111");
-		assertThat(navBarSteps.loggedUserName(), equalTo("AdminAdmin (ADMIN)"));
+		assertThat(loginSteps.errorMessage(),is("Incorrect login or password"));
 	}
 
 

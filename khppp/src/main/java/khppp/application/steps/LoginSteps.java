@@ -24,4 +24,9 @@ public class LoginSteps {
 		login.clickLoginBtn();
 	}
 
+	@Step("Then verify error message is displayed")
+	public String errorMessage() {
+		return login.getErrorMessage().getText();
+	}
+
 }
