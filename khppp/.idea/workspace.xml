@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534fd893-d787-4a0c-bb6c-8e03ddd934ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/steps/AddUserSteps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/components/AddUserTab.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/entitites/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/khppp/tests/BaseCase.java" afterPath="$PROJECT_DIR$/src/test/java/khppp/tests/BaseCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/components/Component.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/components/Component.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/custom/listeners/CustomListener.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/custom/listeners/CustomListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/khppp/tests/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/khppp/tests/LoginTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/components/UsersTab.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/components/UsersTab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/steps/UsersTabSteps.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/steps/UsersTabSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/app.log" afterPath="$PROJECT_DIR$/logs/app.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="khppp.iws" />
@@ -50,13 +38,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsersTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9310345" vertical-offset="0" max-vertical-offset="972">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="439" max-vertical-offset="1782">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Component.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/Component.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.59288096" vertical-offset="207" max-vertical-offset="1940">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="e#3204#3205#0" expanded="true" />
+                <element signature="e#3249#3250#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,10 +132,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1928" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -779,14 +780,20 @@
       <option name="project" value="LOCAL" />
       <updated>1416393377537</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Incorrect User login was added">
+      <created>1416404957118</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1416404957118</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3109504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32435346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3114224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -800,7 +807,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34710744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7107438" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2153518" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2153518" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1006,7 +1013,7 @@
         <state vertical-scroll-proportion="0.4632353" vertical-offset="0" max-vertical-offset="576">
           <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding>
-            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1016,8 +1023,8 @@
         <state vertical-scroll-proportion="0.5294118" vertical-offset="0" max-vertical-offset="544">
           <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1037,9 +1044,7 @@
         <state vertical-scroll-proportion="0.42172524" vertical-offset="0" max-vertical-offset="939">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1080,31 +1085,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.629393" vertical-offset="0" max-vertical-offset="1746">
-          <caret line="111" column="17" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
-          <folding>
-            <element signature="e#3204#3205#0" expanded="true" />
-            <element signature="e#3249#3250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/khppp/custom/listeners/CustomListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69009584" vertical-offset="0" max-vertical-offset="972">
           <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1127,10 +1113,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9310345" vertical-offset="0" max-vertical-offset="972">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="439" max-vertical-offset="1782">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59288096" vertical-offset="207" max-vertical-offset="1940">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#3204#3205#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
           </folding>
         </state>
       </provider>
