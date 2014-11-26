@@ -47,12 +47,9 @@ public abstract class BaseCase {
 		coreTest.open();
 	}
 
-	protected void login(){
+	protected void login(String username, String password) {
 		open();
-		loginSteps.login("Admin_Admin", "Admin111");
+		loginSteps.login(username, password);
 	}
-
-
-
 
 }

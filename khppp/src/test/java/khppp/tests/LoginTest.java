@@ -1,35 +1,30 @@
-
 package khppp.tests;
 
 import khppp.application.steps.NavBarSteps;
+import khppp.excel.utils.ExcelReader;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.lang.reflect.Method;
+import java.util.List;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.is;
 
 /**
  * Created by Serhii_Pirohov on 18.11.2014.
  */
 public class LoginTest extends BaseCase {
-	private String sTestCaseName;
-	private String sExpectedResultName;
-	private int iTestCaseRow;
-	private int iExpectedResultRow;
 	NavBarSteps navBarSteps;
 
-	@DataProvider(name = "Authentication")
-	public Object[][] credentials() throws Exception {
-		ExcelUtils.setExcelFile("loginUsers.xlsx", "loginUsers");
-		sTestCaseName = this.toString();
-		sTestCaseName = ExcelUtils.getTestCaseName(this.toString());
-		iTestCaseRow = ExcelUtils.getRowContains(sTestCaseName, 0);
-		sExpectedResultName = this.toString();
-		sExpectedResultName = ExcelUtils.getExpectedResult(this.toString());
-		iExpectedResultRow = ExcelUtils.getRowContains(sTestCaseName, 0);
-		Object[][] testObArray = ExcelUtils.getTableArray("loginUsers.xlsx", "loginUsers", iTestCaseRow, iExpectedResultRow);
-		return (testObArray);
+	@DataProvider(name = "authentication")
+	public Object[][] credentials(Method method) throws Exception {
+		ExcelReader excelReader = new ExcelReader();
+		excelReader.setExcelFile("testData.xlsx", "Login");
+		List<Integer> rowsNo = excelReader.getRowContains(method.getName(), 0);
+		return excelReader.getTableArray(rowsNo);
 	}
 
 	@BeforeClass
@@ -37,19 +32,22 @@ public class LoginTest extends BaseCase {
 		navBarSteps = new NavBarSteps(pages);
 	}
 
-	@Test(dataProvider = "Authentication")
-	public void userLogin(String username, String password, String sExpectedResultName) {
+	@Test(dataProvider = "authentication")
+	public void userLogin(String username, String password,
+			String sExpectedResultName) {
 		open();
 		loginSteps.login(username, password);
-		assertThat(navBarSteps.loggedUserName(), equalTo(sExpectedResultName));
+		String loggedUserName = navBarSteps.loggedUserName();
 		navBarSteps.navigateTo("Logout");
+		assertThat(loggedUserName, equalTo(sExpectedResultName));
 	}
 
-//    @Test
-//    public void userIncorrectLogin() {
-//        open();
-//        loginSteps.login("Admin", "AdminPassword111");
-//        assertThat(loginSteps.errorMessage(), is("Incorrect login or password"));
-//    }
+	@Test(dataProvider = "authentication")
+	public void userIncorrectLogin(String username, String password,
+			String sExpectedResultName) {
+		open();
+		loginSteps.login(username, password);
+		assertThat(loginSteps.errorMessage(), is(sExpectedResultName));
+	}
 
 }
