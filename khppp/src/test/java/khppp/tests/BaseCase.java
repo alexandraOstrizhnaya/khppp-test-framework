@@ -8,9 +8,13 @@ import khppp.factory.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
-import ru.yandex.qatools.allure.annotations.Step;
 
 import java.io.IOException;
+import java.lang.reflect.Method;
+import java.util.List;
+
+import static khppp.excel.utils.ExcelColumn.USER_NAME;
+import static khppp.excel.utils.ExcelColumn.USER_PASS;
 
 /**
  * Created by Sergey on 02.11.2014.
@@ -25,7 +29,6 @@ public abstract class BaseCase {
 	LoginSteps loginSteps;
 
 	@BeforeClass
-	@Step("Start test run at {0}")
 	public void configure() throws IOException {
 		coreTest = new CoreTest();
 		coreTest.setUpDriver(System.getProperty("browser", DEFAULT_BROWSER));
@@ -38,18 +41,17 @@ public abstract class BaseCase {
 		coreTest.shutDown();
 	}
 
-	// @DataProvider
-	// public Object[][] TestData(Method testMethod) throws Exception {
-	// return coreTest.getTestData(testMethod);
-	// }
+	public Object[][] testData(Method method, String sheet) throws Exception {
+		return coreTest.testData(method, sheet);
+	}
 
 	protected void open() {
 		coreTest.open();
 	}
 
-	protected void login(String username, String password) {
+	protected void login(List<String> data) {
 		open();
-		loginSteps.login(username, password);
+		loginSteps.login(data.get(USER_NAME), data.get(USER_PASS));
 	}
 
 }

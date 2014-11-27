@@ -1,14 +1,16 @@
 package khppp.tests;
 
 import khppp.application.steps.NavBarSteps;
-import khppp.excel.utils.ExcelReader;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import ru.yandex.qatools.allure.annotations.Features;
 
 import java.lang.reflect.Method;
 import java.util.List;
 
+import static khppp.application.Features.LOGIN;
+import static khppp.excel.utils.ExcelColumn.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
@@ -21,10 +23,7 @@ public class LoginTest extends BaseCase {
 
 	@DataProvider(name = "authentication")
 	public Object[][] credentials(Method method) throws Exception {
-		ExcelReader excelReader = new ExcelReader();
-		excelReader.setExcelFile("testData.xlsx", "Login");
-		List<Integer> rowsNo = excelReader.getRowContains(method.getName(), 0);
-		return excelReader.getTableArray(rowsNo);
+		return testData(method, "Login");
 	}
 
 	@BeforeClass
@@ -32,22 +31,22 @@ public class LoginTest extends BaseCase {
 		navBarSteps = new NavBarSteps(pages);
 	}
 
+	@Features(LOGIN)
 	@Test(dataProvider = "authentication")
-	public void userLogin(String username, String password,
-			String sExpectedResultName) {
+	public void userLogin(List<String> data) {
 		open();
-		loginSteps.login(username, password);
+		loginSteps.login(data.get(USER_NAME), data.get(USER_PASS));
 		String loggedUserName = navBarSteps.loggedUserName();
 		navBarSteps.navigateTo("Logout");
-		assertThat(loggedUserName, equalTo(sExpectedResultName));
+		assertThat(loggedUserName, equalTo(data.get(EXPECTED)));
 	}
 
+	@Features(LOGIN)
 	@Test(dataProvider = "authentication")
-	public void userIncorrectLogin(String username, String password,
-			String sExpectedResultName) {
+	public void userIncorrectLogin(List<String> data) {
 		open();
-		loginSteps.login(username, password);
-		assertThat(loginSteps.errorMessage(), is(sExpectedResultName));
+		loginSteps.login(data.get(USER_NAME), data.get(USER_PASS));
+		assertThat(loginSteps.errorMessage(), is(data.get(EXPECTED)));
 	}
 
 }

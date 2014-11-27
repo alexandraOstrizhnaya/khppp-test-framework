@@ -13,8 +13,6 @@ public class CustomListener extends TestListenerAdapter {
 
 	Logger log = LogManager.getLogger(getClass());
 
-	private int m_count = 0;
-
 	@Override
 	public void onStart(ITestContext arg0) {
 		log.info("Start Of Execution ->" + arg0.getName());
@@ -39,6 +37,7 @@ public class CustomListener extends TestListenerAdapter {
 			log.error(cause + "\n");
 		}
 	}
+
 
 	@Override
 	public void onTestSkipped(ITestResult tr) {

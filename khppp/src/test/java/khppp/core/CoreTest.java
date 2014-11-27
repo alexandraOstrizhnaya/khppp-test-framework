@@ -1,5 +1,6 @@
 package khppp.core;
 
+import khppp.excel.utils.ExcelReader;
 import khppp.factory.PageFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -7,8 +8,10 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -48,17 +51,14 @@ public final class CoreTest {
 		}
 	}
 
-	// //@DataProvider
-	// public Object[][] getTestData(Method testMethod) throws Exception {
-	// String excelFile = config.getProperty("excel.workbook.path");
-	// String sheet = config.getProperty("sheet");
-	// ExcelUtils.setExcelFile(excelFile, sheet);
-	// String sTestCaseName = testMethod.getName();
-	// int iTestCaseRow = ExcelUtils.getRowContains(sTestCaseName, COL_NUM);
-	// Object[][] testObjArray = ExcelUtils.getTableArray(excelFile, sheet,
-	// iTestCaseRow);
-	// return (testObjArray);
-	// }
+	public Object[][] testData(Method method,String sheet) throws Exception {
+		ExcelReader excelReader = new ExcelReader();
+		excelReader.setExcelFile(config.getProperty("excel.workbook.path"), sheet);
+		List<Integer> rowsNo = excelReader.getRowContains(method.getName(), COL_NUM);
+		return excelReader.getTableArray(rowsNo);
+	}
+
+
 
 	public void open() {
 		driver.get(config.getProperty("application.url"));
