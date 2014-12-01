@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1417423550921" stop="1417423563151">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1417423559728" stop="1417423562808" status="passed">
+            <name>validTabNameTest[[LabManager_LabManager, LabManager111, OstrTestGroup, QA]]</name>
+            <steps>
+                <step start="1417423560200" stop="1417423562054" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1417423562054" stop="1417423562497" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>
