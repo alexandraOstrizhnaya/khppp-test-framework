@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1417424460134" stop="1417424473244">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1417424469797" stop="1417424472932" status="passed">
+            <name>addGroupBtnNameTest[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1417424470220" stop="1417424472169" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1417424472169" stop="1417424472608" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>
