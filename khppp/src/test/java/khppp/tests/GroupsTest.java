@@ -59,8 +59,8 @@ public class GroupsTest extends BaseCase {
     public void addGroup(List<String> data) {
         login(data);
         navBarSteps.navigateTo("Groups");
-        addGroupSteps.addNewGroup("OstrTestGroup4", "QA");
-        assertThat(groupsTabSteps.groupDisplayed("OstrTestGroup3"), is(true));
+        addGroupSteps.addNewGroup("OstrTestGroup5", "QA");
+        assertThat(groupsTabSteps.groupDisplayed("OstrTestGroup5"), is(true));
     }
 
     @Features(GROUP)
