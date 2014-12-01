@@ -1,22 +1,8 @@
-13:15:21.148 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->khppp
-13:16:34.197 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addUser
-13:16:34.629 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
-13:16:35.414 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (93315e54-b12d-4d27-beb1-afd0ccbba5c2)] -> id: exampleInputEmail1] value Admin_Admin
-13:16:35.414 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
-13:16:35.535 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (93315e54-b12d-4d27-beb1-afd0ccbba5c2)] -> id: exampleInputPassword1] value Admin111
-13:16:35.536 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
-13:16:35.711 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Users')]
-13:16:36.233 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='wrap']//a[contains(.,'Add Users')]
-13:16:36.755 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='registration_table']//tr[1]/td[1]/input
-13:16:37.131 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (93315e54-b12d-4d27-beb1-afd0ccbba5c2)] -> xpath: //*[@id='registration_table']//tr[1]/td[1]/input] value sashaa
-13:16:37.132 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='registration_table']//tr[1]/td[2]/input
-13:16:37.284 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (93315e54-b12d-4d27-beb1-afd0ccbba5c2)] -> xpath: //*[@id='registration_table']//tr[1]/td[2]/input] value sashaa
-13:16:37.284 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='registration_form']/div/form/button[1]
-13:16:37.482 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //td[contains(.,'sashaa')][1]
-13:16:38.060 [main] ERROR khppp.custom.listeners.CustomListener - addUser --- FAILED
-13:16:38.060 [main] ERROR khppp.custom.listeners.CustomListener - java.lang.AssertionError: 
-Expected: is <true>
-     but: was <false>
-
-13:16:38.153 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->users
-13:16:38.493 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+14:46:30.162 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->khppp
+14:46:36.667 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->userIncorrectLogin
+14:46:36.993 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+14:46:37.297 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (ea77addb-f185-4f31-9c97-4ee960f76ed1)] -> id: exampleInputEmail1] value admin
+14:46:37.297 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+14:46:38.202 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (ea77addb-f185-4f31-9c97-4ee960f76ed1)] -> id: exampleInputPassword1] value adni
+14:46:38.202 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+14:46:38.430 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='auth_form']/table/tbody/tr[3]/td
