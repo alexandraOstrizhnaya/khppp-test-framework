@@ -6,6 +6,6 @@ package khppp.application;
 public interface Features {
 
     String LOGIN = "Login";
-    String GROUP = "Groups";
+    String STATUS = "Status";
 
 }

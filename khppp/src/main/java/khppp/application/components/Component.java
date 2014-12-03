@@ -12,9 +12,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import static java.lang.String.format;
-import static org.openqa.selenium.support.ui.ExpectedConditions.invisibilityOfElementLocated;
-import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfAllElementsLocatedBy;
-import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
+import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
 /**
  * Created by Sergey on 04.11.2014.

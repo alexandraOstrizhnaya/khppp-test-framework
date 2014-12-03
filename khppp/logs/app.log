@@ -1,8 +1,17 @@
-14:46:30.162 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->khppp
-14:46:36.667 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->userIncorrectLogin
-14:46:36.993 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
-14:46:37.297 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (ea77addb-f185-4f31-9c97-4ee960f76ed1)] -> id: exampleInputEmail1] value admin
-14:46:37.297 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
-14:46:38.202 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (ea77addb-f185-4f31-9c97-4ee960f76ed1)] -> id: exampleInputPassword1] value adni
-14:46:38.202 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
-14:46:38.430 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='auth_form']/table/tbody/tr[3]/td
+18:08:59.752 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->khppp
+18:09:14.389 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->changeStatus
+18:09:14.940 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+18:09:16.200 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (d28bc824-6661-42d7-80ab-3c06ac888b77)] -> id: exampleInputEmail1] value Mentor_Mentor
+18:09:16.201 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+18:09:16.641 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (d28bc824-6661-42d7-80ab-3c06ac888b77)] -> id: exampleInputPassword1] value Mentor111
+18:09:16.641 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+18:09:17.024 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Users')]
+18:09:17.756 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='firstName']
+18:09:18.538 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='0']/td[1]
+18:09:19.287 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='collapse0']/td[1]/a[1]
+18:09:19.707 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//tr[@id='0']/td[2]
+18:09:20.221 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='0']/td[1]
+18:09:20.499 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='collapse0']/td[1]/a[2]
+18:09:20.985 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//tr[@id='0']/td[2]
+18:09:21.447 [main] INFO  khppp.custom.listeners.CustomListener - changeStatus --- SUCCESS
+
