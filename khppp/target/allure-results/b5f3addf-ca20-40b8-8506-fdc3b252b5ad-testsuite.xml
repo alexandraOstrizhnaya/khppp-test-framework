@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1417609365000" stop="1417609387557">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1417609378978" stop="1417609386337" status="passed">
+            <name>changeStatusToClosed[[Mentor_Mentor, Mentor111]]</name>
+            <steps>
+                <step start="1417609379590" stop="1417609383498" status="passed">
+                    <name>login</name>
+                    <title>When I login as Mentor_Mentor and Mentor111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1417609383499" stop="1417609383779" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Users</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Status"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>
