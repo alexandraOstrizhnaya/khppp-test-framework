@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1417601253705" stop="1417601284717">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1417601260463" stop="1417601274605" status="passed">
+            <name>addGroup[[LabManager_LabManager, LabManager111, Test, QA]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1417601274883" stop="1417601277492" status="passed">
+            <name>addGroupBtnNameTest[[LabManager_LabManager, LabManager111]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1417601277941" stop="1417601281678" status="passed">
+            <name>addGroupWithoutDep[[LabManager_LabManager, LabManager111, OstrTestWithoutDep, Choose department]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1417601281998" stop="1417601284276" status="passed">
+            <name>validTabNameTest[[LabManager_LabManager, LabManager111]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

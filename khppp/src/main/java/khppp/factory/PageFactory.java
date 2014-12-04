@@ -7,17 +7,17 @@ import org.openqa.selenium.WebDriver;
  */
 public class PageFactory {
 
-	private WebDriver driver;
+    private WebDriver driver;
 
-	public PageFactory(WebDriver driver) {
-		this.driver = driver;
-	}
+    public PageFactory(WebDriver driver) {
+        this.driver = driver;
+    }
 
-	/*
-	 * Method instantiate page
-	 */
-	public <T> T createPage(Class<T> pageClassToProxy) {
-		return  org.openqa.selenium.support.PageFactory.initElements(driver,pageClassToProxy);
-	}
+    /*
+     * Method instantiate page
+     */
+    public <T> T createPage(Class<T> pageClassToProxy) {
+        return org.openqa.selenium.support.PageFactory.initElements(driver, pageClassToProxy);
+    }
 
 }

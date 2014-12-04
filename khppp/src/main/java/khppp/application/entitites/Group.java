@@ -19,8 +19,9 @@ public class Group {
 
     public String getDepName() {
         return depName;
+    }
 
-    }public void setDepName(String lastName) {
+    public void setDepName(String lastName) {
         this.depName = depName;
     }
 

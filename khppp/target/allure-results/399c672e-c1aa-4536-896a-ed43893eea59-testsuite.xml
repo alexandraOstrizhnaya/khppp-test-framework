@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1417701063898" stop="1417701148742">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1417701069873" stop="1417701084424" status="passed">
+            <name>addUserCustomEmail[[Admin_Admin, Admin111, vasya, pupkin, pupkin@epam.com]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+        <test-case start="1417701084616" stop="1417701087918" status="passed">
+            <name>addUserWithoutName[[Admin_Admin, Admin111, Grigor, Grukov, You input first name incorrect.]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+        <test-case start="1417701088091" stop="1417701091702" status="passed">
+            <name>addUserWithoutSurname[[Admin_Admin, Admin111, Grigor, Grukov, You input last name incorrect.]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+        <test-case start="1417701091869" stop="1417701105827" status="passed">
+            <name>adminAddNewUser[[Admin_Admin, Admin111, IvanAdmin, IvanovAdmin, ADMIN]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+        <test-case start="1417701105829" stop="1417701120253" status="passed">
+            <name>adminAddNewUser[[Admin_Admin, Admin111, IPetroLM, IPetrovLM, LAB_MANAGER]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+        <test-case start="1417701120257" stop="1417701134315" status="passed">
+            <name>adminAddNewUser[[Admin_Admin, Admin111, IViktorMentor, IViktMentor, MENTOR]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+        <test-case start="1417701134318" stop="1417701148369" status="passed">
+            <name>adminAddNewUser[[Admin_Admin, Admin111, IGeorgMentee, IGrigMentee, MENTEE]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

@@ -46,7 +46,7 @@ public class LoginTest extends BaseCase {
 	public void userIncorrectLogin(List<String> data) {
 		open();
 		loginSteps.login(data.get(USER_NAME), data.get(USER_PASS));
-		assertThat(loginSteps.errorMessage(), is(data.get(EXPECTED)));
+		assertThat(loginSteps.incorrectLoginPassword(), is(data.get(EXPECTED)));
 	}
 
     @Features(LOGIN)
@@ -54,7 +54,15 @@ public class LoginTest extends BaseCase {
     public void userEmptyLogin(List<String> data) {
         open();
         loginSteps.login(data.get(USER_NAME), data.get(USER_PASS));
-        assertThat(loginSteps.errorMessage(), is(data.get(EXPECTED)));
+        assertThat(loginSteps.incorrectLoginPassword(), is(data.get(EXPECTED)));
     }
+
+	@Features(LOGIN)
+	@Test(dataProvider = "authentication")
+	public void userEmptyPassword(List<String> data) {
+		open();
+		loginSteps.login(data.get(USER_NAME), data.get(USER_PASS));
+		assertThat(loginSteps.incorrectLoginPassword(), is(data.get(EXPECTED)));
+	}
 
 }

@@ -29,4 +29,9 @@ public class LoginSteps {
 		return login.getErrorMessage().getText();
 	}
 
+	@Step("Verify Incorrect Login or Password message")
+	public String incorrectLoginPassword() {
+		return login.getIncorrectLoginPassMessage().getText();
+	}
+
 }

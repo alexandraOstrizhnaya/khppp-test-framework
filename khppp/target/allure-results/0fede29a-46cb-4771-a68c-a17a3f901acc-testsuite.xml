@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1417697311927" stop="1417697331788">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1417697318646" stop="1417697320195" status="passed">
+            <name>userIncorrectLogin[[admin, adni, Incorrect login or password]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1417697320320" stop="1417697322209" status="passed">
+            <name>userLogin[[Admin_Admin, Admin111, Admin Admin (admin)]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1417697322217" stop="1417697324240" status="passed">
+            <name>userLogin[[LabManager_LabManager, LabManager111, LabManager LabManager (lab manager)]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1417697324245" stop="1417697325774" status="passed">
+            <name>userLogin[[Mentor_Mentor, Mentor111, Mentor Mentor (mentor)]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1417697325780" stop="1417697327418" status="passed">
+            <name>userLogin[[Mentee_Mentee, Mentee111, Mentee Mentee (mentee)]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1417697327421" stop="1417697329454" status="passed">
+            <name>userLogin[[LabManager_LabManager, LabManager111, LabManager LabManager (lab manager)]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1417697329463" stop="1417697331370" status="passed">
+            <name>userLogin[[Admin_Admin, Admin111, Admin Admin (admin)]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

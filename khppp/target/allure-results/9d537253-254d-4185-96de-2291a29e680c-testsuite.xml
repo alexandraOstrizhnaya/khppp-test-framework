@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1417617979705" stop="1417617995795">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1417617985771" stop="1417617989670" status="passed">
+            <name>userLogin[[Admin_Admin, Admin111, Admin Admin (admin)]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1417617989732" stop="1417617991828" status="passed">
+            <name>userLogin[[LabManager_LabManager, LabManager111, LabManager LabManager (lab manager)]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1417617991836" stop="1417617993652" status="passed">
+            <name>userLogin[[Mentor_Mentor, Mentor111, Mentor Mentor (mentor)]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1417617993657" stop="1417617995412" status="passed">
+            <name>userLogin[[Mentee_Mentee, Mentee111, Mentee Mentee (mentee)]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>
