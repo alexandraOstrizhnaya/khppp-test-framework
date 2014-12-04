@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534fd893-d787-4a0c-bb6c-8e03ddd934ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/khppp/application/steps/AddUserSteps.class" afterPath="$PROJECT_DIR$/target/classes/khppp/application/steps/AddUserSteps.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/khppp/application/components/AddUserTab.class" afterPath="$PROJECT_DIR$/target/classes/khppp/application/components/AddUserTab.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/khppp/excel/utils/ExcelColumn.class" afterPath="$PROJECT_DIR$/target/classes/khppp/excel/utils/ExcelColumn.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/khppp/application/Features.class" afterPath="$PROJECT_DIR$/target/classes/khppp/application/Features.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/khppp/application/entitites/Group.class" afterPath="$PROJECT_DIR$/target/classes/khppp/application/entitites/Group.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/khppp/tests/GroupsTest.class" afterPath="$PROJECT_DIR$/target/test-classes/khppp/tests/GroupsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/khppp/application/components/LoginPage.class" afterPath="$PROJECT_DIR$/target/classes/khppp/application/components/LoginPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/khppp/application/steps/LoginSteps.class" afterPath="$PROJECT_DIR$/target/classes/khppp/application/steps/LoginSteps.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/khppp/tests/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/khppp/tests/LoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/khppp/application/components/Test.class" afterPath="$PROJECT_DIR$/target/classes/khppp/application/components/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/khppp/application/components/UsersTab.class" afterPath="$PROJECT_DIR$/target/classes/khppp/application/components/UsersTab.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/khppp/tests/UsersTest.class" afterPath="$PROJECT_DIR$/target/test-classes/khppp/tests/UsersTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testData.xlsx" afterPath="$PROJECT_DIR$/testData.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/steps/AddUserSteps.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/steps/AddUserSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/components/AddUserTab.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/components/AddUserTab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/excel/utils/ExcelColumn.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/excel/utils/ExcelColumn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/excel/utils/ExcelReader.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/excel/utils/ExcelReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/Features.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/Features.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/entitites/Group.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/entitites/Group.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/components/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/components/LoginPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/steps/LoginSteps.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/steps/LoginSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/khppp/tests/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/khppp/tests/LoginTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/factory/PageFactory.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/factory/PageFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/components/Test.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/components/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/components/UsersTab.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/components/UsersTab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/steps/UsersTabSteps.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/steps/UsersTabSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java" afterPath="$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/app.log" afterPath="$PROJECT_DIR$/logs/app.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config.properties" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="khppp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +31,8 @@
       <file leaf-file-name="UsersTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81776416" vertical-offset="928" max-vertical-offset="1683">
-              <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.27105665" vertical-offset="1030" max-vertical-offset="1683">
+              <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,7 +67,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="748">
               <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1265#1266#0" expanded="false" />
+                <element signature="e#1300#1301#0" expanded="false" />
+                <element signature="e#1464#1465#0" expanded="false" />
+                <element signature="e#1495#1496#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +83,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="531" max-vertical-offset="1326">
               <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1760#1761#0" expanded="false" />
+                <element signature="e#1816#1817#0" expanded="false" />
+                <element signature="e#2301#2302#0" expanded="false" />
+                <element signature="e#2338#2339#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,8 +186,8 @@
         <option value="$PROJECT_DIR$/src/main/java/khppp/application/components/AddUserTab.java" />
         <option value="$PROJECT_DIR$/src/main/java/khppp/application/steps/AddUserSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/khppp/tests/GroupsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/khppp/tests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java" />
       </list>
     </option>
   </component>
@@ -1482,10 +1464,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding>
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#666#667#0" expanded="false" />
+            <element signature="e#694#695#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1517,7 +1499,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1542,8 +1524,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
           <folding>
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1568,7 +1550,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="748">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1265#1266#0" expanded="false" />
+            <element signature="e#1300#1301#0" expanded="false" />
+            <element signature="e#1464#1465#0" expanded="false" />
+            <element signature="e#1495#1496#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1576,7 +1564,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="531" max-vertical-offset="1326">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1760#1761#0" expanded="false" />
+            <element signature="e#1816#1817#0" expanded="false" />
+            <element signature="e#2301#2302#0" expanded="false" />
+            <element signature="e#2338#2339#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1653,8 +1647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81776416" vertical-offset="928" max-vertical-offset="1683">
-          <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.27105665" vertical-offset="1030" max-vertical-offset="1683">
+          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

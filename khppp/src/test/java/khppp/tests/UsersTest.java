@@ -69,7 +69,7 @@ public class UsersTest extends BaseCase {
         navBarSteps.logout();
     }
 
-    /*Verify it is impossible to create user without name or surname*/
+    /* Verify it is impossible to create user without name or surname */
     @Features(USERS)
     @Test(dataProvider = "users")
     public void addUserWithoutName(List<String> data) {
