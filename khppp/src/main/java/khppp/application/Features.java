@@ -7,5 +7,6 @@ public interface Features {
 
     String LOGIN = "Login";
     String STATUS = "Status";
+    String GROUP = "Groups";
 
 }

@@ -23,4 +23,8 @@ public class NavBar extends Component {
 		return waitFor(xpath("//a[contains(.,'%s')]", name));
 	}
 
+    public WebElement getLogoutBtn() {
+        return waitFor(xpath("//ul[@class='nav navbar-nav navbar-right']/li/a"));
+    }
+
 }
