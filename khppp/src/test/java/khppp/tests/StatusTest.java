@@ -39,8 +39,8 @@ public class StatusTest extends BaseCase {
     }
 
     @Features(STATUS)
-         @Test(dataProvider = "status")
-         public void changeStatus(List<String> data) {
+    @Test(dataProvider = "status")
+    public void changeStatus(List<String> data) {
         login(data);
         navBarSteps.navigateTo("Users");
         usersTabSteps.getFirstUser().click();

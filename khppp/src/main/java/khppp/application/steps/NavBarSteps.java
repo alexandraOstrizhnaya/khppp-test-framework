@@ -25,4 +25,8 @@ public class NavBarSteps {
 		navBar.getTab(tabName).click();
 	}
 
+    public void logout() {
+        navBar.getLogoutBtn().click();
+    }
+
 }

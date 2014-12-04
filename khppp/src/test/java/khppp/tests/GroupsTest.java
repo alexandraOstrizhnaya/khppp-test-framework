@@ -82,7 +82,5 @@ public class GroupsTest extends BaseCase {
     }
 
     @AfterMethod
-    public void logout() {
-        navBarSteps.logout();
-    }
+    public void logout() { navBarSteps.logout(); }
 }
