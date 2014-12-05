@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1417625637560" stop="1417625659158">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1417625644622" stop="1417625658943" status="passed">
+            <name>addUserCustomEmail[[Admin_Admin, Admin111, vasya, pupkin, pupkin@epam.com]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

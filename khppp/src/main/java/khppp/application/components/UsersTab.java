@@ -18,12 +18,13 @@ public class UsersTab extends Component {
 		super(driver);
 	}
 
-	public WebElement getAddUsersBtn() {
-		return waitFor(xpath("//*[@id='wrap']//a[contains(.,'Add Users')]"));
-	}
-
+	//	.//*[@id='group_journal']/div/div/div[2]/button[1]
 	public WebElement getExportBtn() {
 		return waitFor(id("create_csv_button"));
+	}
+
+	public WebElement getAddUsersBtn() {
+		return waitFor(xpath("//*[@id='wrap']//a[contains(.,'Add Users')]"));
 	}
 
 	public List<User> getAllUsers() {

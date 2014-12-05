@@ -6,6 +6,14 @@ package khppp.excel.utils;
 public interface ExcelColumn {
 
     int USER_NAME = 0;
-    int USER_PASS =1;
+    int USER_PASS = 1;
     int EXPECTED = 2;
+
+    int NEW_USER_NAME = 2;
+    int NEW_USER_SURNAME = 3;
+    int NEW_USER_ROLE = 4;
+    int NEW_USER_EMAIL = 4;
+    int EXPECTED_ERROR = 4;
+    int EXPECTED_ROLE = 5;
+
 }

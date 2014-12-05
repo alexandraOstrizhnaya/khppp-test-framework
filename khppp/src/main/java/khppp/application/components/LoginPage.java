@@ -32,4 +32,10 @@ public class LoginPage extends Component {
 	public WebElement getErrorMessage() {
 		return waitFor(xpath("//*[@id='auth_form']/table/tbody/tr[3]/td"));
 	}
+
+	public WebElement getIncorrectLoginPassMessage() {
+		return waitFor(xpath("//div[@class='col-sm-9 text-danger float_right danger_message_style']"));
+	}
+
 }
+//div[@class='col-sm-9 text-danger float_right danger_message_style']

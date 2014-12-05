@@ -18,12 +18,40 @@ public class AddUserSteps {
 		this.usersTab = factory.createPage(UsersTab.class);
 	}
 
+	public void fillNameSurname(String fName, String lName) {
+		usersTab.getAddUsersBtn().click();
+		addUserTab.enterFirstName(fName);
+		addUserTab.enterLastName(lName);
+	}
+
 	@Step("When I add new user {0},{1}")
 	public void addNewUser(String fName, String lName) {
-		usersTab.getAddUsersBtn().click();
-        addUserTab.enterFirstName(fName);
-		addUserTab.enterLastName(lName);
+		fillNameSurname(fName, lName);
 		addUserTab.clickSave();
+	}
+
+	@Step("When I set custom email {0}, {1}")
+	public void addNewUserCustomEmail(String fName, String lName, String email) {
+		fillNameSurname(fName, lName);
+		addUserTab.renameEmail(email);
+		addUserTab.clickSave();
+	}
+
+	@Step("When I create users with different roles {0}, {1}")
+	public void addUserDifferentRoles(String fName, String lName, String role) {
+		fillNameSurname(fName, lName);
+		addUserTab.selectUsersRole(role);
+		addUserTab.clickSave();
+	}
+
+	@Step("Verify empty FirstNameField")
+	public String emptyNameFieldMessage() {
+		return addUserTab.emptyNameMessage().getText();
+	}
+
+	@Step("Verify empty LastNameField")
+	public String emptySurnameFieldMessage() {
+		return addUserTab.emptySurnameMessage().getText();
 	}
 
 }

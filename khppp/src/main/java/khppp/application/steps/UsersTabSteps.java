@@ -33,5 +33,4 @@ public class UsersTabSteps {
     public WebElement getFirstUser(){
         return usersTab.getFirstUser();
     }
-
 }
