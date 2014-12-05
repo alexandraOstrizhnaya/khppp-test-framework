@@ -1,3 +1,4 @@
+<<<<<<< .mine
 16:10:55.482 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->khppp
 16:11:01.750 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->userIncorrectLogin
 16:11:02.099 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
@@ -68,3 +69,75 @@
 16:11:13.952 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Logout')]
 16:11:14.109 [main] INFO  khppp.custom.listeners.CustomListener - userLogin --- SUCCESS
 
+=======
+11:20:50.927 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->khppp
+11:20:58.371 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addGroup
+11:20:58.490 [main] INFO  khppp.custom.listeners.CustomListener - addGroup --- SKIPPED
+11:20:58.771 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addGroupBtnNameTest
+11:20:58.773 [main] INFO  khppp.custom.listeners.CustomListener - addGroupBtnNameTest --- SKIPPED
+11:20:58.933 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addGroupWithoutDep
+11:20:58.934 [main] INFO  khppp.custom.listeners.CustomListener - addGroupWithoutDep --- SKIPPED
+11:20:59.129 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->validTabNameTest
+11:20:59.131 [main] INFO  khppp.custom.listeners.CustomListener - validTabNameTest --- SKIPPED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs

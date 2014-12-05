@@ -11,19 +11,20 @@ import static org.openqa.selenium.By.*;
  */
 public class NavBar extends Component {
 
-    public NavBar(WebDriver driver) {
-        super(driver);
-    }
+	public NavBar(WebDriver driver) {
+		super(driver);
+	}
 
-    public WebElement getUserName() {
-        return waitFor(cssSelector(".user_status"));
-    }
+	public WebElement getUserName() {
+		return waitFor(cssSelector(".user_status"));
+	}
 
-    public WebElement getTab(String name) {
-        return waitFor(xpath("//a[contains(.,'%s')]", name));
-    }
+	public WebElement getTab(String name) {
+		return waitFor(xpath("//a[contains(.,'%s')]", name));
+	}
 
     public WebElement getLogoutBtn() {
         return waitFor(xpath("//ul[@class='nav navbar-nav navbar-right']/li/a"));
     }
+
 }

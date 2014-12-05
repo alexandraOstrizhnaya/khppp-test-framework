@@ -3,6 +3,7 @@ package khppp.application.steps;
 import khppp.application.components.UsersTab;
 import khppp.application.entitites.User;
 import khppp.factory.PageFactory;
+import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
@@ -29,4 +30,7 @@ public class UsersTabSteps {
         return usersTab.isCreateUserDisplayed(name);
     }
 
+    public WebElement getFirstUser(){
+        return usersTab.getFirstUser();
+    }
 }

@@ -22,23 +22,23 @@ import static org.hamcrest.Matchers.is;
  */
 public class UsersTest extends BaseCase {
 
-    LoginSteps loginSteps;
-    AddUserSteps addUserSteps;
-    NavBarSteps navBarSteps;
-    UsersTabSteps usersTabSteps;
+	LoginSteps loginSteps;
+	AddUserSteps addUserSteps;
+	NavBarSteps navBarSteps;
+	UsersTabSteps usersTabSteps;
 
-    @BeforeClass
-    public void setUp() {
-        loginSteps = new LoginSteps(pages);
-        addUserSteps = new AddUserSteps(pages);
-        navBarSteps = new NavBarSteps(pages);
-        usersTabSteps = new UsersTabSteps(pages);
-    }
+	@BeforeClass
+	public void setUp() {
+		loginSteps = new LoginSteps(pages);
+		addUserSteps = new AddUserSteps(pages);
+		navBarSteps = new NavBarSteps(pages);
+		usersTabSteps = new UsersTabSteps(pages);
+	}
 
-    @DataProvider(name = "users")
-    public Object[][] credentials(Method method) throws Exception {
-        return testData(method, "Users");
-    }
+	@DataProvider(name = "users")
+	public Object[][] credentials(Method method) throws Exception {
+		return testData(method, "Users");
+	}
 
 //    @Test(dataProvider = "users")
 //    public void users(List<String> data) {
