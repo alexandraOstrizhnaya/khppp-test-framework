@@ -30,6 +30,11 @@ public class PersonalJournalPage extends Component{
         inProgressBtn.click();
     }
 
+    public void clickResolvedBtn() {
+        WebElement resolvedBtn = waitFor(xpath(".//*[@id='collapse0']/td[1]/a"));
+        resolvedBtn.click();
+    }
+
     public String checkStatus() {
         WebElement status = waitFor(xpath(".//tr[@id='0']/td[2]"));
         return status.getText();

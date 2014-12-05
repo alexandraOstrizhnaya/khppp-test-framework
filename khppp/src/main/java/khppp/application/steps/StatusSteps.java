@@ -27,8 +27,9 @@ public class StatusSteps {
     public void clickInProgressBtnStep(){
         personalJournalPage.clickInProgressBtn();
     }
+    public void clickResolvedBtn() {personalJournalPage.clickResolvedBtn();}
 
-    public boolean verifyStatusChanged(String statusState){
+    public boolean statusChanged(String statusState){
        return personalJournalPage.checkStatus().equals(statusState);
     }
 

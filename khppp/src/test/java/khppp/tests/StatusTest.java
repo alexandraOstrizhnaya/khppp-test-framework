@@ -41,16 +41,25 @@ public class StatusTest extends BaseCase {
 
     @Features(STATUS)
     @Test(dataProvider = "status")
-    public void changeStatus(List<String> data) {
+    public void changeStatusByMentor(List<String> data) {
         login(data);
         navBarSteps.navigateTo("Users");
         usersTabSteps.getFirstUser().click();
         statusSteps.clickTaskNameStep();
         statusSteps.clickCloseBtnStep();
-        assertThat(statusSteps.verifyStatusChanged("Closed"), is(true));
+        assertThat(statusSteps.statusChanged("Closed"), is(true));
         statusSteps.clickTaskNameStep();
         statusSteps.clickInProgressBtnStep();
-        assertThat(statusSteps.verifyStatusChanged("In progress"), is(true));
+        assertThat(statusSteps.statusChanged("In progress"), is(true));
+    }
+
+    @Test(dataProvider = "status")
+    public void changeStatusByMentee(List<String> data) {
+        login(data);
+        statusSteps.clickTaskNameStep();
+        statusSteps.clickResolvedBtn();
+        assertThat(statusSteps.statusChanged("Resolved"), is(true));
+
     }
 
 }
