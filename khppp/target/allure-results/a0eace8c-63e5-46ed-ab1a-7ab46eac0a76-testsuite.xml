@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1418035191128" stop="1418035277327">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1418035200215" stop="1418035214863" status="passed">
+            <name>addUserCustomEmail[[Admin_Admin, Admin111, Ivan, Ivanov, ivanov@epam.com]]</name>
+            <steps>
+                <step start="1418035200706" stop="1418035202062" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035202062" stop="1418035202506" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Users</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035202506" stop="1418035204593" status="passed">
+                    <name>addNewUserCustomEmail</name>
+                    <title>When I set custom email Ivan, Ivanov</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+        <test-case start="1418035215179" stop="1418035218658" status="passed">
+            <name>addUserWithoutName[[Admin_Admin, Admin111, Petro, Petrov, You input first name incorrect.]]</name>
+            <steps>
+                <step start="1418035215514" stop="1418035216411" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035216411" stop="1418035216886" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Users</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035216886" stop="1418035218301" status="passed">
+                    <name>addNewUser</name>
+                    <title>When I add new user  ,Petrov</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035218302" stop="1418035218480" status="passed">
+                    <name>emptyNameFieldMessage</name>
+                    <title>Verify empty FirstNameField</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+        <test-case start="1418035218765" stop="1418035222335" status="passed">
+            <name>addUserWithoutSurname[[Admin_Admin, Admin111, Petro, Petrov, You input last name incorrect.]]</name>
+            <steps>
+                <step start="1418035219061" stop="1418035219875" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035219875" stop="1418035220299" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Users</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035220299" stop="1418035222110" status="passed">
+                    <name>addNewUser</name>
+                    <title>When I add new user Admin_Admin, </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035222110" stop="1418035222158" status="passed">
+                    <name>emptySurnameFieldMessage</name>
+                    <title>Verify empty LastNameField</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+        <test-case start="1418035222448" stop="1418035236393" status="passed">
+            <name>adminAddNewUser[[Admin_Admin, Admin111, IvanMentor, IvanovMentor, MENTOR]]</name>
+            <steps>
+                <step start="1418035222614" stop="1418035223583" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035223583" stop="1418035224022" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Users</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035224022" stop="1418035226061" status="passed">
+                    <name>addUserDifferentRoles</name>
+                    <title>When I create users with different roles IvanMentor, IvanovMentor</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+        <test-case start="1418035236395" stop="1418035250294" status="passed">
+            <name>adminAddNewUser[[Admin_Admin, Admin111, ILabManager, LabaMan, LAB_MANAGER]]</name>
+            <steps>
+                <step start="1418035236487" stop="1418035237536" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035237536" stop="1418035238022" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Users</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035238022" stop="1418035240022" status="passed">
+                    <name>addUserDifferentRoles</name>
+                    <title>When I create users with different roles ILabManager, LabaMan</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+        <test-case start="1418035250297" stop="1418035263446" status="passed">
+            <name>adminAddNewUser[[Admin_Admin, Admin111, Imentee, Imentee, MENTEE]]</name>
+            <steps>
+                <step start="1418035250389" stop="1418035251287" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035251287" stop="1418035251756" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Users</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035251756" stop="1418035253112" status="passed">
+                    <name>addUserDifferentRoles</name>
+                    <title>When I create users with different roles Imentee, Imentee</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+        <test-case start="1418035263449" stop="1418035276951" status="passed">
+            <name>adminAddNewUser[[Admin_Admin, Admin111, IAdmin, IAdmin, ADMIN]]</name>
+            <steps>
+                <step start="1418035263534" stop="1418035264468" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035264468" stop="1418035264914" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Users</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418035264914" stop="1418035266726" status="passed">
+                    <name>addUserDifferentRoles</name>
+                    <title>When I create users with different roles IAdmin, IAdmin</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Users"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

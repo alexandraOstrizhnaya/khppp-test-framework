@@ -1,6 +1,8 @@
 package khppp.tests;
 
+import khppp.application.steps.GroupsTabSteps;
 import khppp.application.steps.LoginSteps;
+import khppp.application.steps.NavBarSteps;
 import khppp.core.CoreTest;
 import khppp.custom.listeners.CustomListener;
 import khppp.custom.reporter.CustomReport;
@@ -22,36 +24,48 @@ import static khppp.excel.utils.ExcelColumn.USER_PASS;
 @Listeners(value = {CustomListener.class, CustomReport.class})
 public abstract class BaseCase {
 
-	public static final String DEFAULT_BROWSER = "firefox";
-	CoreTest coreTest;
-	PageFactory pages;
+    public static final String DEFAULT_BROWSER = "firefox";
+    CoreTest coreTest;
+    PageFactory pages;
+    LoginSteps loginSteps;
+    NavBarSteps navBarSteps;
+    GroupsTabSteps groupsTabSteps;
 
-	LoginSteps loginSteps;
+    @BeforeClass
+    public void configure() throws IOException {
+        coreTest = new CoreTest();
+        coreTest.setUpDriver(System.getProperty("browser", DEFAULT_BROWSER));
+        pages = coreTest.getFactory();
+        loginSteps = new LoginSteps(pages);
+        navBarSteps = new NavBarSteps(pages);
+        groupsTabSteps = new GroupsTabSteps(pages);
+    }
 
-	@BeforeClass
-	public void configure() throws IOException {
-		coreTest = new CoreTest();
-		coreTest.setUpDriver(System.getProperty("browser", DEFAULT_BROWSER));
-		pages = coreTest.getFactory();
-		loginSteps = new LoginSteps(pages);
-	}
+    @AfterClass
+    public void shutDown() {
+        coreTest.shutDown();
+    }
 
-	@AfterClass
-	public void shutDown() {
-		coreTest.shutDown();
-	}
+    public Object[][] testData(Method method, String sheet) throws Exception {
+        return coreTest.testData(method, sheet);
+    }
 
-	public Object[][] testData(Method method, String sheet) throws Exception {
-		return coreTest.testData(method, sheet);
-	}
+    protected void open() {
+        coreTest.open();
+    }
 
-	protected void open() {
-		coreTest.open();
-	}
+    protected void login(List<String> data) {
+        open();
+        loginSteps.login(data.get(USER_NAME), data.get(USER_PASS));
+    }
 
-	protected void login(List<String> data) {
-		open();
-		loginSteps.login(data.get(USER_NAME), data.get(USER_PASS));
-	}
+    protected void goToGroupsTab(List<String> data){
+        login(data);
+        navBarSteps.navigateToGroups();
+    }
 
+    protected void goToAddGroupsTab(List<String> data){
+        goToGroupsTab(data);
+        groupsTabSteps.goToAddGroupTab();
+    }
 }
