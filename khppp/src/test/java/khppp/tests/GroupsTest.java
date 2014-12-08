@@ -10,8 +10,7 @@ import static khppp.application.Features.GROUP;
 import java.lang.reflect.Method;
 import java.util.List;
 
-import static khppp.excel.utils.ExcelColumn.USER_NAME;
-import static khppp.excel.utils.ExcelColumn.USER_PASS;
+import static khppp.excel.utils.ExcelColumn.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
@@ -40,47 +39,98 @@ public class GroupsTest extends BaseCase {
 
     @Features(GROUP)
     @Test(dataProvider = "group")
-    public void validTabNameTest(List<String> data) {
+    public void validTabName(List<String> data) {
         login(data);
-        navBarSteps.navigateTo("Groups");
         assertThat(groupsTabSteps.isGroupTabDisplayed(), is(true));
     }
 
     @Features(GROUP)
     @Test(dataProvider = "group")
-    public void addGroupBtnNameTest(List<String> data) {
-        login(data);
-        navBarSteps.navigateTo("Groups");
+    public void addGroupBtnName(List<String> data) {
+        goToGroupsTab(data);
         assertThat(groupsTabSteps.isBtnAddGroupDisplayed(), is(true));
     }
 
     @Features(GROUP)
     @Test(dataProvider = "group")
-    public void addGroup(List<String> data) {
-        login(data);
-        navBarSteps.navigateTo("Groups");
-        addGroupSteps.addNewGroup("Test", "QA");
-        assertThat(groupsTabSteps.groupDisplayed("Test"), is(true));
+    public void exportBtnName(List<String> data) {
+        goToAddGroupsTab(data);
+        assertThat(groupsTabSteps.isBtnExportDisplayed(), is(true));
+    }
+
+    @Features(GROUP)
+    @Test(dataProvider = "group")
+    public void addEmptyGroup(List<String> data) {
+        //goToAddGroupsTab(data);
+        //addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
+        goToGroupsTab(data);
+        assertThat(groupsTabSteps.emptyGroupCreated(data.get(GROUP_NAME)), is(true));
     }
 
     @Features(GROUP)
     @Test(dataProvider = "group")
     public void addGroupWithoutName(List<String> data) {
-        login(data);
-        navBarSteps.navigateTo("Groups");
-        addGroupSteps.addNewGroup("", "QA");
-        assertThat(addGroupSteps.isErrorEmptyGroupNameDisplayed("Group name can not be empty"), is(true));
+        goToAddGroupsTab(data);
+        addGroupSteps.addNewEmptyGroupWithoutName(data.get(DEPARTMENT_NAME));
+        assertThat(addGroupSteps.isErrorEmptyGroupNameDisplayed(), is(true));
     }
 
     @Features(GROUP)
     @Test(dataProvider = "group")
     public void addGroupWithoutDep(List<String> data) {
-        login(data);
-        navBarSteps.navigateTo("Groups");
-        addGroupSteps.addNewGroup("OstrTestWithoutDep", "Choose department");
-        assertThat(addGroupSteps.isErrorNotSelectedDepDisplayed("Department must be specified"), is(true));
+        goToAddGroupsTab(data);
+        addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
+        assertThat(addGroupSteps.isErrorNotSelectedDepDisplayed(), is(true));
+    }
+
+    //************************AddGroup Tab Tests***************************
+
+    @Features(GROUP)
+    @Test(dataProvider = "group")
+    public void validAddGroupTabName(List<String> data) {
+        goToAddGroupsTab(data);
+        assertThat(addGroupSteps.isAddGroupTabDisplayed(), is(true));
+    }
+
+    @Features(GROUP)
+    @Test(dataProvider = "group")
+    public void verifyLabels(List<String> data) {
+        goToAddGroupsTab(data);
+        assertThat(addGroupSteps.allLabelsAreCorrect(), is(true));
+    }
+
+    @Features(GROUP)
+    @Test(dataProvider = "group")
+    public void verifyButtonsDisplayed(List<String> data) {
+        goToAddGroupsTab(data);
+        assertThat(addGroupSteps.allButtonsAreDisplayed(), is(true));
+    }
+
+    @Features(GROUP)
+    @Test(dataProvider = "group")
+    public void verifyGroupNameField(List<String> data) {
+        goToAddGroupsTab(data);
+        assertThat(addGroupSteps.isGroupNameFieldDisplayed(), is(true));
+    }
+
+    @Features(GROUP)
+    @Test(dataProvider = "group")
+    public void groupNameFieldDoesNotContainOneSymbol(List<String> data) {
+        goToAddGroupsTab(data);
+        addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
+        assertThat(addGroupSteps.isErrorIncorrectlyGroupNameDisplayed(), is(true));
+    }
+
+    @Features(GROUP)
+    @Test(dataProvider = "group")
+    public void groupNameFieldMustStartsNotFromSpecialSymbol(List<String> data) {
+        goToAddGroupsTab(data);
+        addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
+        assertThat(addGroupSteps.isErrorIncorrectlyGroupNameDisplayed(), is(true));
     }
 
     @AfterMethod
-    public void logout() { navBarSteps.logout(); }
+    public void logout() {
+        navBarSteps.logout();
+    }
 }

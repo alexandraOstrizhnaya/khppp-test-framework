@@ -1,63 +1,137 @@
-<<<<<<< HEAD
-16:06:37.062 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->khppp
-16:07:01.893 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addGroup
-16:07:02.843 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
-16:07:04.470 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (1be928c2-ff2d-4989-97f6-e89657136626)] -> id: exampleInputEmail1] value LabManager_LabManager
-16:07:04.471 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
-16:07:04.822 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (1be928c2-ff2d-4989-97f6-e89657136626)] -> id: exampleInputPassword1] value LabManager111
-16:07:04.822 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
-16:07:05.853 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-16:07:06.524 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
-16:07:07.226 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //input[@class='form-control page_changer']
-16:07:07.488 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (1be928c2-ff2d-4989-97f6-e89657136626)] -> xpath: //input[@class='form-control page_changer']] value Test
-16:07:07.497 [main] INFO  khppp.application.components.Component - Searching element By.xpath: //select[@name='department']
-16:07:07.967 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='create-group-btn']
-16:07:08.725 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //td[contains(.,'Test')][1]
-16:07:08.857 [main] ERROR khppp.custom.listeners.CustomListener - addGroup --- FAILED
-16:07:08.857 [main] ERROR khppp.custom.listeners.CustomListener - java.lang.AssertionError: 
-Expected: is <true>
-     but: was <false>
+12:55:22.679 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->khppp
+12:55:31.976 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addEmptyGroup
+12:55:32.403 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+12:55:33.742 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputEmail1] value LabManager_LabManager
+12:55:33.742 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+12:55:34.117 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputPassword1] value LabManager111
+12:55:34.117 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+12:55:34.232 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:55:34.713 [main] INFO  khppp.application.components.Component - Searching elements By.xpath: //td[contains('Test20')][1]
+12:55:44.936 [main] INFO  khppp.custom.listeners.CustomListener - addEmptyGroup --- SUCCESS
 
-16:07:08.924 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
-16:07:09.605 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addGroupBtnNameTest
-16:07:09.902 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
-16:07:10.270 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (1be928c2-ff2d-4989-97f6-e89657136626)] -> id: exampleInputEmail1] value LabManager_LabManager
-16:07:10.271 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
-16:07:10.628 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (1be928c2-ff2d-4989-97f6-e89657136626)] -> id: exampleInputPassword1] value LabManager111
-16:07:10.629 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
-16:07:11.235 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-16:07:11.921 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
-16:07:12.104 [main] INFO  khppp.custom.listeners.CustomListener - addGroupBtnNameTest --- SUCCESS
+12:55:45.050 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+12:55:45.332 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addGroupBtnName
+12:55:45.590 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+12:55:46.352 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputEmail1] value LabManager_LabManager
+12:55:46.352 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+12:55:46.753 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputPassword1] value LabManager111
+12:55:46.753 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+12:55:46.856 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:55:47.331 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
+12:55:47.660 [main] INFO  khppp.custom.listeners.CustomListener - addGroupBtnName --- SUCCESS
 
-16:07:12.394 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
-16:07:13.141 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addGroupWithoutDep
-16:07:13.423 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
-16:07:13.839 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (1be928c2-ff2d-4989-97f6-e89657136626)] -> id: exampleInputEmail1] value LabManager_LabManager
-16:07:13.839 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
-16:07:14.176 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (1be928c2-ff2d-4989-97f6-e89657136626)] -> id: exampleInputPassword1] value LabManager111
-16:07:14.190 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
-16:07:14.848 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-16:07:15.535 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
-16:07:16.218 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //input[@class='form-control page_changer']
-16:07:16.510 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (1be928c2-ff2d-4989-97f6-e89657136626)] -> xpath: //input[@class='form-control page_changer']] value OstrTestWithoutDep
-16:07:16.510 [main] INFO  khppp.application.components.Component - Searching element By.xpath: //select[@name='department']
-16:07:16.651 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='create-group-btn']
-16:07:17.214 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[text()='Department must be specified']
-16:07:17.339 [main] INFO  khppp.custom.listeners.CustomListener - addGroupWithoutDep --- SUCCESS
+12:55:47.665 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+12:55:47.932 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addGroupWithoutDep
+12:55:48.128 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+12:55:48.991 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputEmail1] value LabManager_LabManager
+12:55:48.991 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+12:55:49.389 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputPassword1] value LabManager111
+12:55:49.389 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+12:55:49.492 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:55:50.208 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
+12:55:50.384 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //input[@class='form-control page_changer']
+12:55:51.177 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> xpath: //input[@class='form-control page_changer']] value OstrTestWithoutDep
+12:55:51.180 [main] INFO  khppp.application.components.Component - Searching element By.xpath: //select[@name='department']
+12:55:51.240 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='create-group-btn']
+12:55:51.473 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[text()='Department must be specified']
+12:55:51.611 [main] INFO  khppp.custom.listeners.CustomListener - addGroupWithoutDep --- SUCCESS
 
-16:07:17.344 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
-16:07:18.093 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->validTabNameTest
-16:07:18.401 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
-16:07:18.691 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (1be928c2-ff2d-4989-97f6-e89657136626)] -> id: exampleInputEmail1] value LabManager_LabManager
-16:07:18.692 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
-16:07:19.012 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (1be928c2-ff2d-4989-97f6-e89657136626)] -> id: exampleInputPassword1] value LabManager111
-16:07:19.013 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
-16:07:19.676 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-16:07:20.459 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='page_header_text']
-16:07:20.596 [main] INFO  khppp.custom.listeners.CustomListener - validTabNameTest --- SUCCESS
+12:55:51.615 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+12:55:51.844 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addGroupWithoutName
+12:55:52.118 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+12:55:52.857 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputEmail1] value LabManager_LabManager
+12:55:52.857 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+12:55:53.253 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputPassword1] value LabManager111
+12:55:53.253 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+12:55:53.408 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:55:53.827 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
+12:55:54.428 [main] INFO  khppp.application.components.Component - Searching element By.xpath: //select[@name='department']
+12:55:54.665 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='create-group-btn']
+12:55:54.762 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[text()='Group name can not be empty']
+12:55:55.008 [main] INFO  khppp.custom.listeners.CustomListener - addGroupWithoutName --- SUCCESS
 
-16:07:20.601 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
-=======
-18:05:40.088 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->Command line test 3cc10814-4387-4981-8e83-f216f0a0a715
-fghfghfghfghfgh
->>>>>>> master
+12:55:55.010 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+12:55:55.284 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->groupNameFieldDoesNotContainOneSymbol
+12:55:55.595 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+12:55:56.363 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputEmail1] value LabManager_LabManager
+12:55:56.363 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+12:55:56.788 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputPassword1] value LabManager111
+12:55:56.788 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+12:55:56.888 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:55:57.309 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
+12:55:57.844 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //input[@class='form-control page_changer']
+12:55:58.087 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> xpath: //input[@class='form-control page_changer']] value G
+12:55:58.087 [main] INFO  khppp.application.components.Component - Searching element By.xpath: //select[@name='department']
+12:55:58.252 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='create-group-btn']
+12:55:58.413 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[text() = 'Name must start with a letter and contains from 2 to 40 symbols']
+12:55:58.740 [main] INFO  khppp.custom.listeners.CustomListener - groupNameFieldDoesNotContainOneSymbol --- SUCCESS
+
+12:55:58.742 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+12:55:58.933 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->groupNameFieldMustStartsNotFromSpecialSymbol
+12:55:59.287 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+12:56:00.023 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputEmail1] value LabManager_LabManager
+12:56:00.023 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+12:56:00.463 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputPassword1] value LabManager111
+12:56:00.464 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+12:56:00.623 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:56:01.120 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
+12:56:01.644 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //input[@class='form-control page_changer']
+12:56:02.236 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> xpath: //input[@class='form-control page_changer']] value ^&*%
+12:56:02.236 [main] INFO  khppp.application.components.Component - Searching element By.xpath: //select[@name='department']
+12:56:02.409 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='create-group-btn']
+12:56:02.768 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[text() = 'Name must start with a letter and contains from 2 to 40 symbols']
+12:56:02.815 [main] INFO  khppp.custom.listeners.CustomListener - groupNameFieldMustStartsNotFromSpecialSymbol --- SUCCESS
+
+12:56:02.818 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+12:56:03.013 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->validAddGroupTabName
+12:56:03.129 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+12:56:04.003 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputEmail1] value LabManager_LabManager
+12:56:04.003 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+12:56:04.403 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputPassword1] value LabManager111
+12:56:04.403 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+12:56:04.495 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:56:04.888 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
+12:56:05.440 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='page_header_text']
+12:56:05.522 [main] INFO  khppp.custom.listeners.CustomListener - validAddGroupTabName --- SUCCESS
+
+12:56:05.524 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+12:56:05.774 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->validTabName
+12:56:06.011 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+12:56:06.932 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputEmail1] value LabManager_LabManager
+12:56:06.932 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+12:56:07.353 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputPassword1] value LabManager111
+12:56:07.353 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+12:56:07.455 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='page_header_text']
+12:56:07.833 [main] INFO  khppp.custom.listeners.CustomListener - validTabName --- SUCCESS
+
+12:56:07.835 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+12:56:08.003 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->verifyButtonsDisplayed
+12:56:08.374 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+12:56:09.145 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputEmail1] value LabManager_LabManager
+12:56:09.145 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+12:56:09.586 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputPassword1] value LabManager111
+12:56:09.586 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+12:56:09.739 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:56:10.157 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
+12:56:10.811 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='btn btn-success btn-sm add_user_btn add_option page_changer']
+12:56:10.851 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='btn btn-warning btn-sm remove_user_btn remove_option page_changer']
+12:56:10.889 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='create-group-btn']
+12:56:10.933 [main] INFO  khppp.custom.listeners.CustomListener - verifyButtonsDisplayed --- SUCCESS
+
+12:56:10.935 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+12:56:11.253 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->verifyLabels
+12:56:11.568 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+12:56:12.339 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputEmail1] value LabManager_LabManager
+12:56:12.339 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+12:56:12.786 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (81009448-cf0e-4b03-9be0-f9adcc429a4d)] -> id: exampleInputPassword1] value LabManager111
+12:56:12.786 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+12:56:12.941 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:56:13.395 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
+12:56:14.261 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='col-md-7 label_container float_left']/label[text()='Group name:']
+12:56:14.290 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='col-md-7 label_container float_left']/label[text()='Department:']
+12:56:14.314 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='col-md-7 label_container float_left']/label[text()='Lab manager:']
+12:56:14.342 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='col-md-4']/label[text()='Available mentees']
+12:56:14.364 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='col-md-4']/label[text()='Chosen Mentees']
+12:56:14.390 [main] INFO  khppp.custom.listeners.CustomListener - verifyLabels --- SUCCESS
+
+12:56:14.391 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
