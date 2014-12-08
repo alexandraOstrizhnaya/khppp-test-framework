@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1418045023334" stop="1418045056597">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1418045043800" stop="1418045047898" status="passed">
+            <name>userEmptyLogin[[ivan, ivanov, Incorrect login or password]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1418045048146" stop="1418045049057" status="passed">
+            <name>userEmptyPassword[[ivan, ivanov, Incorrect login or password]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1418045049120" stop="1418045049915" status="passed">
+            <name>userIncorrectLogin[[admin, adni, Incorrect login or password]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1418045049982" stop="1418045052825" status="passed">
+            <name>userLogin[[Admin_Admin, Admin111, Admin Admin (admin)]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+        <test-case start="1418045052828" stop="1418045055355" status="passed">
+            <name>userLogin[[LabManager_LabManager, LabManager111, LabManager LabManager (lab manager)]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Login"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>
