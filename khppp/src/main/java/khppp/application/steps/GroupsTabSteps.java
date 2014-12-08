@@ -1,8 +1,10 @@
 package khppp.application.steps;
 
+import khppp.application.components.AddGroupTab;
 import khppp.application.components.GroupsTab;
 import khppp.application.entitites.Group;
 import khppp.factory.PageFactory;
+import sun.rmi.runtime.Log;
 
 import java.util.List;
 
@@ -12,17 +14,11 @@ import java.util.List;
 public class GroupsTabSteps {
 
     GroupsTab groupsTab;
+    AddGroupTab addGroupTab;
 
     public GroupsTabSteps(PageFactory factory) {
         this.groupsTab = factory.createPage(GroupsTab.class);
-    }
-
-    public void clickAddGroups() {
-        groupsTab.getAddGroupBtn().click();
-    }
-
-    public List<Group> getAllGroups() {
-        return groupsTab.getAllGroups();
+        this.addGroupTab = factory.createPage(AddGroupTab.class);
     }
 
     public boolean isGroupTabDisplayed() {
@@ -33,7 +29,20 @@ public class GroupsTabSteps {
         return groupsTab.isBtnAddGroupDisplayed();
     }
 
-    public boolean groupDisplayed(String grName) {
-        return groupsTab.isCreateGroupDisplayed(grName);
+    public boolean isBtnExportDisplayed() {
+        return groupsTab.isBtnExportDisplayed();
+    }
+
+    public boolean emptyGroupCreated(String groupname) {
+        return groupsTab.isCreateGroupDisplayed(groupname);
+    }
+
+    public boolean groupWithMenteeCreated(String groupName, String numOfMentees) {
+        return groupsTab.isGroupMenteesDisplayed(groupName, numOfMentees);
+    }
+
+    public AddGroupTab goToAddGroupTab() {
+        groupsTab.getAddGroupBtn().click();
+        return addGroupTab;
     }
 }

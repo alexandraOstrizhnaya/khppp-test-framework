@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1418043695182" stop="1418043751038">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1418043711184" stop="1418043725921" status="passed">
+            <name>addEmptyGroup[[LabManager_LabManager, LabManager111, Test20, QA]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418043726420" stop="1418043728236" status="passed">
+            <name>addGroupBtnName[[LabManager_LabManager, LabManager111]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418043728520" stop="1418043731457" status="passed">
+            <name>addGroupWithoutDep[[LabManager_LabManager, LabManager111, OstrTestWithoutDep, Choose department]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418043731689" stop="1418043734491" status="passed">
+            <name>addGroupWithoutName[[LabManager_LabManager, LabManager111,          , QA]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418043734914" stop="1418043737861" status="passed">
+            <name>groupNameFieldDoesNotContainOneSymbol[[LabManager_LabManager, LabManager111, G, QA]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418043738072" stop="1418043740976" status="passed">
+            <name>groupNameFieldMustStartsNotFromSpecialSymbol[[LabManager_LabManager, LabManager111, ^&amp;*%, QA]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418043741168" stop="1418043743442" status="passed">
+            <name>validAddGroupTabName[[LabManager_LabManager, LabManager111]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418043743669" stop="1418043745344" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418043745588" stop="1418043747902" status="passed">
+            <name>verifyButtonsDisplayed[[LabManager_LabManager, LabManager111]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418043748321" stop="1418043750437" status="passed">
+            <name>verifyLabels[[LabManager_LabManager, LabManager111]]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>
