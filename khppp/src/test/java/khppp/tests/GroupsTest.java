@@ -19,7 +19,7 @@ import static org.hamcrest.Matchers.is;
  */
 public class GroupsTest extends BaseCase {
 
-    LoginSteps loginSteps;
+    /*LoginSteps loginSteps;
     AddGroupSteps addGroupSteps;
     NavBarSteps navBarSteps;
     GroupsTabSteps groupsTabSteps;
@@ -83,7 +83,7 @@ public class GroupsTest extends BaseCase {
         assertThat(addGroupSteps.isErrorNotSelectedDepDisplayed(), is(true));
     }
 
-    //************************AddGroup Tab Tests***************************
+    /*//************************AddGroup Tab Tests***************************
 
     @Features(GROUP)
     @Test(dataProvider = "group")
@@ -132,5 +132,5 @@ public class GroupsTest extends BaseCase {
     @AfterMethod
     public void logout() {
         navBarSteps.logout();
-    }
+    }*/
 }

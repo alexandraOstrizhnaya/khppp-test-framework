@@ -15,12 +15,12 @@ public class CustomListener extends TestListenerAdapter {
 
     @Override
     public void onStart(ITestContext arg0) {
-        log.info("Start Of Execution ->" + arg0.getName());
+        log.info("Start Of Execution -> " + arg0.getName());
     }
 
     @Override
     public void onTestStart(ITestResult arg0) {
-        log.info("Test Started->" + arg0.getName());
+        log.info("Test Started -> " + arg0.getName());
     }
 
     @Override

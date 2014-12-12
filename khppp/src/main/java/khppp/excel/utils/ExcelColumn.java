@@ -15,8 +15,8 @@ public interface ExcelColumn {
     int NEW_USER_EMAIL = 4;
     int EXPECTED_ERROR = 4;
     int EXPECTED_ROLE = 5;
-    int GROUP_NAME = 2;
-    int DEPARTMENT_NAME = 3;
+    int GROUP_NAME = 0;
+    int DEPARTMENT_NAME = 1;
     int GROUP_MENTEE = 4;
 }
 

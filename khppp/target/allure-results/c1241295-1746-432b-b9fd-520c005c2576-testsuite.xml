@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1418399641752" stop="1418399690885">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1418399680982" stop="1418399688996" status="passed">
+            <name>preConditions[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418399683685" stop="1418399688577" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1418399689183" stop="1418399689777" status="passed">
+            <name>addSubgroupBtnName</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="GroupJournal"/>
+            </labels>
+        </test-case>
+        <test-case start="1418399689789" stop="1418399689875" status="passed">
+            <name>assignBtnName</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="GroupJournal"/>
+            </labels>
+        </test-case>
+        <test-case start="1418399689882" stop="1418399689957" status="passed">
+            <name>backBtnName</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="GroupJournal"/>
+            </labels>
+        </test-case>
+        <test-case start="1418399689963" stop="1418399690026" status="passed">
+            <name>correctGroupName</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="GroupJournal"/>
+            </labels>
+        </test-case>
+        <test-case start="1418399690031" stop="1418399690124" status="passed">
+            <name>correctPageName</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="GroupJournal"/>
+            </labels>
+        </test-case>
+        <test-case start="1418399690129" stop="1418399690209" status="passed">
+            <name>exportBtnName</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="GroupJournal"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>
