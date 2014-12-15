@@ -28,6 +28,7 @@ public class GroupsTab extends Component {
     public WebElement getExportBtn() {
         return waitFor(xpath(".//*[@id='create_csv_button']"));
     }
+    public void clickFirstGroup(){waitFor(xpath("//tbody/tr[1]/td[1]")).click(); }
 
 
     public boolean isGroupTabNameDisplayed() {

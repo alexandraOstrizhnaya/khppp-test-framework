@@ -1,3 +1,4 @@
+<<<<<<< .mine
 18:08:53.832 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution ->khppp
 18:09:03.161 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->preConditions
 18:09:03.533 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
@@ -7,16 +8,43 @@
 18:09:04.433 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
 18:09:04.907 [main] INFO  khppp.custom.listeners.CustomListener - preConditions --- SUCCESS
 
+=======
+17:54:01.714 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution -> khppp
+17:54:40.953 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> preConditions
+17:54:43.693 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+17:54:47.133 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (4910544a-fa16-4c64-8634-137641be8500)] -> id: exampleInputEmail1] value LabManager_LabManager
+17:54:47.133 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+17:54:47.459 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (4910544a-fa16-4c64-8634-137641be8500)] -> id: exampleInputPassword1] value LabManager111
+17:54:47.459 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+17:54:48.577 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //tbody/tr[1]/td[1]
+17:54:48.993 [main] INFO  khppp.custom.listeners.CustomListener - preConditions --- SUCCESS
+>>>>>>> .theirs
+
+<<<<<<< .mine
 18:09:05.011 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addGroupBtnName
 18:09:05.017 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
 18:09:05.394 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
 18:09:05.491 [main] INFO  khppp.custom.listeners.CustomListener - addGroupBtnName --- SUCCESS
+=======
+17:54:49.122 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> addSubgroupBtnName
+17:54:49.183 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='submenu']/a[text()='Add Subgroup']
+17:54:49.776 [main] INFO  khppp.custom.listeners.CustomListener - addSubgroupBtnName --- SUCCESS
 
+>>>>>>> .theirs
+
+<<<<<<< .mine
 18:09:05.498 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->exportBtnName
 18:09:05.500 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
 18:09:05.903 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='create_csv_button']
 18:09:05.981 [main] INFO  khppp.custom.listeners.CustomListener - exportBtnName --- SUCCESS
+=======
+17:54:49.789 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> assignBtnName
+17:54:49.790 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[@class='btn btn-success'][2]
+17:54:49.875 [main] INFO  khppp.custom.listeners.CustomListener - assignBtnName --- SUCCESS
 
+>>>>>>> .theirs
+
+<<<<<<< .mine
 18:09:05.985 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->validGroupsTableHead
 18:09:05.986 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
 18:09:06.357 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //tr/th[text()='Group name']
@@ -27,12 +55,32 @@
 18:09:06.554 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //tr/th[text()='Status']
 18:09:06.588 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //tr/th[text()='Edit Group']
 18:09:06.617 [main] INFO  khppp.custom.listeners.CustomListener - validGroupsTableHead --- SUCCESS
+=======
+17:54:49.881 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> backBtnName
+17:54:49.882 [main] INFO  khppp.application.components.Component - Wait for By.xpath:  .//*[@id='group_journal_submit']/div[2]/a
+17:54:49.957 [main] INFO  khppp.custom.listeners.CustomListener - backBtnName --- SUCCESS
 
+
+
+
+
+
+
+>>>>>>> .theirs
+
+<<<<<<< .mine
 18:09:06.619 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->validTabName
 18:09:06.620 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
 18:09:07.007 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='page_header_text']
 18:09:07.085 [main] INFO  khppp.custom.listeners.CustomListener - validTabName --- SUCCESS
+=======
+17:54:49.963 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> correctGroupName
+17:54:49.963 [main] INFO  khppp.application.components.Component - Wait for By.xpath: ./*//*[@id='group_name']
+17:54:50.025 [main] INFO  khppp.custom.listeners.CustomListener - correctGroupName --- SUCCESS
 
+>>>>>>> .theirs
+
+<<<<<<< .mine
 18:09:07.169 [main] INFO  khppp.custom.listeners.CustomListener - Test Started->addEmptyGroup
 18:09:07.171 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
 18:09:07.475 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
@@ -188,3 +236,160 @@ Expected: is <true>
 18:09:43.666 [main] INFO  khppp.custom.listeners.CustomListener - removeMenteeFromGroup --- SUCCESS
 
 18:09:43.668 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+=======
+17:54:50.030 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> correctPageName
+17:54:50.031 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//span[text()='Group Journal']
+17:54:50.124 [main] INFO  khppp.custom.listeners.CustomListener - correctPageName --- SUCCESS
+
+17:54:50.128 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> exportBtnName
+17:54:50.129 [main] INFO  khppp.application.components.Component - Wait for By.id: create_csv_button
+17:54:50.208 [main] INFO  khppp.custom.listeners.CustomListener - exportBtnName --- SUCCESS
+
+17:54:50.213 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs

@@ -17,7 +17,7 @@ import static org.hamcrest.Matchers.is;
  */
 public class GroupsTest extends BaseCase {
 
-    LoginSteps loginSteps;
+    /*LoginSteps loginSteps;
     AddGroupSteps addGroupSteps;
     NavBarSteps navBarSteps;
     GroupsTabSteps groupsTabSteps;
@@ -193,5 +193,5 @@ public class GroupsTest extends BaseCase {
     @AfterClass
     public void logout() {
         navBarSteps.logout();
-    }
+    }*/
 }

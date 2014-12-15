@@ -17,6 +17,7 @@ public interface ExcelColumn {
     int EXPECTED_ROLE = 5;
     int GROUP_NAME = 0;
     int DEPARTMENT_NAME = 1;
+    int GROUP_MENTEE = 4;
 }
 
 

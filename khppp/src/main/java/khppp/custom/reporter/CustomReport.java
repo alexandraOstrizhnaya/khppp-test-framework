@@ -3,7 +3,6 @@ package khppp.custom.reporter;
 import org.testng.*;
 import org.testng.xml.XmlSuite;
 
-
 import java.util.*;
 
 /**
@@ -37,15 +36,15 @@ public class CustomReport implements IReporter {
 
                 //Print Suite detail in Console
 
-                System.out.println("Suite Name->" + context.getName()
+                System.out.println("Suite Name -> " + context.getName()
 
-                        + "::Report output Ditectory->" + context.getOutputDirectory()
+                        + "\n::Report output Ditectory -> " + context.getOutputDirectory()
 
-                        + "::Suite Name->" + context.getSuite().getName()
+                        + "\n::Suite Name->" + context.getSuite().getName()
 
-                        + "::Start Date Time for execution->" + context.getStartDate()
+                        + "\n::Start Date Time for execution -> " + context.getStartDate()
 
-                        + "::End Date Time for execution->" + context.getEndDate());
+                        + "\n::End Date Time for execution -> " + context.getEndDate());
 
 
                 //Get Map for only failed test cases
@@ -57,19 +56,18 @@ public class CustomReport implements IReporter {
 
                 //Loop one by one in all failed methods
 
-                System.out.println("--------FAILED TEST CASE---------");
-
                 for (ITestNGMethod iTestNGMethod : failedMethods) {
 
+                    System.out.println("\n--------FAILED TEST CASE---------");
                     //Print failed test cases detail
 
-                    System.out.println("TESTCASE NAME->" + iTestNGMethod.getMethodName()
+                    System.out.println("\nTESTCASE NAME -> " + iTestNGMethod.getMethodName()
 
-                            + "\nDescription->" + iTestNGMethod.getDescription()
+                            + "\nDescription -> " + iTestNGMethod.getDescription()
 
-                            + "\nPriority->" + iTestNGMethod.getPriority()
+                            + "\nPriority -> " + iTestNGMethod.getPriority()
 
-                            + "\n:Date->" + new Date(iTestNGMethod.getDate()));
+                            + "\n:Date -> " + new Date(iTestNGMethod.getDate()));
                 }
             }
         }
