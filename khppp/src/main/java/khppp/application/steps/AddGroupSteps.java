@@ -23,22 +23,35 @@ public class AddGroupSteps {
     public void addNewEmptyGroup(String gName, String depName) {
         addGroupTab.enterGroupName(gName);
         addGroupTab.selectDepartment(depName);
-        addGroupTab.getSaveBtn().click();
     }
 
     public void addNewEmptyGroupWithoutName(String depName) {
         addGroupTab.selectDepartment(depName);
-        addGroupTab.getSaveBtn().click();
     }
 
 
     public void addNewGroupWithMentees(String gName, String depName, String menteeName) {
-        groupsTab.getAddGroupBtn().click();
         addGroupTab.enterGroupName(gName);
         addGroupTab.selectDepartment(depName);
-        addGroupTab.chooseMentees(menteeName);
+        addGroupTab.selectMentees(menteeName);
         addGroupTab.getAddBtn().click();
+    }
+
+
+    public void clickRemoveMenteeBtn() {
+        addGroupTab.getRemoveBtn().click();
+    }
+
+    public void clickSaveBtn() {
         addGroupTab.getSaveBtn().click();
+    }
+
+    public boolean isNameOfChosenMenteeDisplayed() {
+        return addGroupTab.isChosenMenteeDisplayed("");
+    }
+
+    public boolean isNameOfCreatedMenteeDisplayed() {
+        return addGroupTab.isCreatedMenteeDisplayed("");
     }
 
     public boolean isAddGroupTabDisplayed() {

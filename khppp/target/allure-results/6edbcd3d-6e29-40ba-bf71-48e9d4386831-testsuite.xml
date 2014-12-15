@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1418301303205" stop="1418301380129">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1418301312011" stop="1418301324268" status="passed">
+            <name>addEmptyGroup[[LabManager_LabManager, LabManager111, Test20, QA]]</name>
+            <steps>
+                <step start="1418301312399" stop="1418301313833" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301313834" stop="1418301314217" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301324722" stop="1418301336159" status="passed">
+            <name>addEmptyGroup[[Admin_Admin, Admin111, Test21, QA]]</name>
+            <steps>
+                <step start="1418301324904" stop="1418301325703" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301325703" stop="1418301326134" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301336676" stop="1418301338207" status="passed">
+            <name>addGroupBtnName[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418301336873" stop="1418301337751" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301337752" stop="1418301338148" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301338513" stop="1418301340097" status="passed">
+            <name>addGroupBtnName[[Admin_Admin, Admin111]]</name>
+            <steps>
+                <step start="1418301338663" stop="1418301339474" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301339475" stop="1418301340009" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301340539" stop="1418301343018" status="passed">
+            <name>addGroupWithoutDep[[LabManager_LabManager, LabManager111, OstrTestWithoutDep, Choose department]]</name>
+            <steps>
+                <step start="1418301340729" stop="1418301341638" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301341638" stop="1418301342023" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301342293" stop="1418301342929" status="passed">
+                    <name>addNewEmptyGroup</name>
+                    <title>When I add new group OstrTestWithoutDep,Choose department</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301343306" stop="1418301346174" status="passed">
+            <name>addGroupWithoutDep[[Admin_Admin, Admin111, OstrTestWithoutDep, Choose department]]</name>
+            <steps>
+                <step start="1418301343567" stop="1418301344419" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301344419" stop="1418301345102" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301345489" stop="1418301346130" status="passed">
+                    <name>addNewEmptyGroup</name>
+                    <title>When I add new group OstrTestWithoutDep,Choose department</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301346543" stop="1418301348367" status="broken">
+            <name>addGroupWithoutName[[LabManager_LabManager, LabManager111, QA]]</name>
+            <failure>
+                <message>IndexOutOfBoundsException: Index: 3, Size: 3</message>
+                <stack-trace>java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at khppp.tests.GroupsTest.addGroupWithoutName(GroupsTest.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1418301346695" stop="1418301347465" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                </step>
+                <step start="1418301347465" stop="1418301347985" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301348629" stop="1418301350442" status="broken">
+            <name>addGroupWithoutName[[Admin_Admin, Admin111, QA]]</name>
+            <failure>
+                <message>IndexOutOfBoundsException: Index: 3, Size: 3</message>
+                <stack-trace>java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at khppp.tests.GroupsTest.addGroupWithoutName(GroupsTest.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1418301348804" stop="1418301349541" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                </step>
+                <step start="1418301349541" stop="1418301350092" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301350888" stop="1418301350889" status="canceled">
+            <name>exportBtnName</name>
+            <failure>
+                <message>RuntimeException: java.lang.NullPointerException</message>
+                <stack-trace>java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+Caused by: java.lang.NullPointerException
+	at khppp.excel.utils.ExcelReader.getRowUsed(ExcelReader.java:95)
+	at khppp.excel.utils.ExcelReader.getRowContains(ExcelReader.java:81)
+	at khppp.core.CoreTest.testData(CoreTest.java:57)
+	at khppp.tests.BaseCase.testData(BaseCase.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 26 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301350958" stop="1418301353240" status="passed">
+            <name>groupNameFieldFromSpecialSymbol[[LabManager_LabManager, LabManager111, ^&amp;*%, QA]]</name>
+            <steps>
+                <step start="1418301351123" stop="1418301351847" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301351847" stop="1418301352222" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301352516" stop="1418301353197" status="passed">
+                    <name>addNewEmptyGroup</name>
+                    <title>When I add new group ^&amp;*%,QA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301353502" stop="1418301356131" status="passed">
+            <name>groupNameFieldFromSpecialSymbol[[Admin_Admin, Admin111, ^&amp;*%, QA]]</name>
+            <steps>
+                <step start="1418301353694" stop="1418301354561" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301354561" stop="1418301355027" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301355278" stop="1418301356085" status="passed">
+                    <name>addNewEmptyGroup</name>
+                    <title>When I add new group ^&amp;*%,QA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301356516" stop="1418301358844" status="passed">
+            <name>groupNameFieldOneSymbol[[LabManager_LabManager, LabManager111, G, QA]]</name>
+            <steps>
+                <step start="1418301356692" stop="1418301357472" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301357472" stop="1418301357860" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301358175" stop="1418301358744" status="passed">
+                    <name>addNewEmptyGroup</name>
+                    <title>When I add new group G,QA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301359126" stop="1418301361792" status="passed">
+            <name>groupNameFieldOneSymbol[[Admin_Admin, Admin111, G, QA]]</name>
+            <steps>
+                <step start="1418301359310" stop="1418301360105" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301360105" stop="1418301360648" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301360995" stop="1418301361742" status="passed">
+                    <name>addNewEmptyGroup</name>
+                    <title>When I add new group G,QA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301362128" stop="1418301363830" status="passed">
+            <name>validAddGroupTabName[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418301362324" stop="1418301363096" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301363096" stop="1418301363489" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301364101" stop="1418301365784" status="passed">
+            <name>validAddGroupTabName[[Admin_Admin, Admin111]]</name>
+            <steps>
+                <step start="1418301364260" stop="1418301365001" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301365001" stop="1418301365438" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301366082" stop="1418301367161" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418301366261" stop="1418301367099" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301367429" stop="1418301368418" status="passed">
+            <name>validTabName[[Admin_Admin, Admin111]]</name>
+            <steps>
+                <step start="1418301367590" stop="1418301368349" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301368822" stop="1418301370158" status="passed">
+            <name>validTabName[[Mentor_Mentor, Mentor111]]</name>
+            <steps>
+                <step start="1418301369099" stop="1418301370084" status="passed">
+                    <name>login</name>
+                    <title>When I login as Mentor_Mentor and Mentor111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301370540" stop="1418301372752" status="passed">
+            <name>verifyButtonsDisplayed[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418301370744" stop="1418301371723" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301371723" stop="1418301372212" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301373135" stop="1418301375180" status="passed">
+            <name>verifyButtonsDisplayed[[Admin_Admin, Admin111]]</name>
+            <steps>
+                <step start="1418301373330" stop="1418301374201" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301374201" stop="1418301374677" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301375471" stop="1418301377241" status="passed">
+            <name>verifyLabels[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418301375664" stop="1418301376398" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301376398" stop="1418301376778" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418301377512" stop="1418301379551" status="passed">
+            <name>verifyLabels[[Admin_Admin, Admin111]]</name>
+            <steps>
+                <step start="1418301377669" stop="1418301378556" status="passed">
+                    <name>login</name>
+                    <title>When I login as Admin_Admin and Admin111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418301378556" stop="1418301379108" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

@@ -38,7 +38,11 @@ public class GroupsTabSteps {
     }
 
     public boolean groupWithMenteeCreated(String groupName, String numOfMentees) {
-        return groupsTab.isGroupMenteesDisplayed(groupName, numOfMentees);
+        return groupsTab.isGroupWithMenteesDisplayed(groupName, numOfMentees);
+    }
+
+    public boolean groupsTabTableHeadDisplayed() {
+        return groupsTab.getGroupsTableHead();
     }
 
     public AddGroupTab goToAddGroupTab() {

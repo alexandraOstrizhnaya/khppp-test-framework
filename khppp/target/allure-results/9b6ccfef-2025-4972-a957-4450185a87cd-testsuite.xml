@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1418306719672" stop="1418306757648">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1418306727770" stop="1418306729475" status="passed">
+            <name>preConditions[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418306728062" stop="1418306729471" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306729650" stop="1418306740093" status="passed">
+            <name>addEmptyGroup[[Test20, QA]]</name>
+            <steps>
+                <step start="1418306729650" stop="1418306730039" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306740103" stop="1418306740662" status="passed">
+            <name>addGroupBtnName</name>
+            <steps>
+                <step start="1418306740103" stop="1418306740556" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306740736" stop="1418306742442" status="passed">
+            <name>addGroupWithoutDep[[OstrTestWithoutDep, Choose department]]</name>
+            <steps>
+                <step start="1418306740737" stop="1418306741177" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306741177" stop="1418306741604" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306741895" stop="1418306742355" status="passed">
+                    <name>addNewEmptyGroup</name>
+                    <title>When I add new group OstrTestWithoutDep,Choose department</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306742490" stop="1418306744340" status="passed">
+            <name>addGroupWithoutName[[          , QA]]</name>
+            <steps>
+                <step start="1418306742490" stop="1418306743019" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306743019" stop="1418306743431" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306744343" stop="1418306744867" status="passed">
+            <name>exportBtnName</name>
+            <steps>
+                <step start="1418306744343" stop="1418306744794" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306744905" stop="1418306746599" status="passed">
+            <name>groupNameFieldFromSpecialSymbol[[^&amp;*%, QA]]</name>
+            <steps>
+                <step start="1418306744905" stop="1418306745323" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306745323" stop="1418306745705" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306745956" stop="1418306746559" status="passed">
+                    <name>addNewEmptyGroup</name>
+                    <title>When I add new group ^&amp;*%,QA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306746601" stop="1418306748440" status="passed">
+            <name>groupNameFieldFromSpecialSymbol[[^&amp;*%, QA]]</name>
+            <steps>
+                <step start="1418306746602" stop="1418306747005" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306747005" stop="1418306747470" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306747739" stop="1418306748399" status="passed">
+                    <name>addNewEmptyGroup</name>
+                    <title>When I add new group ^&amp;*%,QA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306748481" stop="1418306750167" status="passed">
+            <name>groupNameFieldOneSymbol[[G, QA]]</name>
+            <steps>
+                <step start="1418306748482" stop="1418306748854" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306748854" stop="1418306749255" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306749526" stop="1418306750122" status="passed">
+                    <name>addNewEmptyGroup</name>
+                    <title>When I add new group G,QA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306750169" stop="1418306751950" status="passed">
+            <name>groupNameFieldOneSymbol[[G, QA]]</name>
+            <steps>
+                <step start="1418306750169" stop="1418306750562" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306750562" stop="1418306750946" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306751243" stop="1418306751907" status="passed">
+                    <name>addNewEmptyGroup</name>
+                    <title>When I add new group G,QA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306751953" stop="1418306753053" status="passed">
+            <name>validAddGroupTabName</name>
+            <steps>
+                <step start="1418306751953" stop="1418306752341" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306752341" stop="1418306752721" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306753055" stop="1418306753522" status="passed">
+            <name>validTabName</name>
+            <steps>
+                <step start="1418306753055" stop="1418306753457" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306753524" stop="1418306754774" status="passed">
+            <name>verifyButtonsDisplayed</name>
+            <steps>
+                <step start="1418306753524" stop="1418306753903" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306753903" stop="1418306754401" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306754777" stop="1418306755890" status="passed">
+            <name>verifyGroupNameField</name>
+            <steps>
+                <step start="1418306754777" stop="1418306755155" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306755155" stop="1418306755571" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418306755892" stop="1418306757120" status="passed">
+            <name>verifyLabels</name>
+            <steps>
+                <step start="1418306755892" stop="1418306756309" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418306756309" stop="1418306756695" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

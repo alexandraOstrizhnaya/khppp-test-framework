@@ -35,9 +35,9 @@ public class StatusTest extends BaseCase {
 
     //Lalala
     @DataProvider(name = "status")
-    public Object[][] credentials(Method method) throws Exception {
+   /* public Object[][] credentials(Method method) throws Exception {
         return testData(method, "Status");
-    }
+    }*/
 
     @Features(STATUS)
     @Test(dataProvider = "status")

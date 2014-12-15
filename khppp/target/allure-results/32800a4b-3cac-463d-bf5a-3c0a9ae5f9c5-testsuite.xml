@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1418398154327" stop="1418398169238">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1418398163386" stop="1418398164927" status="passed">
+            <name>preConditions[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418398163691" stop="1418398164922" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1418398165046" stop="1418398165541" status="passed">
+            <name>addGroupBtnName</name>
+            <steps>
+                <step start="1418398165046" stop="1418398165198" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418398165546" stop="1418398165994" status="passed">
+            <name>exportBtnName</name>
+            <steps>
+                <step start="1418398165546" stop="1418398165873" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418398165999" stop="1418398166598" status="passed">
+            <name>validGroupsTableHead</name>
+            <steps>
+                <step start="1418398165999" stop="1418398166365" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418398166602" stop="1418398166952" status="passed">
+            <name>validTabName</name>
+            <steps>
+                <step start="1418398166602" stop="1418398166885" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418398167040" stop="1418398168649" status="passed">
+            <name>creationOfMentee[[LabManager_LabManager, LabManager111, piggyWiggy, piggyWiggy, MENTEE]]</name>
+            <steps>
+                <step start="1418398167040" stop="1418398167480" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Users</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418398167480" stop="1418398168648" status="passed">
+                    <name>addUserDifferentRoles</name>
+                    <title>When I create users with different roles piggyWiggy, piggyWiggy</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

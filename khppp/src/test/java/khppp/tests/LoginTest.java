@@ -21,10 +21,10 @@ import static org.hamcrest.Matchers.is;
 public class LoginTest extends BaseCase {
 	NavBarSteps navBarSteps;
 
-	@DataProvider(name = "authentication")
+	/*@DataProvider(name = "authentication")
 	public Object[][] credentials(Method method) throws Exception {
 		return testData(method, "Login");
-	}
+	}*/
 
 	@BeforeClass
 	public void setUp() {

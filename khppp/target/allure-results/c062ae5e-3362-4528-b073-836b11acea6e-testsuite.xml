@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1418398043665" stop="1418398058797">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1418398053595" stop="1418398055347" status="passed">
+            <name>preConditions[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418398053920" stop="1418398055343" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1418398055464" stop="1418398055941" status="passed">
+            <name>exportBtnName</name>
+            <steps>
+                <step start="1418398055464" stop="1418398055843" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418398055945" stop="1418398056322" status="passed">
+            <name>addGroupBtnName</name>
+            <steps>
+                <step start="1418398055946" stop="1418398056252" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418398056390" stop="1418398057841" status="passed">
+            <name>creationOfMentee[[LabManager_LabManager, LabManager111, piggyWiggy, piggyWiggy, MENTEE]]</name>
+            <steps>
+                <step start="1418398056391" stop="1418398056746" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Users</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418398056747" stop="1418398057841" status="passed">
+                    <name>addUserDifferentRoles</name>
+                    <title>When I create users with different roles piggyWiggy, piggyWiggy</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1418398057849" stop="1418398058261" status="passed">
+            <name>validTabName</name>
+            <steps>
+                <step start="1418398057849" stop="1418398058187" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

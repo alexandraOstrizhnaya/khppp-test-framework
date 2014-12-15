@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1418298918014" stop="1418299025662">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1418299005418" stop="1418299007779" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418299006018" stop="1418299007700" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299008165" stop="1418299009260" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418299008351" stop="1418299009186" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299009635" stop="1418299010598" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111, Test20, QA]]</name>
+            <steps>
+                <step start="1418299009794" stop="1418299010535" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299010863" stop="1418299011942" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111,          , QA]]</name>
+            <steps>
+                <step start="1418299011020" stop="1418299011876" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299012219" stop="1418299013335" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111, OstrTestWithoutDep, Choose department]]</name>
+            <steps>
+                <step start="1418299012430" stop="1418299013276" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299013590" stop="1418299014684" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418299013832" stop="1418299014621" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299014957" stop="1418299015963" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111, GroupWitnMentee, QA, sashaa sashaa]]</name>
+            <steps>
+                <step start="1418299015127" stop="1418299015903" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299016230" stop="1418299017265" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418299016421" stop="1418299017198" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299017508" stop="1418299018564" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418299017672" stop="1418299018489" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299018874" stop="1418299019876" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418299019032" stop="1418299019815" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299020136" stop="1418299021118" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418299020301" stop="1418299021055" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299021380" stop="1418299022423" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111, G, QA]]</name>
+            <steps>
+                <step start="1418299021556" stop="1418299022333" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299022843" stop="1418299023953" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111, 454gdg, QA]]</name>
+            <steps>
+                <step start="1418299023020" stop="1418299023890" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418299024225" stop="1418299025145" status="passed">
+            <name>validTabName[[LabManager_LabManager, LabManager111, ^&amp;*%, QA]]</name>
+            <steps>
+                <step start="1418299024383" stop="1418299025080" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

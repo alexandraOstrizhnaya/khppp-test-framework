@@ -36,9 +36,9 @@ public class UsersTest extends BaseCase {
 	}
 
 	@DataProvider(name = "users")
-	public Object[][] credentials(Method method) throws Exception {
+	/*public Object[][] credentials(Method method) throws Exception {
 		return testData(method, "Users");
-	}
+	}*/
 
 //    @Test(dataProvider = "users")
 //    public void users(List<String> data) {

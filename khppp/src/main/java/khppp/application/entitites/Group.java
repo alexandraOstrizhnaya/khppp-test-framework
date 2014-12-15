@@ -8,10 +8,13 @@ import org.openqa.selenium.WebElement;
 public class Group {
 
     private String groupName;
-    private String depName;
-    private String labManName;
     private String numOfMentees;
-    private WebElement editGroupBtn;
+    private String depName;
+    private String dateOfCreation;
+    private String labManName;
+    private String status;
+    private String editGroupBtn;
+
 
     public String getGroupName() {
         return groupName;
@@ -23,7 +26,6 @@ public class Group {
 
     public String getDepName() {
         return depName;
-
     }
 
     public void setDepName(String depName) {
@@ -46,11 +48,27 @@ public class Group {
         this.numOfMentees = numOfMentees;
     }
 
-    public WebElement getEditGroupBtn() {
+    public String getDateOfCreation() {
+        return dateOfCreation;
+    }
+
+    public void setDateOfCreation(String dateOfCreation) {
+        this.dateOfCreation = dateOfCreation;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getEditGroupBtn() {
         return editGroupBtn;
     }
 
-    public void setEditGroupBtn(WebElement editGroupBtn) {
+    public void setEditGroupBtn(String editGroupBtn) {
         this.editGroupBtn = editGroupBtn;
     }
 

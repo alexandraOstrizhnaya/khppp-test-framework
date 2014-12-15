@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1418399636802" stop="1418399653161">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1418399645986" stop="1418399647805" status="passed">
+            <name>preConditions[[LabManager_LabManager, LabManager111]]</name>
+            <steps>
+                <step start="1418399646363" stop="1418399647800" status="passed">
+                    <name>login</name>
+                    <title>When I login as LabManager_LabManager and LabManager111</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1418399647981" stop="1418399649478" status="passed">
+            <name>creationOfMentee[[LabManager_LabManager, LabManager111, piggyWiggy, piggyWiggy, MENTEE]]</name>
+            <steps>
+                <step start="1418399647982" stop="1418399648446" status="passed">
+                    <name>navigateTo</name>
+                    <title>When I navigate to Users</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418399648446" stop="1418399649477" status="passed">
+                    <name>addUserDifferentRoles</name>
+                    <title>When I create users with different roles piggyWiggy, piggyWiggy</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1418399649490" stop="1418399650546" status="passed">
+            <name>menteeInAvailableMenteesField</name>
+            <steps>
+                <step start="1418399649490" stop="1418399649849" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418399649849" stop="1418399650175" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+        <test-case start="1418399650665" stop="1418399652629" status="passed">
+            <name>createGroupWithMentee[[piggyGroup, QA, piggyWiggy piggyWiggy]]</name>
+            <steps>
+                <step start="1418399650665" stop="1418399651018" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1418399651018" stop="1418399651353" status="passed">
+                    <name>navigateToGroups</name>
+                    <title>When I navigate to groups</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>
