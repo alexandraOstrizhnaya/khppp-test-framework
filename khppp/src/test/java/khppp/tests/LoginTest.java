@@ -64,5 +64,4 @@ public class LoginTest extends BaseCase {
 		loginSteps.login(data.get(USER_NAME), " ");
 		assertThat(loginSteps.incorrectLoginPassword(), is(data.get(EXPECTED)));
 	}
-*/
 }

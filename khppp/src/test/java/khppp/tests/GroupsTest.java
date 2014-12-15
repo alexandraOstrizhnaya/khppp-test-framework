@@ -17,7 +17,7 @@ import static org.hamcrest.Matchers.is;
  */
 public class GroupsTest extends BaseCase {
 
-    /*LoginSteps loginSteps;
+    LoginSteps loginSteps;
     AddGroupSteps addGroupSteps;
     NavBarSteps navBarSteps;
     GroupsTabSteps groupsTabSteps;
@@ -83,13 +83,13 @@ public class GroupsTest extends BaseCase {
         assertThat(groupsTabSteps.groupWithMenteeCreated(data.get(GROUP_NAME), "1"), is(true));
     }
 
-    @Features(GROUP)
-    @Test(dependsOnMethods = "creationOfMentee")
-    public void menteeInAvailableMenteesField() {
-        goToGroupsTab();
-        goToAddGroupsTab();
-        assertThat(addGroupSteps.isNameOfCreatedMenteeDisplayed(), is(true));
-    }
+//    @Features(GROUP)
+//    @Test(dependsOnMethods = "creationOfMentee")
+//    public void menteeInAvailableMenteesField() {
+//        goToGroupsTab();
+//        goToAddGroupsTab();
+//        assertThat(addGroupSteps.isNameOfCreatedMenteeDisplayed(), is(true));
+//    }
 
     @Features(GROUP)
     @Test(dataProvider = "testData", priority = 3)
@@ -110,13 +110,13 @@ public class GroupsTest extends BaseCase {
         assertThat(addGroupSteps.isNameOfChosenMenteeDisplayed(), is(true));
     }
 
-    @Features(GROUP)
-    @Test(dependsOnMethods = "createGroupWithMentee")
-    public void removeMenteeFromGroup() {
-        addGroupSteps.clickRemoveMenteeBtn();
-        addGroupSteps.clickSaveBtn();
-        assertThat(addGroupSteps.isNameOfCreatedMenteeDisplayed(), is(true));
-    }
+//    @Features(GROUP)
+//    @Test(dependsOnMethods = "createGroupWithMentee")
+//    public void removeMenteeFromGroup() {
+//        addGroupSteps.clickRemoveMenteeBtn();
+//        addGroupSteps.clickSaveBtn();
+//        assertThat(addGroupSteps.isNameOfCreatedMenteeDisplayed(), is(true));
+//    }
 
     @Features(GROUP)
     @Test(dataProvider = "testData", priority = 3)
@@ -193,5 +193,5 @@ public class GroupsTest extends BaseCase {
     @AfterClass
     public void logout() {
         navBarSteps.logout();
-    }*/
+    }
 }

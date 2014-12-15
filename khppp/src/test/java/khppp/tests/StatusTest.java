@@ -20,7 +20,7 @@ import static org.hamcrest.Matchers.is;
  */
 public class StatusTest extends BaseCase {
 
-    /*LoginSteps loginSteps;
+    LoginSteps loginSteps;
     AddUserSteps addUserSteps;
     NavBarSteps navBarSteps;
     UsersTabSteps usersTabSteps;
@@ -39,7 +39,6 @@ public class StatusTest extends BaseCase {
     public void preConditionsMentor(List<String> data) {
         login(data);
     }
-    }*/
 
     @Test(dataProvider = "testData")
     public void preConditionsMentee(List<String> data) {
@@ -67,5 +66,5 @@ public class StatusTest extends BaseCase {
         assertThat(statusSteps.statusChanged("Resolved"), is(true));
 
     }
-*/
+
 }

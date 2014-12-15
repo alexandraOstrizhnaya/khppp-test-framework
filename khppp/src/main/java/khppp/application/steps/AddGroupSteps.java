@@ -47,11 +47,7 @@ public class AddGroupSteps {
     }
 
     public boolean isNameOfChosenMenteeDisplayed() {
-        return addGroupTab.isChosenMenteeDisplayed("");
-    }
-
-    public boolean isNameOfCreatedMenteeDisplayed() {
-        return addGroupTab.isCreatedMenteeDisplayed("");
+        return addGroupTab.isChosenMenteeDisplayed();
     }
 
     public boolean isAddGroupTabDisplayed() {
