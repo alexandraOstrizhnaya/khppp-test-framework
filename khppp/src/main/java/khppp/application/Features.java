@@ -11,5 +11,6 @@ public interface Features {
     String SUBGROUP = "Subgroup";
     String USERS = "Users";
     String ROLES = "Roles";
+    String GROUP_JOURNAL = "GroupJournal";
 
 }

@@ -29,9 +29,14 @@ public class AddGroupTab extends Component {
         sel.selectByVisibleText(name);
     }
 
-    public void chooseMentees(String name) {
+    public void selectMentees(String name) {
         Select sel = new Select(find(By.xpath("//select[@name='allMentees']")));
-        sel.selectByVisibleText(name);
+        sel.selectByIndex(0);
+    }
+
+    public void chosenMentees(String name) {
+        Select sel = new Select(find(By.xpath("//select[@name='allMentees']")));
+        sel.deselectByIndex(0);
     }
 
     public String getLabManName() {
@@ -65,6 +70,16 @@ public class AddGroupTab extends Component {
         labels.add(waitFor(xpath("//div[@class='col-md-4']/label[text()='Available mentees']")));
         labels.add(waitFor(xpath("//div[@class='col-md-4']/label[text()='Chosen Mentees']")));
         return labels.size() == 5;
+    }
+
+    public boolean isChosenMenteeDisplayed(){
+        WebElement chosenMentees = waitFor(By.xpath("//select[@name='choosenMentees']"));
+        return chosenMentees.isDisplayed();
+    }
+
+    public boolean isCreatedMenteeDisplayed(){
+        WebElement createdMentees = waitFor(By.xpath("//select[@name='allMentees']"));
+        return createdMentees.isDisplayed();
     }
 
     public boolean isGroupNameFieldDisplayed() {

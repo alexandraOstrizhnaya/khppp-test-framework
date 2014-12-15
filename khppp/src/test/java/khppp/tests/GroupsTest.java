@@ -7,9 +7,7 @@ import ru.yandex.qatools.allure.annotations.Features;
 
 import static khppp.application.Features.GROUP;
 
-import java.lang.reflect.Method;
 import java.util.List;
-
 import static khppp.excel.utils.ExcelColumn.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
@@ -19,7 +17,7 @@ import static org.hamcrest.Matchers.is;
  */
 public class GroupsTest extends BaseCase {
 
-    LoginSteps loginSteps;
+    /*LoginSteps loginSteps;
     AddGroupSteps addGroupSteps;
     NavBarSteps navBarSteps;
     GroupsTabSteps groupsTabSteps;
@@ -37,81 +35,111 @@ public class GroupsTest extends BaseCase {
     }
 
 
-    @Test(dataProvider = "testData")
+    @Test(dataProvider = "testData", priority = 1)
     public void preConditions(List<String> data) {
         login(data);
     }
 
-
-    @Test(dataProvider = "testData", dependsOnMethods = "preConditions")
+    @Test(dataProvider = "testData", dependsOnMethods = "preConditions", priority = 4)
     public void creationOfMentee(List<String> data) {
         navBarSteps.navigateTo("Users");
         addUserSteps.addUserDifferentRoles(data.get(NEW_USER_NAME), data.get(NEW_USER_SURNAME), data.get(NEW_USER_ROLE));
-        assertThat(usersTabSteps.userDisplayed(data.get(NEW_USER_SURNAME)), is(true));
     }
 
-
     @Features(GROUP)
-    @Test(dependsOnMethods = "preConditions")
+    @Test(priority = 2)
     public void validTabName() {
         goToGroupsTab();
         assertThat(groupsTabSteps.isGroupTabDisplayed(), is(true));
     }
 
     @Features(GROUP)
-    @Test(dependsOnMethods = "preConditions")
+    @Test(priority = 2)
     public void addGroupBtnName() {
         goToGroupsTab();
         assertThat(groupsTabSteps.isBtnAddGroupDisplayed(), is(true));
     }
 
     @Features(GROUP)
-    @Test(dependsOnMethods = "preConditions")
+    @Test(priority = 2)
     public void exportBtnName() {
         goToGroupsTab();
         assertThat(groupsTabSteps.isBtnExportDisplayed(), is(true));
     }
 
-    //************************AddGroup Tab Tests***************************
+    @Features(GROUP)
+    @Test(priority = 2)
+    public void validGroupsTableHead() {
+        goToGroupsTab();
+        assertThat(groupsTabSteps.groupsTabTableHeadDisplayed(), is(true));
+    }
+
+    //************************AddGroup Tab Tests*************************
 
     @Features(GROUP)
-    @Test(dataProvider = "testData", dependsOnMethods = "preConditions")
+    @Test(dataProvider = "testData", dependsOnMethods = "creationOfMentee")
+    public void displayGroupWithMentee(List<String> data) {
+        goToGroupsTab();
+        assertThat(groupsTabSteps.groupWithMenteeCreated(data.get(GROUP_NAME), "1"), is(true));
+    }
+
+    @Features(GROUP)
+    @Test(dependsOnMethods = "creationOfMentee")
+    public void menteeInAvailableMenteesField() {
+        goToGroupsTab();
+        goToAddGroupsTab();
+        assertThat(addGroupSteps.isNameOfCreatedMenteeDisplayed(), is(true));
+    }
+
+    @Features(GROUP)
+    @Test(dataProvider = "testData", priority = 3)
     public void addEmptyGroup(List<String> data) {
         goToGroupsTab();
-        //goToAddGroupsTab(data);
-        //addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
+        goToAddGroupsTab();
+        addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
+        addGroupSteps.clickSaveBtn();
         assertThat(groupsTabSteps.emptyGroupCreated(data.get(GROUP_NAME)), is(true));
     }
 
-/*    @Features(GROUP)
-    @Test(dataProvider = "testData", dependsOnMethods = "creationOfMentee")
-    public void addGroupWithMentee(List<String> data) {
+    @Features(GROUP)
+    @Test(dataProvider = "testData", dependsOnMethods = "menteeInAvailableMenteesField")
+    public void createGroupWithMentee(List<String> data) {
         goToGroupsTab();
         goToAddGroupsTab();
-        addGroupSteps.addNewGroupWithMentees(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME), data.get(GROUP_MENTEE));
-        assertThat(groupsTabSteps.groupWithMenteeCreated(data.get(GROUP_NAME), data.get(NUM_OF_MENTEES)), is(true));
-    }*/
+        addGroupSteps.addNewGroupWithMentees(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME), data.get(USER_NAME));
+        assertThat(addGroupSteps.isNameOfChosenMenteeDisplayed(), is(true));
+    }
 
     @Features(GROUP)
-    @Test(dataProvider = "testData", dependsOnMethods = "preConditions")
+    @Test(dependsOnMethods = "createGroupWithMentee")
+    public void removeMenteeFromGroup() {
+        addGroupSteps.clickRemoveMenteeBtn();
+        addGroupSteps.clickSaveBtn();
+        assertThat(addGroupSteps.isNameOfCreatedMenteeDisplayed(), is(true));
+    }
+
+    @Features(GROUP)
+    @Test(dataProvider = "testData", priority = 3)
     public void addGroupWithoutName(List<String> data) {
         goToGroupsTab();
         goToAddGroupsTab();
         addGroupSteps.addNewEmptyGroupWithoutName(data.get(DEPARTMENT_NAME));
+        addGroupSteps.clickSaveBtn();
         assertThat(addGroupSteps.isErrorEmptyGroupNameDisplayed(), is(true));
     }
 
     @Features(GROUP)
-    @Test(dataProvider = "testData", dependsOnMethods = "preConditions")
+    @Test(dataProvider = "testData", priority = 3)
     public void addGroupWithoutDep(List<String> data) {
         goToGroupsTab();
         goToAddGroupsTab();
         addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
+        addGroupSteps.clickSaveBtn();
         assertThat(addGroupSteps.isErrorNotSelectedDepDisplayed(), is(true));
     }
 
     @Features(GROUP)
-    @Test(dependsOnMethods = "preConditions")
+    @Test(priority = 3)
     public void validAddGroupTabName() {
         goToGroupsTab();
         goToAddGroupsTab();
@@ -119,7 +147,7 @@ public class GroupsTest extends BaseCase {
     }
 
     @Features(GROUP)
-    @Test(dependsOnMethods = "preConditions")
+    @Test(priority = 3)
     public void verifyLabels() {
         goToGroupsTab();
         goToAddGroupsTab();
@@ -127,7 +155,7 @@ public class GroupsTest extends BaseCase {
     }
 
     @Features(GROUP)
-    @Test(dependsOnMethods = "preConditions")
+    @Test(priority = 3)
     public void verifyButtonsDisplayed() {
         goToGroupsTab();
         goToAddGroupsTab();
@@ -135,7 +163,7 @@ public class GroupsTest extends BaseCase {
     }
 
     @Features(GROUP)
-    @Test(dependsOnMethods = "preConditions")
+    @Test(priority = 3)
     public void verifyGroupNameField() {
         goToGroupsTab();
         goToAddGroupsTab();
@@ -143,25 +171,27 @@ public class GroupsTest extends BaseCase {
     }
 
     @Features(GROUP)
-    @Test(dataProvider = "testData", dependsOnMethods = "preConditions")
+    @Test(dataProvider = "testData", priority = 3)
     public void groupNameFieldOneSymbol(List<String> data) {
         goToGroupsTab();
         goToAddGroupsTab();
         addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
+        addGroupSteps.clickSaveBtn();
         assertThat(addGroupSteps.isErrorIncorrectlyGroupNameDisplayed(), is(true));
     }
 
     @Features(GROUP)
-    @Test(dataProvider = "testData", dependsOnMethods = "preConditions")
+    @Test(dataProvider = "testData", priority = 3)
     public void groupNameFieldFromSpecialSymbol(List<String> data) {
         goToGroupsTab();
         goToAddGroupsTab();
         addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
+        addGroupSteps.clickSaveBtn();
         assertThat(addGroupSteps.isErrorIncorrectlyGroupNameDisplayed(), is(true));
     }
 
     @AfterClass
     public void logout() {
         navBarSteps.logout();
-    }
+    }*/
 }
