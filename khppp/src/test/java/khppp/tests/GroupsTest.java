@@ -1,13 +1,14 @@
 package khppp.tests;
 
 import khppp.application.steps.*;
-import org.aspectj.lang.annotation.After;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Features;
 
-import static khppp.application.Features.GROUP;
-
 import java.util.List;
+
+import static khppp.application.Features.GROUP;
 import static khppp.excel.utils.ExcelColumn.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
@@ -110,13 +111,13 @@ public class GroupsTest extends BaseCase {
         assertThat(addGroupSteps.isNameOfChosenMenteeDisplayed(), is(true));
     }
 
-//    @Features(GROUP)
-//    @Test(dependsOnMethods = "createGroupWithMentee")
-//    public void removeMenteeFromGroup() {
-//        addGroupSteps.clickRemoveMenteeBtn();
-//        addGroupSteps.clickSaveBtn();
-//        assertThat(addGroupSteps.isNameOfCreatedMenteeDisplayed(), is(true));
-//    }
+    @Features(GROUP)
+    @Test(dependsOnMethods = "createGroupWithMentee")
+    public void removeMenteeFromGroup() {
+        addGroupSteps.clickRemoveMenteeBtn();
+        addGroupSteps.clickSaveBtn();
+        assertThat(addGroupSteps.isNameOfCreatedMenteeDisplayed(), is(true));
+    }
 
     @Features(GROUP)
     @Test(dataProvider = "testData", priority = 3)

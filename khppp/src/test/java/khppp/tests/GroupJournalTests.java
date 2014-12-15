@@ -1,12 +1,14 @@
 package khppp.tests;
 
 import khppp.application.steps.*;
-import java.util.List;
-import static khppp.application.Features.GROUP_JOURNAL;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Features;
+
+import java.util.List;
+
+import static khppp.application.Features.GROUP_JOURNAL;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
@@ -52,16 +54,19 @@ public class GroupJournalTests extends BaseCase {
     public void addSubgroupBtnName() {
         assertThat(groupJournalSteps.isAddSubgroupDisplayed(), is(true));
     }
+
     @Features(GROUP_JOURNAL)
     @Test(dependsOnMethods = "preConditions")
     public void assignBtnName() {
         assertThat(groupJournalSteps.isAssignDisplayed(), is(true));
     }
+
     @Features(GROUP_JOURNAL)
     @Test(dependsOnMethods = "preConditions")
     public void exportBtnName() {
         assertThat(groupJournalSteps.isExportDisplayed(), is(true));
     }
+
     @Features(GROUP_JOURNAL)
     @Test(dependsOnMethods = "preConditions")
     public void backBtnName() {

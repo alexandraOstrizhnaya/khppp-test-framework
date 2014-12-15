@@ -50,6 +50,10 @@ public class AddGroupSteps {
         return addGroupTab.isChosenMenteeDisplayed();
     }
 
+    public boolean isNameOfCreatedMenteeDisplayed() {
+        return addGroupTab.isCreatedMenteeDisplayed();
+    }
+
     public boolean isAddGroupTabDisplayed() {
         return addGroupTab.isAddGroupTabNameDisplayed();
     }
