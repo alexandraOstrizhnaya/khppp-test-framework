@@ -9,6 +9,8 @@ import ru.yandex.qatools.allure.annotations.Features;
 import java.lang.reflect.Method;
 import java.util.List;
 
+import static khppp.excel.utils.ExcelColumn.*;
+
 import static khppp.application.Features.STATUS;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
@@ -33,18 +35,22 @@ public class StatusTest extends BaseCase {
         statusSteps = new StatusSteps(pages);
     }
 
-    //Lalala
-    @DataProvider(name = "status")
-    public Object[][] credentials(Method method) throws Exception {
-        return testData(method, "Status");
+    @Test(dataProvider = "testData")
+    public void preConditionsMentor(List<String> data) {
+        login(data);
+    }
+
+    @Test(dataProvider = "testData")
+    public void preConditionsMentee(List<String> data) {
+        login(data);
     }
 
     @Features(STATUS)
-    @Test(dataProvider = "status")
+    @Test(dataProvider = "testData", dependsOnMethods = "preConditionsMentor")
     public void changeStatusByMentor(List<String> data) {
-        login(data);
+
         navBarSteps.navigateTo("Users");
-        usersTabSteps.getFirstUser().click();
+        usersTabSteps.getFirstUser(data.get(USER_NAME)).click();
         statusSteps.clickTaskNameStep();
         statusSteps.clickCloseBtnStep();
         assertThat(statusSteps.statusChanged("Closed"), is(true));
@@ -53,9 +59,8 @@ public class StatusTest extends BaseCase {
         assertThat(statusSteps.statusChanged("In progress"), is(true));
     }
 
-    @Test(dataProvider = "status")
-    public void changeStatusByMentee(List<String> data) {
-        login(data);
+    @Test(dependsOnMethods = "preConditionsMentee")
+    public void changeStatusByMentee() {
         statusSteps.clickTaskNameStep();
         statusSteps.clickResolvedBtn();
         assertThat(statusSteps.statusChanged("Resolved"), is(true));

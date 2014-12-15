@@ -22,7 +22,7 @@ import static org.hamcrest.Matchers.is;
  */
 public class UsersTest extends BaseCase {
 
-	LoginSteps loginSteps;
+	/*LoginSteps loginSteps;
 	AddUserSteps addUserSteps;
 	NavBarSteps navBarSteps;
 	UsersTabSteps usersTabSteps;
@@ -58,7 +58,7 @@ public class UsersTest extends BaseCase {
         navBarSteps.logout();
     }
 
-        /*--Admin creates Admin, Lab-Manager, Mentor, Mentee--*/
+        *//*--Admin creates Admin, Lab-Manager, Mentor, Mentee--*//*
     @Features(USERS)
     @Test(dataProvider = "users")
     public void adminAddNewUser(List<String> data) {
@@ -69,7 +69,7 @@ public class UsersTest extends BaseCase {
         navBarSteps.logout();
     }
 
-    /* Verify it is impossible to create user without name or surname */
+    *//* Verify it is impossible to create user without name or surname *//*
     @Features(USERS)
     @Test(dataProvider = "users")
     public void addUserWithoutName(List<String> data) {
@@ -88,6 +88,6 @@ public class UsersTest extends BaseCase {
         addUserSteps.addNewUser(data.get(USER_NAME), " ");
         assertThat(addUserSteps.emptySurnameFieldMessage(), is(data.get(EXPECTED_ERROR)));
         navBarSteps.logout();
-    }
+    }*/
 
 }

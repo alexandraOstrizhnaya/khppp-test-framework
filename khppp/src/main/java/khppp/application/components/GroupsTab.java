@@ -24,6 +24,10 @@ public class GroupsTab extends Component {
         return waitFor(xpath("//button[@class='btn btn-success']"));
     }
 
+    public void clickFirstGroup(){
+        waitFor(xpath("//tbody/tr[1]/td[1]")).click();
+    }
+
     public WebElement getExportBtn() {
         return waitFor(xpath(".//*[@id='create_csv_button']"));
     }

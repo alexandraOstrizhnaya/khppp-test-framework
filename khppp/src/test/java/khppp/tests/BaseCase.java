@@ -10,7 +10,9 @@ import khppp.custom.reporter.CustomReport;
 import khppp.factory.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
+
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.List;
@@ -46,8 +48,10 @@ public abstract class BaseCase {
         coreTest.shutDown();
     }
 
-    public Object[][] testData(Method method, String sheet) throws Exception {
-        return coreTest.testData(method, sheet);
+    @DataProvider(name = "testData")
+    public Object[][] testData(Method method) throws Exception {
+        String path = method.getDeclaringClass().getSimpleName() + ".xlsx";
+        return coreTest.testData(path, method.getName());
     }
 
     protected void open() {
@@ -59,13 +63,12 @@ public abstract class BaseCase {
         loginSteps.login(data.get(USER_NAME), data.get(USER_PASS));
     }
 
-    protected void goToGroupsTab(List<String> data){
-        login(data);
+    protected void goToGroupsTab() {
         navBarSteps.navigateToGroups();
     }
 
-    protected void goToAddGroupsTab(List<String> data){
-        goToGroupsTab(data);
+    protected void goToAddGroupsTab() {
+        goToGroupsTab();
         groupsTabSteps.goToAddGroupTab();
     }
 }

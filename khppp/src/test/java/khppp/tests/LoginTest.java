@@ -19,7 +19,7 @@ import static org.hamcrest.Matchers.is;
  * Created by Serhii_Pirohov on 18.11.2014.
  */
 public class LoginTest extends BaseCase {
-	NavBarSteps navBarSteps;
+	/*NavBarSteps navBarSteps;
 
 	@DataProvider(name = "authentication")
 	public Object[][] credentials(Method method) throws Exception {
@@ -64,5 +64,5 @@ public class LoginTest extends BaseCase {
 		loginSteps.login(data.get(USER_NAME), " ");
 		assertThat(loginSteps.incorrectLoginPassword(), is(data.get(EXPECTED)));
 	}
-
+*/
 }
