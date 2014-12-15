@@ -84,13 +84,13 @@ public class GroupsTest extends BaseCase {
         assertThat(groupsTabSteps.groupWithMenteeCreated(data.get(GROUP_NAME), "1"), is(true));
     }
 
-//    @Features(GROUP)
-//    @Test(dependsOnMethods = "creationOfMentee")
-//    public void menteeInAvailableMenteesField() {
-//        goToGroupsTab();
-//        goToAddGroupsTab();
-//        assertThat(addGroupSteps.isNameOfCreatedMenteeDisplayed(), is(true));
-//    }
+    @Features(GROUP)
+    @Test(dependsOnMethods = "creationOfMentee")
+    public void menteeInAvailableMenteesField() {
+        goToGroupsTab();
+        goToAddGroupsTab();
+        assertThat(addGroupSteps.isNameOfCreatedMenteeDisplayed(), is(true));
+    }
 
     @Features(GROUP)
     @Test(dataProvider = "testData", priority = 3)
