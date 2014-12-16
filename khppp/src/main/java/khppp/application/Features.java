@@ -8,7 +8,9 @@ public interface Features {
     String LOGIN = "Login";
     String STATUS = "Status";
     String GROUP = "Groups";
+    String SUBGROUP = "Subgroup";
     String USERS = "Users";
     String ROLES = "Roles";
+    String GROUP_JOURNAL = "GroupJournal";
 
 }

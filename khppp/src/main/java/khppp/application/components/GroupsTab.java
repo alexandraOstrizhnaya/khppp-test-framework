@@ -1,6 +1,7 @@
 package khppp.application.components;
 
 import khppp.application.entitites.Group;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -24,10 +25,13 @@ public class GroupsTab extends Component {
         return waitFor(xpath("//button[@class='btn btn-success']"));
     }
 
+    public void clickFirstGroup(){
+        waitFor(xpath("//tbody/tr[1]/td[1]")).click();
+    }
+
     public WebElement getExportBtn() {
         return waitFor(xpath(".//*[@id='create_csv_button']"));
     }
-
 
     public boolean isGroupTabNameDisplayed() {
         WebElement tabName = waitFor(xpath("//div[@class='page_header_text']"));
@@ -40,8 +44,20 @@ public class GroupsTab extends Component {
     }
 
     public boolean isBtnExportDisplayed() {
-        WebElement btnName = waitFor(xpath("//tr[1]/td[7]/a"));
+        WebElement btnName = waitFor(xpath(".//*[@id='create_csv_button']"));
         return btnName.isDisplayed() && "Export".equals(btnName.getText());
+    }
+
+    public boolean getGroupsTableHead() {
+        ArrayList<WebElement> headTableNames = new ArrayList<>();
+        headTableNames.add(waitFor(xpath("//tr/th[text()='Group name']")));
+        headTableNames.add(waitFor(xpath("//tr/th[text()='Number of students']")));
+        headTableNames.add(waitFor(xpath("//tr/th[text()='Department']")));
+        headTableNames.add(waitFor(xpath("//tr/th[text()='Date of creation']")));
+        headTableNames.add(waitFor(xpath("//tr/th[text()='Lab Manager']")));
+        headTableNames.add(waitFor(xpath("//tr/th[text()='Status']")));
+        headTableNames.add(waitFor(xpath("//tr/th[text()='Edit Group']")));
+        return headTableNames.size() == 7;
     }
 
     public List<Group> getAllGroups() {
@@ -65,7 +81,16 @@ public class GroupsTab extends Component {
         return displayed(xpath("//td[contains('%s')][1]", groupName));
     }
 
-    public boolean isGroupMenteesDisplayed(String numOfMentees, String groupName) {
-        return displayed(xpath("//tr//td[2]", numOfMentees)) && displayed(xpath("//td[contains(.,'%s')][1]", groupName));
+    public boolean isGroupWithMenteesDisplayed(String groupName, String numOfMentees) {
+        boolean flag = false;
+        List<WebElement> numsofMentees = waitForAll(By.xpath("//tr//td[2]"));
+        List<WebElement> namesOfGroups = waitForAll(By.xpath("//td[1]"));
+        int numOfRows = namesOfGroups.size();
+        for (int i = 0; i < numOfRows; i++) {
+            if (namesOfGroups.get(i).getText().equals(groupName) && numsofMentees.get(i).getText().equals(numOfMentees)) {
+                flag = true;
+            }
+        }
+        return flag;
     }
 }

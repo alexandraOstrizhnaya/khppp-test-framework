@@ -2,7 +2,6 @@ package khppp.tests;
 
 import khppp.application.steps.AddUserSteps;
 import khppp.application.steps.LoginSteps;
-import static khppp.application.Features.USERS;
 import khppp.application.steps.NavBarSteps;
 import khppp.application.steps.UsersTabSteps;
 import org.testng.annotations.BeforeClass;
@@ -10,9 +9,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Features;
 
-import java.lang.reflect.Method;
 import java.util.List;
 
+import static khppp.application.Features.USERS;
 import static khppp.excel.utils.ExcelColumn.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
@@ -22,23 +21,23 @@ import static org.hamcrest.Matchers.is;
  */
 public class UsersTest extends BaseCase {
 
-	LoginSteps loginSteps;
-	AddUserSteps addUserSteps;
-	NavBarSteps navBarSteps;
-	UsersTabSteps usersTabSteps;
+    LoginSteps loginSteps;
+    AddUserSteps addUserSteps;
+    NavBarSteps navBarSteps;
+    UsersTabSteps usersTabSteps;
 
-	@BeforeClass
-	public void setUp() {
-		loginSteps = new LoginSteps(pages);
-		addUserSteps = new AddUserSteps(pages);
-		navBarSteps = new NavBarSteps(pages);
-		usersTabSteps = new UsersTabSteps(pages);
-	}
+    @BeforeClass
+    public void setUp() {
+        loginSteps = new LoginSteps(pages);
+        addUserSteps = new AddUserSteps(pages);
+        navBarSteps = new NavBarSteps(pages);
+        usersTabSteps = new UsersTabSteps(pages);
+    }
 
-	@DataProvider(name = "users")
-	public Object[][] credentials(Method method) throws Exception {
-		return testData(method, "Users");
-	}
+    @DataProvider(name = "users")
+    /*public Object[][] credentials(Method method) throws Exception {
+        return testData(method, "Users");
+	}*/
 
 //    @Test(dataProvider = "users")
 //    public void users(List<String> data) {
@@ -58,7 +57,10 @@ public class UsersTest extends BaseCase {
         navBarSteps.logout();
     }
 
+
+
         /*--Admin creates Admin, Lab-Manager, Mentor, Mentee--*/
+
     @Features(USERS)
     @Test(dataProvider = "users")
     public void adminAddNewUser(List<String> data) {

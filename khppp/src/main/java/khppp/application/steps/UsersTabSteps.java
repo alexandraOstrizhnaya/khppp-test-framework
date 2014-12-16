@@ -30,7 +30,7 @@ public class UsersTabSteps {
         return usersTab.isCreateUserDisplayed(name);
     }
 
-    public WebElement getFirstUser(){
-        return usersTab.getFirstUser();
+    public WebElement getFirstUser(String name){
+        return usersTab.getFirstUser(name);
     }
 }

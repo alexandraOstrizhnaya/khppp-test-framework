@@ -21,6 +21,7 @@
 
     <dependencies>
 
+
         <!-- Spring -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -104,8 +105,13 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.8.8</version>
-            <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>2.44.0</version>
+        </dependency>
+
 
     </dependencies>
 
@@ -140,6 +146,9 @@
                 <version>2.16</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testNG.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                     <argLine>
                         -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
                     </argLine>
