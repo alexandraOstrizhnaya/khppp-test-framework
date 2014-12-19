@@ -18,6 +18,7 @@ public interface ExcelColumn {
     int GROUP_NAME = 5;
     int DEPARTMENT_NAME = 6;
     int GROUP_MENTEE = 4;
+    int SUBGROUP_NAME = 2;
 }
 
 

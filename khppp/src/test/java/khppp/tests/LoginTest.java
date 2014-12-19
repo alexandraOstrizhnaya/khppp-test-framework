@@ -30,7 +30,7 @@ public class LoginTest extends BaseCase {
     }
 
     @Features(LOGIN)
-    @Test(dataProvider = "authentication")
+    @Test(dataProvider = "testData")
     public void userLogin(List<String> data) {
         open();
         loginSteps.login(data.get(USER_NAME), data.get(USER_PASS));
@@ -40,7 +40,7 @@ public class LoginTest extends BaseCase {
     }
 
     @Features(LOGIN)
-    @Test(dataProvider = "authentication")
+    @Test(dataProvider = "testData")
     public void userIncorrectLogin(List<String> data) {
         open();
         loginSteps.login(data.get(USER_NAME), data.get(USER_PASS));
@@ -48,7 +48,7 @@ public class LoginTest extends BaseCase {
     }
 
     @Features(LOGIN)
-    @Test(dataProvider = "authentication")
+    @Test(dataProvider = "testData")
     public void userEmptyLogin(List<String> data) {
         open();
         loginSteps.login(" ", data.get(USER_PASS));
@@ -56,7 +56,7 @@ public class LoginTest extends BaseCase {
     }
 
     @Features(LOGIN)
-    @Test(dataProvider = "authentication")
+    @Test(dataProvider = "testData")
     public void userEmptyPassword(List<String> data) {
         open();
         loginSteps.login(data.get(USER_NAME), " ");

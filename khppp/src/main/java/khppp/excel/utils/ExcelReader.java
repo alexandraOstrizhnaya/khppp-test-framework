@@ -96,5 +96,4 @@ public class ExcelReader {
     public int getRowUsed() throws Exception {
         return excelWSheet.getLastRowNum();
     }
-
 }
