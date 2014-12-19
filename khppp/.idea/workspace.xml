@@ -1,100 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c79f0af-476a-4d2d-b416-02af76e18867" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\allure-results\670f9ba5-bb2b-49d8-935f-6df3484aa75e-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\allure-results\7240e940-860d-4b46-9f1f-52186555a919-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\allure-results\8574f0b2-9a64-437c-9101-d3c50b8b83e8-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\config.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\Features.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\components\AddGroupTab.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\components\AddSubgroupTab.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\components\AddUserTab.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\components\Component.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\components\GroupJournalPage.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\components\GroupsTab.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\components\LoginPage.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\components\NavBar.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\components\PersonalJournalPage.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\components\Test.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\components\UsersTab.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\dialogs\AbstractDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\dialogs\AbstractDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\entitites\Group.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\entitites\Subgroup.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\entitites\User.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\steps\AddGroupSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\steps\AddSubgroupSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\steps\AddUserSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\steps\GroupJournalPageSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\steps\GroupJournalSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\steps\GroupsTabSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\steps\LoginSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\steps\NavBarSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\steps\StatusSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\application\steps\UsersTabSteps.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\custom\listeners\CustomListener.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\custom\reporter\CustomReport.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\excel\utils\ExcelColumn.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\excel\utils\ExcelReader.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\khppp\factory\PageFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\classes\log4j2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\TEST-TestSuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\TestRun\KhpppRun.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\TestRun\KhpppRun.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\TestRun\testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\TestSuite.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\bullet_point.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\collapseall.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\emailable-report.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\failed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\junitreports\TEST-khppp.tests.GroupJournalTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\junitreports\TEST-khppp.tests.GroupsTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\junitreports\TEST-khppp.tests.StatusTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\junitreports\TEST-khppp.tests.SubgroupTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\khppp.core.CoreTest\Command line test b2f2bc9f-3cb8-437f-b0cf-56a3ed17ef5a.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\khppp.core.CoreTest\Command line test b2f2bc9f-3cb8-437f-b0cf-56a3ed17ef5a.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\navigator-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\KhpppRun.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\classes.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\groups.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\main.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\methods.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\toc.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\old\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\passed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\skipped.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\testng-reports.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\testng-reports.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\testng-results.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire-reports\testng.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire\surefire1768947984744026137tmp" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire\surefire_0527008903930719342tmp" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\surefire\surefirebooter7066396678590557318.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\test-classes\khppp\core\CoreTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\test-classes\khppp\tests\BaseCase.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\test-classes\khppp\tests\GroupJournalTests.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\test-classes\khppp\tests\GroupsTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\test-classes\khppp\tests\LoginTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\test-classes\khppp\tests\StatusTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\test-classes\khppp\tests\SubgroupTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\NEW INTERNAL\khppp-test-framework\khppp\target\test-classes\khppp\tests\UsersTest.class" afterPath="" />
+    <list default="true" id="2c25d813-b94d-41ae-a8d0-ac3110fdc7f7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/components/GroupTasksPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/steps/GroupTasksSteps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/khppp/tests/GroupTasksTest.java" />
+      <change type="DELETED" beforePath="D:\IREN stuff\work\PROJECT\khppp-test-framework\khppp\src\main\java\khppp\application\steps\GroupJournalPageSteps.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testData.xlsx" afterPath="$PROJECT_DIR$/testData.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/excel/utils/ExcelColumn.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/excel/utils/ExcelColumn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/Features.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/Features.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/components/GroupJournalPage.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/components/GroupJournalPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/steps/GroupJournalSteps.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/steps/GroupJournalSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/khppp/application/components/GroupsTab.java" afterPath="$PROJECT_DIR$/src/main/java/khppp/application/components/GroupsTab.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/khppp/tests/SubgroupTest.java" afterPath="$PROJECT_DIR$/src/test/java/khppp/tests/SubgroupTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/app.log" afterPath="$PROJECT_DIR$/logs/app.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/khppp.iml" afterPath="$PROJECT_DIR$/khppp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testNG.xml" afterPath="$PROJECT_DIR$/testNG.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="khppp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,81 +39,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GroupJournalTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/GroupJournalTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1479">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GroupsTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/GroupsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="3451">
-              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="4356">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseCase.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/BaseCase.java">
+      <file leaf-file-name="GroupTasksPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/GroupTasksPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55921054" vertical-offset="34" max-vertical-offset="935">
-              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1460" max-vertical-offset="2024">
+              <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+              <folding>
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/LoginTest.java">
+      <file leaf-file-name="GroupJournalSteps.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/GroupJournalSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1207">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="792">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatusTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/StatusTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1275">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubgroupTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SubgroupTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/SubgroupTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1088">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.797048" vertical-offset="426" max-vertical-offset="1100">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java">
+      <file leaf-file-name="ExcelColumn.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/khppp/excel/utils/ExcelColumn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1717">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testNG.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testNG.xml">
+      <file leaf-file-name="Component.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/Component.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="590" max-vertical-offset="2090">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersTab.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/UsersTab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="1034">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupTasksSteps.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/GroupTasksSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="316" max-vertical-offset="858">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupTasksTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/GroupTasksTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="990">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="858">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -207,50 +159,26 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/khppp/tests/BaseCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/khppp/tests/GroupsTest.java" />
+        <option value="$PROJECT_DIR$/testNG.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/khppp/application/components/GroupJournalPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/khppp/application/components/GroupsTab.java" />
+        <option value="$PROJECT_DIR$/src/main/java/khppp/application/steps/GroupTasksSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/khppp/application/Features.java" />
+        <option value="$PROJECT_DIR$/src/main/java/khppp/excel/utils/ExcelColumn.java" />
+        <option value="$PROJECT_DIR$/src/test/java/khppp/tests/GroupTasksTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/khppp/application/components/GroupTasksPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/khppp/application/steps/GroupJournalSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/khppp/application/steps/GroupJournalPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/khppp/tests/SubgroupTest.java" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="khppp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="khppp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -263,7 +191,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -279,7 +207,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -353,8 +280,22 @@
               <option name="myItemId" value="khppp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,9 +316,146 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khppp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,42 +466,17 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dynamic.classpath" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\khppp-test-framework\khppp" />
-      <recent name="D:\pre-production-portal\KhPPPTest\khppp" />
-      <recent name="D:\pre-production-portal\KhPPPTest\khppp\src\test\java\khppp" />
-      <recent name="D:\pre-production-portal\KhPPPTest\khppp\src\main\resources" />
-      <recent name="D:\pre-production-portal\KhPPPTest\khppp\src\main\java\khppp" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\khppp-test-framework\khppp\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="khppp.application.sqlScript" />
-      <recent name="khppp.application.pages" />
-      <recent name="khppp.utility" />
-      <recent name="khppp.factory" />
-      <recent name="khppp.pages" />
-    </key>
-  </component>
-  <component name="RunManager" selected="TestNG.GroupsTest">
-    <configuration default="false" name="GroupsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="khppp.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="TestNG.GroupTasksTest">
+    <configuration default="false" name="GroupTasksTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="khppp" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="khppp.tests" />
-      <option name="MAIN_CLASS_NAME" value="khppp.tests.GroupsTest" />
+      <option name="MAIN_CLASS_NAME" value="khppp.tests.GroupTasksTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -435,7 +488,36 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GroupTasksTest.filtByNameCheck" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="khppp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="khppp.tests" />
+      <option name="MAIN_CLASS_NAME" value="khppp.tests.GroupTasksTest" />
+      <option name="METHOD_NAME" value="filtByNameCheck" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
@@ -473,49 +555,12 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -532,7 +577,6 @@
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -550,7 +594,7 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="moduleWithDependencies" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
@@ -560,7 +604,6 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -575,7 +618,6 @@
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -585,11 +627,11 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="moduleWithDependencies" />
       </option>
       <envs />
       <patterns />
@@ -615,14 +657,20 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.GroupsTest" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="TestNG.GroupTasksTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.GroupTasksTest.filtByNameCheck" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.GroupsTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.GroupTasksTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.GroupTasksTest.filtByNameCheck" />
       </list>
     </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -630,15 +678,35 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7c79f0af-476a-4d2d-b416-02af76e18867" name="Default" comment="" />
-      <created>1418750592564</created>
-      <updated>1418750592564</updated>
+      <changelist id="2c25d813-b94d-41ae-a8d0-ac3110fdc7f7" name="Default" comment="" />
+      <created>1418809973628</created>
+      <updated>1418809973628</updated>
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1918" height="1038" extended-state="1" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -650,21 +718,44 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3303671" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25672767" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2734289" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-    </layout>
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -683,193 +774,399 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/GroupJournalTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/StatusTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1479">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="1672">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="946">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/GroupsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="3451">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="4136">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/SubgroupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1408">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="2222">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1562">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/NavBarSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1056">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/StatusSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="924">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/UsersTabSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="924">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/GroupJournalTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1914">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/AddGroupTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="2222">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/AddSubgroupTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/AddUserTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1078">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/NavBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/PersonalJournalPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/AddGroupSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1430">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/AddSubgroupSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/AddUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1232">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/StatusSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/UsersTabSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/GroupJournalTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1276">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6030989" vertical-offset="0" max-vertical-offset="839">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/excel/utils/ExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2812872" vertical-offset="1229" max-vertical-offset="2068">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/StatusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13033448" vertical-offset="327" max-vertical-offset="1298">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1914">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/factory/PageFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17762399" vertical-offset="0" max-vertical-offset="867">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/GroupsTabSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="1056">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/core/CoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="853" max-vertical-offset="1716">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4180">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/BaseCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="935">
-          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="667" max-vertical-offset="1254">
+          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+          <folding>
+            <element signature="e#1919#1920#0" expanded="false" />
+            <element signature="e#1965#1966#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/NavBarSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="792">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/GroupJournalPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1207">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1936">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/StatusTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/GroupsTab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1275">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="924" max-vertical-offset="1936">
+          <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/SubgroupTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/UsersTab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1088">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="1034">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1717">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="858">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testNG.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/Features.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/GroupJournalTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/excel/utils/ExcelColumn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1479">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/GroupsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="3451">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1207">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/StatusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1275">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/SubgroupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1088">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1717">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/GroupJournalTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/StatusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/SubgroupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/UsersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1479">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/GroupsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="3196">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="4356">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/BaseCase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/Component.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55921054" vertical-offset="34" max-vertical-offset="935">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="590" max-vertical-offset="2090">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/GroupTasksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="990">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/GroupTasksSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="316" max-vertical-offset="858">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/components/GroupTasksPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1460" max-vertical-offset="2024">
+          <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+          <folding>
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/khppp/application/steps/GroupJournalSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="792">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/khppp/tests/SubgroupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.797048" vertical-offset="426" max-vertical-offset="1100">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding />
         </state>
       </provider>

@@ -12,4 +12,15 @@
             <class name="khppp.tests.GroupJournalTests"/>
         </classes>
     </test>
+
+
+
+<test name="order">
+    <classes>
+        <class name="khppp.tests.GroupsTest" />
+        <class name="khppp.tests.SubgroupTest" />
+    </classes>
+</test>
+
+
 </suite>

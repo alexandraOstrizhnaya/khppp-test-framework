@@ -21,6 +21,8 @@ public class GroupJournalPage extends Component {
         addSubgroupBtn.click();
     }
 
+    public void clickGroupTasksTab() {waitFor(xpath("//a[text()='GroupTasks']")).click();}
+
     public List<Subgroup> getAllSubgroups() {
         int numberOfRows = waitForAll(xpath("//*[@id='table_group_journal']//tr")).size();
         System.out.println("ROWS " + numberOfRows);

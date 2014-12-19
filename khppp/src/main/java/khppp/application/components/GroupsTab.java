@@ -29,6 +29,8 @@ public class GroupsTab extends Component {
         waitFor(xpath("//tbody/tr[1]/td[1]")).click();
     }
 
+    public void clickFirstNotEmptyGroup() {waitFor(xpath(".//*[@id='table_group_journal']/tbody/tr/td[2][text()!=0]")).click();}
+
     public WebElement getExportBtn() {
         return waitFor(xpath(".//*[@id='create_csv_button']"));
     }

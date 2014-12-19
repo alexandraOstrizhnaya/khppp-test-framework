@@ -26,11 +26,15 @@ public class GroupJournalSteps {
     public boolean isGroupDisplayed(){
         return groupJournalPage.isGroupNameDisplayed();
     }
-    //------------------Conflict--with--Iren-------------------------------------------
-    /*  public void clickAddSubgroup() {
-        groupJournalPage.getAddSubgroupBtn().click();
-    }*/
-//---------------------------------------------------------------------------------
+
+    public boolean isGroupJournalDisplayedI() {
+        return groupJournalPage.isCreatedSubgroupDisplayed("irenSubgroup");
+    }
+
+    public boolean isEmptyGroupJournalDisplayed() {
+        return groupJournalPage.isEmptySignDisplayed("irenEmptySubgroup");
+    }
+
     public boolean isAddSubgroupDisplayed() {
         return groupJournalPage.isBtnAddSubgroupDisplayed();
     }
