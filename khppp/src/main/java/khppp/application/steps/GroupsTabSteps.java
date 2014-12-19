@@ -1,6 +1,7 @@
 package khppp.application.steps;
 
 import khppp.application.components.AddGroupTab;
+import khppp.application.components.GroupJournalPage;
 import khppp.application.components.GroupsTab;
 import khppp.application.entitites.Group;
 import khppp.factory.PageFactory;
@@ -45,8 +46,14 @@ public class GroupsTabSteps {
         return groupsTab.getGroupsTableHead();
     }
 
+    public void goToGroupJournalPAge() {
+        groupsTab.clickFirstGroup();
+    }
+
+    public void goToNotEmptyGroup(){groupsTab.clickFirstNotEmptyGroup();}
     public AddGroupTab goToAddGroupTab() {
         groupsTab.getAddGroupBtn().click();
         return addGroupTab;
     }
+
 }

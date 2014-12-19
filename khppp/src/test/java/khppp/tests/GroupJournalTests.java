@@ -34,7 +34,7 @@ public class GroupJournalTests extends BaseCase {
     @Test(dataProvider = "testData")
     public void preConditions(List<String> data) {
         login(data);
-        groupJournalSteps.goToGroupJournalPAge();
+        groupsTabSteps.goToGroupJournalPAge();
     }
 
     @Features(GROUP_JOURNAL)

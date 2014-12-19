@@ -80,7 +80,7 @@ public class GroupsTest extends BaseCase {
     @Test(dataProvider = "testData", dependsOnMethods = "creationOfMentee")
     public void displayGroupWithMentee(List<String> data) {
         goToGroupsTab();
-        assertThat(groupsTabSteps.groupWithMenteeCreated(data.get(GROUP_NAME), "1"), is(true));
+        assertThat(groupsTabSteps.groupWithMenteeCreated(data.get(GROUP_NAME), "0"), is(true));
     }
 
     @Features(GROUP)

@@ -12,5 +12,6 @@ public interface Features {
     String USERS = "Users";
     String ROLES = "Roles";
     String GROUP_JOURNAL = "GroupJournal";
+    String ASSIGN_TASK = "Assign Task";
 
 }

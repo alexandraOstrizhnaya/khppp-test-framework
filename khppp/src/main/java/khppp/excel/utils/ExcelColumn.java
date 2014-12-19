@@ -18,6 +18,10 @@ public interface ExcelColumn {
     int GROUP_NAME = 5;
     int DEPARTMENT_NAME = 6;
     int GROUP_MENTEE = 4;
+    int MENTEE_NAME = 2;
+    int TASK_TYPE = 3;
+    int TASK_NAME = 4;
+    int ASSIGN_TASK_DIALOG = 5;
 }
 
 
