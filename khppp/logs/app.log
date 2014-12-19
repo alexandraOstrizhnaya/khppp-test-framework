@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 17:41:09.660 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution -> khppp
 17:41:29.913 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> preConditions
 17:41:31.097 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
@@ -23,3 +24,26 @@ Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true
 Session ID: 7105efcf-31f6-4677-8566-bf17a708a701
 
 17:42:11.343 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+=======
+17:58:39.637 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution -> khppp
+17:58:48.570 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> preConditions
+17:58:49.023 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+17:58:49.268 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (203189cb-08bd-4e35-9c1a-dddb7e6e0619)] -> id: exampleInputEmail1] value LabManager_LabManager
+17:58:49.268 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+17:58:49.924 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (203189cb-08bd-4e35-9c1a-dddb7e6e0619)] -> id: exampleInputPassword1] value LabManager111
+17:58:49.925 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+17:58:50.370 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+17:58:50.752 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='table_group_journal']/tbody/tr/td[2][text()!=0]
+17:58:51.177 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='table_body']/tr[1]/td[2]
+17:58:51.342 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='table_body']/tr[2]/td[1]/input
+17:58:51.486 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[@class='btn btn-success'][text()='Assign']
+17:58:51.927 [main] INFO  khppp.custom.listeners.CustomListener - preConditions --- SUCCESS
+
+17:58:52.179 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> correctlyAssignTaskToOneMentee
+17:58:52.187 [main] INFO  khppp.application.components.Component - Searching element By.xpath: //select[@name='taskType']
+17:58:52.284 [main] INFO  khppp.application.components.Component - Searching element By.xpath: //select[@name='departmentId']
+17:58:52.549 [main] INFO  khppp.application.components.Component - Searching element By.xpath: //select[@id='tasks']
+17:58:52.902 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@id='add_task_button']
+17:58:53.226 [main] INFO  khppp.custom.listeners.CustomListener - correctlyAssignTaskToOneMentee --- SUCCESS
+
+>>>>>>> c11c4788ad09dc5ef2d9982ea0c6145165606a37

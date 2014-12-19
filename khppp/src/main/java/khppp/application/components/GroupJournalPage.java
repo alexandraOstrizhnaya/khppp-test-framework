@@ -4,6 +4,7 @@ import khppp.application.entitites.Subgroup;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,6 +23,21 @@ public class GroupJournalPage extends Component {
     }
 
     public void clickGroupTasksTab() {waitFor(xpath("//a[text()='GroupTasks']")).click();}
+
+    public void clickFirstSubGroup() {
+        WebElement firstSubgroupFromList = waitFor(xpath(".//*[@id='table_body']/tr[1]/td[2]"));
+        firstSubgroupFromList.click();
+    }
+
+    public void selectFirstCheckboxInSubGroup() {
+        WebElement checkBox = waitFor(xpath(".//*[@id='table_body']/tr[2]/td[1]/input"));
+        checkBox.click();
+    }
+
+    public void clickAssignBtn() {
+        WebElement assignBtn = waitFor(xpath("//a[@class='btn btn-success'][text()='Assign']"));
+        assignBtn.click();
+    }
 
     public List<Subgroup> getAllSubgroups() {
         int numberOfRows = waitForAll(xpath("//*[@id='table_group_journal']//tr")).size();
