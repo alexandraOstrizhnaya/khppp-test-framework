@@ -1,0 +1,10 @@
+khppp\tests\GroupsTest.class
+khppp\tests\GroupTasksTest.class
+khppp\tests\UsersTest.class
+khppp\tests\LoginTest.class
+khppp\tests\GroupJournalTests.class
+khppp\tests\SubgroupTest.class
+khppp\tests\StatusTest.class
+khppp\core\CoreTest.class
+khppp\tests\BaseCase.class
+khppp\tests\AssignTasksTest.class

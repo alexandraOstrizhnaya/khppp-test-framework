@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1419242162141" stop="1419242181421">
+    <name>Custom suite</name>
+    <test-cases>
+        <test-case start="1419242170011" stop="1419242180900" status="passed">
+            <name>addGroupBtnName</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Groups"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

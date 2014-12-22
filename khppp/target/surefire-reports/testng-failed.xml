@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestRun]">
+  <test name="KhpppRun(failed)">
+    <classes>
+      <class name="khppp.tests.GroupJournalTests">
+        <methods>
+          <include name="logout"/>
+          <include name="configure"/>
+          <include name="validWithoutSubgroupTitle"/>
+          <include name="shutDown"/>
+          <include name="correctAddSubgroupBtnName"/>
+          <include name="correctAssignBtnName"/>
+          <include name="correctBackBtnName"/>
+          <include name="forVerifyGUI"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- khppp.tests.GroupJournalTests -->
+      <class name="khppp.tests.StatusTest">
+        <methods>
+          <include name="preConditionsMentor"/>
+          <include name="configure"/>
+          <include name="preConditionsMentee"/>
+          <include name="changeStatusByMentor"/>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+          <include name="changeStatusByMentee"/>
+        </methods>
+      </class> <!-- khppp.tests.StatusTest -->
+      <class name="khppp.tests.GroupsTest">
+        <methods>
+          <include name="addGroupWithoutName"/>
+          <include name="removeMenteeFromGroup"/>
+          <include name="configure"/>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+          <include name="logout"/>
+          <include name="addGroupWithoutDep"/>
+          <include name="groupNameFieldFromSpecialSymbol"/>
+          <include name="addGroupBtnName"/>
+          <include name="addEmptyGroup"/>
+          <include name="createGroupWithMentee"/>
+          <include name="menteeInAvailableMenteesField"/>
+          <include name="displayGroupWithMentee"/>
+          <include name="groupNameFieldOneSymbol"/>
+          <include name="creationOfMentee"/>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- khppp.tests.GroupsTest -->
+      <class name="khppp.tests.UsersTest">
+        <methods>
+          <include name="configure"/>
+          <include name="setUp"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- khppp.tests.UsersTest -->
+      <class name="khppp.tests.SubgroupTest">
+        <methods>
+          <include name="configure"/>
+          <include name="preConditions"/>
+          <include name="addNewEmptySubgroup"/>
+          <include name="logout"/>
+          <include name="shutDown"/>
+          <include name="addNewSubgroup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- khppp.tests.SubgroupTest -->
+      <class name="khppp.tests.LoginTest">
+        <methods>
+          <include name="configure"/>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- khppp.tests.LoginTest -->
+    </classes>
+  </test> <!-- KhpppRun(failed) -->
+</suite> <!-- Failed suite [TestRun] -->
