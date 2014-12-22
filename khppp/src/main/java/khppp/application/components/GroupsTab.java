@@ -80,4 +80,9 @@ public class GroupsTab extends Component {
         }
         return flag;
     }
+
+    public boolean isGroupTabNameDisplayed() {
+        WebElement tabName = waitFor(xpath("//div[@class='page_header_text']"));
+        return tabName.isDisplayed() && "Groups".equals(tabName.getText());
+    }
 }

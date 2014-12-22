@@ -56,4 +56,8 @@ public class GroupsTabSteps {
         return addGroupTab;
     }
 
+    public boolean isGroupTabDisplayed() {
+        return groupsTab.isGroupTabNameDisplayed();
+    }
+
 }
