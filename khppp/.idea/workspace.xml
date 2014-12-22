@@ -2,57 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c79f0af-476a-4d2d-b416-02af76e18867" name="Default" comment="Merge branch 'dev' of https://github.com/Khppp/khppp-test-framework into dev&#10;&#10;">
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\allure-results\0482b798-8459-483d-80ab-a25b91fa2a26-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\allure-results\117fb5fd-ad57-4685-bc2b-6f788c751524-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\allure-results\3ecdfc3b-d0d9-4d92-a2b8-dfdd9b761ac1-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\allure-results\411e9899-6a21-46fb-8dcb-bcb0abcf52ae-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\allure-results\99b0246c-8c2d-42ad-b593-70e45048d44c-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\allure-results\d46beed1-cbf3-4d89-8214-fd0b07b918ce-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\TEST-TestSuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\TestRun\KhpppRun.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\TestRun\KhpppRun.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\TestRun\testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\TestSuite.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\bullet_point.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\collapseall.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\emailable-report.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\failed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\junitreports\TEST-khppp.tests.GroupJournalTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\junitreports\TEST-khppp.tests.GroupsTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\junitreports\TEST-khppp.tests.LoginTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\junitreports\TEST-khppp.tests.StatusTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\junitreports\TEST-khppp.tests.SubgroupTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\junitreports\TEST-khppp.tests.UsersTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\navigator-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\KhpppRun.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\classes.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\groups.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\main.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\methods.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\old\TestRun\toc.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\old\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\passed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\skipped.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\testng-reports.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\testng-reports.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\testng-results.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\forFix\khppp-test-framework\khppp\target\surefire-reports\testng.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/khppp/tests/AssignTasksTest.class" afterPath="$PROJECT_DIR$/target/test-classes/khppp/tests/AssignTasksTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/khppp/tests/BaseCase.class" afterPath="$PROJECT_DIR$/target/test-classes/khppp/tests/BaseCase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/khppp/tests/StatusTest.class" afterPath="$PROJECT_DIR$/target/test-classes/khppp/tests/StatusTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testData.xlsx" afterPath="$PROJECT_DIR$/testData.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/app.log" afterPath="$PROJECT_DIR$/logs/app.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testNG.xml" afterPath="$PROJECT_DIR$/testNG.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -165,8 +114,8 @@
       <file leaf-file-name="testNG.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3480315" vertical-offset="0" max-vertical-offset="635">
-              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.45511812" vertical-offset="0" max-vertical-offset="635">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -1337,12 +1286,12 @@
       <workItem from="1419241196784" duration="3806000" />
       <workItem from="1419245664787" duration="560000" />
       <workItem from="1419247732576" duration="2244000" />
-      <workItem from="1419250663610" duration="2335000" />
+      <workItem from="1419250663610" duration="2650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42237000" />
+    <option name="totallyTimeSpent" value="42552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1869,8 +1818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3480315" vertical-offset="0" max-vertical-offset="635">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.45511812" vertical-offset="0" max-vertical-offset="635">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding />
         </state>
       </provider>
