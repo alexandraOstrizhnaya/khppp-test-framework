@@ -2,6 +2,7 @@ package khppp.tests;
 
 import khppp.application.steps.*;
 import khppp.excel.utils.ExcelColumn;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Features;
@@ -59,5 +60,10 @@ public class AssignTasksTest extends BaseCase {
     @Test(dataProvider = "testData", dependsOnMethods = "preConditions")
     public void correctlyAssignTaskToOneMentee(List<String> data) {
         assignTasksSteps.popUpWindowAssignTaskAppears(data.get(TASK_TYPE), data.get(DEPARTMENT_NAME), data.get(TASK_NAME), data.get(ASSIGN_TASK_DIALOG));
+    }
+
+    @AfterClass
+    public void logout() {
+        navBarSteps.logout();
     }
 }

@@ -71,4 +71,9 @@ public abstract class BaseCase {
         goToGroupsTab();
         groupsTabSteps.goToAddGroupTab();
     }
+
+    @AfterClass
+    public void logout() {
+        navBarSteps.logout();
+    }
 }

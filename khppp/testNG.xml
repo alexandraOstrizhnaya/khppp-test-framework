@@ -10,6 +10,8 @@
             <class name="khppp.tests.SubgroupTest" />
             <class name="khppp.tests.StatusTest" />
             <class name="khppp.tests.GroupJournalTests"/>
+            <class name="khppp.tests.AssignTasksTest"/>
+            <class name="khppp.tests.GroupTasksTest"/>
         </classes>
     </test>
 

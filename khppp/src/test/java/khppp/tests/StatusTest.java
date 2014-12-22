@@ -1,6 +1,7 @@
 package khppp.tests;
 
 import khppp.application.steps.*;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -65,6 +66,11 @@ public class StatusTest extends BaseCase {
         statusSteps.clickResolvedBtn();
         assertThat(statusSteps.statusChanged("Resolved"), is(true));
 
+    }
+
+    @AfterClass
+    public void logout() {
+        navBarSteps.logout();
     }
 
 }
