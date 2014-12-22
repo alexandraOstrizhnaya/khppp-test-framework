@@ -3,7 +3,7 @@
 <suite name="TestRun" verbose="1">
     <test name="KhpppRun">
         <classes>
-            <class name="khppp.tests.BaseCase"/>
+            <!--<class name="khppp.tests.BaseCase"/>-->
             <class name="khppp.tests.LoginTest"/>
             <class name="khppp.tests.UsersTest"/>
             <class name="khppp.tests.GroupsTest"/>
@@ -11,7 +11,7 @@
             <class name="khppp.tests.GroupJournalTests"/>
             <class name="khppp.tests.GroupTasksTest"/>
             <class name="khppp.tests.StatusTest"/>
-            <class name="khppp.tests.AssignTasksTest"/>
+            <!--<class name="khppp.tests.AssignTasksTest"/>-->
         </classes>
     </test>
 

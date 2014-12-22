@@ -1,79 +1,36 @@
-13:29:11.171 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution -> khppp
-13:30:01.486 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
-13:30:01.487 [main] INFO  khppp.custom.listeners.CustomListener - preConditions --- SKIPPED
-13:30:01.574 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> addGroupBtnName
-13:30:01.580 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-13:30:30.847 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
-13:30:31.352 [main] INFO  khppp.custom.listeners.CustomListener - addGroupBtnName --- SUCCESS
+15:02:23.019 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution -> khppp
+15:02:32.564 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> preConditions
+15:02:32.856 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputEmail1
+15:02:33.153 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (5be9165d-cfdd-43bb-841a-f1150aa95825)] -> id: exampleInputEmail1] value LabManager_LabManager
+15:02:33.153 [main] INFO  khppp.application.components.Component - Wait for By.id: exampleInputPassword1
+15:02:33.768 [main] INFO  khppp.application.components.Component - Enter into [[RemoteWebDriver: firefox on WINDOWS (5be9165d-cfdd-43bb-841a-f1150aa95825)] -> id: exampleInputPassword1] value LabManager111
+15:02:33.768 [main] INFO  khppp.application.components.Component - Wait for By.id: login_button
+15:02:34.326 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+15:02:34.735 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='table_group_journal']/tbody/tr/td[2][text()!=0]
+15:02:35.248 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='table_body']/tr[1]/td[2]
+15:02:35.348 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='table_body']/tr[2]/td[1]/input
+15:02:35.476 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[@class='btn btn-success'][text()='Assign']
+15:02:35.775 [main] INFO  khppp.custom.listeners.CustomListener - preConditions --- SUCCESS
 
-13:30:31.517 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> exportBtnName
-13:30:31.518 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-13:30:32.152 [main] INFO  khppp.application.components.Component - Wait for By.xpath: .//*[@id='create_csv_button']
-13:30:32.233 [main] INFO  khppp.custom.listeners.CustomListener - exportBtnName --- SUCCESS
+15:02:36.128 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> allElementsAreDisplayed
+15:02:36.130 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='page_header_text']
+15:02:36.242 [main] ERROR khppp.custom.listeners.CustomListener - allElementsAreDisplayed --- FAILED
+15:02:36.242 [main] ERROR khppp.custom.listeners.CustomListener - java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
 
-13:30:32.237 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> validGroupsTableHead
-13:30:32.238 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-13:30:32.853 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //tr/th[text()='Group name']
-13:30:32.905 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //tr/th[text()='Number of students']
-13:30:32.946 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //tr/th[text()='Department']
-13:30:32.982 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //tr/th[text()='Date of creation']
-13:30:33.018 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //tr/th[text()='Lab Manager']
-13:30:33.048 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //tr/th[text()='Status']
-13:30:33.087 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //tr/th[text()='Edit Group']
-13:30:33.122 [main] INFO  khppp.custom.listeners.CustomListener - validGroupsTableHead --- SUCCESS
+15:02:36.348 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> correctlyAssignTaskToOneMentee
+15:02:36.349 [main] ERROR khppp.custom.listeners.CustomListener - correctlyAssignTaskToOneMentee --- FAILED
+15:02:36.350 [main] ERROR khppp.custom.listeners.CustomListener - java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
 
-13:30:33.125 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> validTabName
-13:30:33.126 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-13:30:33.602 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='page_header_text']
-13:30:33.697 [main] INFO  khppp.custom.listeners.CustomListener - validTabName --- SUCCESS
+15:02:36.469 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> menteesAreDisplayedInSelectedMenteesField
+15:02:36.471 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[2]/div/div/form/div[1]/div/div[2]/div/ul/li/ul/li
+15:03:08.891 [main] ERROR khppp.custom.listeners.CustomListener - menteesAreDisplayedInSelectedMenteesField --- FAILED
+15:03:08.893 [main] ERROR khppp.custom.listeners.CustomListener - org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //div[2]/div/div/form/div[1]/div/div[2]/div/ul/li/ul/li
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'EPUAKHAW0662', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=5be9165d-cfdd-43bb-841a-f1150aa95825, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5be9165d-cfdd-43bb-841a-f1150aa95825
 
-13:30:33.836 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
-13:30:33.836 [main] INFO  khppp.custom.listeners.CustomListener - addEmptyGroup --- SKIPPED
-13:30:33.926 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
-13:30:33.927 [main] INFO  khppp.custom.listeners.CustomListener - addGroupWithoutDep --- SKIPPED
-13:30:34.014 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
-13:30:34.015 [main] INFO  khppp.custom.listeners.CustomListener - addGroupWithoutName --- SKIPPED
-13:30:34.098 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
-13:30:34.098 [main] INFO  khppp.custom.listeners.CustomListener - groupNameFieldFromSpecialSymbol --- SKIPPED
-13:30:34.249 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
-13:30:34.250 [main] INFO  khppp.custom.listeners.CustomListener - groupNameFieldOneSymbol --- SKIPPED
-13:30:34.253 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> validAddGroupTabName
-13:30:34.256 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-13:30:34.708 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-13:30:35.178 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
-13:30:35.598 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='page_header_text']
-13:30:35.669 [main] INFO  khppp.custom.listeners.CustomListener - validAddGroupTabName --- SUCCESS
-
-13:30:35.671 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> verifyLabels
-13:30:35.672 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-13:30:36.169 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-13:30:36.715 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
-13:30:36.983 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='col-md-7 label_container float_left']/label[text()='Group name:']
-13:30:37.019 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='col-md-7 label_container float_left']/label[text()='Department:']
-13:30:37.053 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='col-md-7 label_container float_left']/label[text()='Lab manager:']
-13:30:37.084 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='col-md-4']/label[text()='Available mentees']
-13:30:37.114 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='col-md-4']/label[text()='Chosen Mentees']
-13:30:37.144 [main] INFO  khppp.custom.listeners.CustomListener - verifyLabels --- SUCCESS
-
-13:30:37.146 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> verifyGroupNameField
-13:30:37.147 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-13:30:37.728 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-13:30:38.224 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
-13:30:38.502 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //input[@name='groupName']
-13:30:38.552 [main] INFO  khppp.custom.listeners.CustomListener - verifyGroupNameField --- SUCCESS
-
-13:30:38.554 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> verifyButtonsDisplayed
-13:30:38.555 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-13:30:39.142 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
-13:30:39.572 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //button[@class='btn btn-success']
-13:30:39.853 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='btn btn-success btn-sm add_user_btn add_option page_changer']
-13:30:39.911 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //div[@class='btn btn-warning btn-sm remove_user_btn remove_option page_changer']
-13:30:39.955 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //*[@id='create-group-btn']
-13:30:40.002 [main] INFO  khppp.custom.listeners.CustomListener - verifyButtonsDisplayed --- SUCCESS
-
-13:30:40.008 [main] INFO  khppp.custom.listeners.CustomListener - creationOfMentee --- SKIPPED
-13:30:40.009 [main] INFO  khppp.custom.listeners.CustomListener - displayGroupWithMentee --- SKIPPED
-13:30:40.010 [main] INFO  khppp.custom.listeners.CustomListener - menteeInAvailableMenteesField --- SKIPPED
-13:30:40.012 [main] INFO  khppp.custom.listeners.CustomListener - createGroupWithMentee --- SKIPPED
-13:30:40.013 [main] INFO  khppp.custom.listeners.CustomListener - removeMenteeFromGroup --- SKIPPED
-13:30:40.016 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+15:03:08.899 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
