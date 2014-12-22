@@ -12,7 +12,7 @@ import java.util.Queue;
 
 public class Test implements Scripts {
     public static void main(String[] args) {
-        SqlRunner sqlRunner = new SqlRunner();
+//        SqlRunner sqlRunner = new SqlRunner();
 //        sqlRunner.runSQLScript(initialScriptFilePath);
 //        sqlRunner.runSQLScript(dumpDBFilePath);
 //        sqlRunner.runSQLScript(createAllUserRoles);

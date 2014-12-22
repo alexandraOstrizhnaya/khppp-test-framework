@@ -11,7 +11,7 @@ import java.sql.Connection;
 public class SqlRunner implements Scripts {
 
     public static void runSQLScript(String scriptPath) {
-        
+
         Connection connection = null;
         try {
             connection = ConnectorDB.getConnection();

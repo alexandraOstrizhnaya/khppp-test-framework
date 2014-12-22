@@ -18,7 +18,6 @@ public class AddGroupTab extends Component {
         super(driver);
     }
 
-
     public void enterGroupName(String groupName) {
         WebElement gName = waitFor(xpath("//input[@class='form-control page_changer']"));
         typeInto(gName, groupName);
@@ -31,19 +30,17 @@ public class AddGroupTab extends Component {
 
     public void selectMentees(String name) {
         Select sel = new Select(find(By.xpath("//select[@name='allMentees']")));
-        sel.selectByIndex(0);
+        sel.selectByVisibleText(name);
     }
 
     public void chosenMentees(String name) {
         Select sel = new Select(find(By.xpath("//select[@name='allMentees']")));
-        sel.deselectByIndex(0);
+        sel.selectByVisibleText(name);
     }
 
     public String getLabManName() {
-        WebElement labManName = waitFor(xpath("//p[@class='static_form_field']"));
-        return labManName.getText();
+        return waitFor(xpath("//p[@class='static_form_field']")).getText();
     }
-
 
     public WebElement getAddBtn() {
         return waitFor(xpath("//div[@class='btn btn-success btn-sm add_user_btn add_option page_changer']"));
@@ -55,6 +52,45 @@ public class AddGroupTab extends Component {
 
     public WebElement getRemoveBtn() {
         return waitFor(xpath("//div[@class='btn btn-warning btn-sm remove_user_btn remove_option page_changer']"));
+    }
+
+    public boolean addGroupTabNameDisplayed() {
+        WebElement tabName = waitFor(xpath("//div[@class='page_header_text']"));
+        return tabName.isDisplayed() && "Add Group".equals(tabName.getText());
+    }
+
+    public boolean labelsDisplayedCorrectly() {
+        ArrayList<WebElement> labels = new ArrayList<>();
+        labels.add(waitFor(xpath("//div[@class='col-md-7 label_container float_left']/label[text()='Group name:']")));
+        labels.add(waitFor(xpath("//div[@class='col-md-7 label_container float_left']/label[text()='Department:']")));
+        labels.add(waitFor(xpath("//div[@class='col-md-7 label_container float_left']/label[text()='Lab manager:']")));
+        labels.add(waitFor(xpath("//div[@class='col-md-4']/label[text()='Available mentees']")));
+        labels.add(waitFor(xpath("//div[@class='col-md-4']/label[text()='Chosen Mentees']")));
+        return labels.size() == 5;
+    }
+
+    public boolean chosenMenteeDisplayed() {
+        return waitFor(By.xpath("//select[@name='choosenMentees']")).isDisplayed();
+    }
+
+    public boolean createdMenteeDisplayed() {
+        return waitFor(By.xpath("//select[@name='allMentees']")).isDisplayed();
+    }
+
+    public boolean groupNameFieldDisplayed() {
+        return waitFor(xpath("//input[@name='groupName']")).isDisplayed();
+    }
+
+    public boolean errorEmptyGroupNameDisplayed() {
+        return waitFor(xpath("//div[text()='Group name can not be empty']")).isDisplayed();
+    }
+
+    public boolean errorNotSelectedDepDisplayed() {
+        return waitFor(xpath("//div[text()='Department must be specified']")).isDisplayed();
+    }
+
+    public boolean errorOneSymbolInGroupNameDisplayed() {
+        return waitFor(xpath("//div[text() = 'Name must start with a letter and contains from 2 to 40 symbols']")).isDisplayed();
     }
 
     public boolean isAddGroupTabNameDisplayed() {
@@ -72,34 +108,13 @@ public class AddGroupTab extends Component {
         return labels.size() == 5;
     }
 
-    public boolean isChosenMenteeDisplayed(){
+    public boolean isChosenMenteeDisplayed() {
         WebElement chosenMentees = waitFor(By.xpath("//select[@name='choosenMentees']"));
         return chosenMentees.isDisplayed();
     }
 
-    public boolean isCreatedMenteeDisplayed(){
+    public boolean isCreatedMenteeDisplayed() {
         WebElement createdMentees = waitFor(By.xpath("//select[@name='allMentees']"));
         return createdMentees.isDisplayed();
-    }
-
-    public boolean isGroupNameFieldDisplayed() {
-        WebElement grNameField = waitFor(xpath("//input[@name='groupName']"));
-        return grNameField.isDisplayed();
-    }
-
-
-    public boolean ErrorEmptyGroupNameDisplayed() {
-        WebElement error = waitFor(xpath("//div[text()='Group name can not be empty']"));
-        return error.isDisplayed();
-    }
-
-    public boolean ErrorNotSelectedDepDisplayed() {
-        WebElement error = waitFor(xpath("//div[text()='Department must be specified']"));
-        return error.isDisplayed();
-    }
-
-    public boolean ErrorOneSymbolInGroupNameDisplayed() {
-        WebElement error = waitFor(xpath("//div[text() = 'Name must start with a letter and contains from 2 to 40 symbols']"));
-        return error.isDisplayed();
     }
 }

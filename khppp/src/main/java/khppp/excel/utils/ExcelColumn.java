@@ -19,6 +19,29 @@ public interface ExcelColumn {
     int DEPARTMENT_NAME = 6;
     int GROUP_MENTEE = 4;
     int SUBGROUP_NAME = 2;
+    int MENTEE_NAME = 2;
+    int TASK_TYPE = 3;
+    int TASK_NAME = 4;
+    int ASSIGN_TASK_DIALOG = 5;
+
+//    int USER_NAME = 0;
+//    int USER_PASS = 1;
+//    int EXPECTED = 2;
+//
+//    int NEW_USER_NAME = 2;
+//    int NEW_USER_SURNAME = 3;
+//    int NEW_USER_ROLE = 4;
+//    int NEW_USER_EMAIL = 4;
+//    int EXPECTED_ERROR = 4;
+//    int EXPECTED_ROLE = 5;
+//    int GROUP_NAME = 5;
+//    int DEPARTMENT_NAME = 6;
+//    int GROUP_MENTEE = 4;
+//    int SUBGROUP_NAME = 2;
+//    int MENTEE_NAME = 2;
+//    int TASK_TYPE = 3;
+//    int TASK_NAME = 4;
+//    int ASSIGN_TASK_DIALOG = 5;
 }
 
 

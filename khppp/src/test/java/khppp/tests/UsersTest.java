@@ -57,10 +57,10 @@ public class UsersTest extends BaseCase {
     @Features(USERS)
     @Test(dataProvider = "testData")
     public void adminAddNewUser(List<String> data) {
-//        login(data);
+        login(data);
         navBarSteps.navigateTo("Users");
         addUserSteps.addUserDifferentRoles(data.get(NEW_USER_NAME), data.get(NEW_USER_SURNAME), data.get(NEW_USER_ROLE));
-        navBarSteps.navigateTo("Users");
+//        navBarSteps.navigateTo("Users");
         assertThat(usersTabSteps.userDisplayed(data.get(NEW_USER_SURNAME)), is(true));
         navBarSteps.logout();
     }

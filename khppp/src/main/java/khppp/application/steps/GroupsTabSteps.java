@@ -1,6 +1,7 @@
 package khppp.application.steps;
 
 import khppp.application.components.AddGroupTab;
+import khppp.application.components.GroupJournalPage;
 import khppp.application.components.GroupsTab;
 import khppp.application.entitites.Group;
 import khppp.factory.PageFactory;
@@ -21,32 +22,38 @@ public class GroupsTabSteps {
         this.addGroupTab = factory.createPage(AddGroupTab.class);
     }
 
-    public boolean isGroupTabDisplayed() {
-        return groupsTab.isGroupTabNameDisplayed();
+    public boolean groupTabDisplayed() {
+        return groupsTab.groupTabNameDisplayed();
     }
 
-    public boolean isBtnAddGroupDisplayed() {
-        return groupsTab.isBtnAddGroupDisplayed();
+    public boolean btnAddGroupDisplayed() {
+        return groupsTab.btnAddGroupDisplayed();
     }
 
-    public boolean isBtnExportDisplayed() {
-        return groupsTab.isBtnExportDisplayed();
+    public boolean btnExportDisplayed() {
+        return groupsTab.btnExportDisplayed();
     }
 
     public boolean emptyGroupCreated(String groupname) {
-        return groupsTab.isCreateGroupDisplayed(groupname);
+        return groupsTab.createGroupDisplayed(groupname);
     }
 
-    public boolean groupWithMenteeCreated(String groupName, String numOfMentees) {
-        return groupsTab.isGroupWithMenteesDisplayed(groupName, numOfMentees);
+    public boolean groupWithMenteeCreated(String groupName, int numOfMentees) {
+        return groupsTab.groupWithMenteesDisplayed(groupName, numOfMentees);
     }
 
     public boolean groupsTabTableHeadDisplayed() {
         return groupsTab.getGroupsTableHead();
     }
 
+    public void goToGroupJournalPAge() {
+        groupsTab.clickFirstGroup();
+    }
+
+    public void goToNotEmptyGroup(){groupsTab.clickFirstNotEmptyGroup();}
     public AddGroupTab goToAddGroupTab() {
         groupsTab.getAddGroupBtn().click();
         return addGroupTab;
     }
+
 }

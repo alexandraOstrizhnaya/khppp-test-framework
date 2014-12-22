@@ -1,4 +1,99 @@
-18:08:10.598 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution -> khppp
-18:08:19.448 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
-18:08:19.448 [main] INFO  khppp.custom.listeners.CustomListener - addEmptyGroup --- SKIPPED
-18:08:19.469 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a
+12:01:47.533 [main] INFO  khppp.custom.listeners.CustomListener - Start Of Execution -> khppp
+12:01:56.664 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
+12:01:56.665 [main] INFO  khppp.custom.listeners.CustomListener - preConditions --- SKIPPED
+12:01:56.716 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> addGroupBtnName
+12:01:56.734 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:02:29.351 [main] ERROR khppp.custom.listeners.CustomListener - addGroupBtnName --- FAILED
+12:02:29.354 [main] ERROR khppp.custom.listeners.CustomListener - org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //a[contains(.,'Groups')]
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'EPUAKHAW0662', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=18241eb0-2af2-400e-b692-5e996282595d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 18241eb0-2af2-400e-b692-5e996282595d
+
+12:02:29.360 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> exportBtnName
+12:02:29.361 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:03:01.718 [main] ERROR khppp.custom.listeners.CustomListener - exportBtnName --- FAILED
+12:03:01.719 [main] ERROR khppp.custom.listeners.CustomListener - org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //a[contains(.,'Groups')]
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'EPUAKHAW0662', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=18241eb0-2af2-400e-b692-5e996282595d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 18241eb0-2af2-400e-b692-5e996282595d
+
+12:03:01.729 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> validGroupsTableHead
+12:03:01.730 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:03:34.268 [main] ERROR khppp.custom.listeners.CustomListener - validGroupsTableHead --- FAILED
+12:03:34.270 [main] ERROR khppp.custom.listeners.CustomListener - org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //a[contains(.,'Groups')]
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'EPUAKHAW0662', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=18241eb0-2af2-400e-b692-5e996282595d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 18241eb0-2af2-400e-b692-5e996282595d
+
+12:03:34.275 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> validTabName
+12:03:34.276 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:04:06.672 [main] ERROR khppp.custom.listeners.CustomListener - validTabName --- FAILED
+12:04:06.673 [main] ERROR khppp.custom.listeners.CustomListener - org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //a[contains(.,'Groups')]
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'EPUAKHAW0662', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=18241eb0-2af2-400e-b692-5e996282595d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 18241eb0-2af2-400e-b692-5e996282595d
+
+12:04:06.783 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
+12:04:06.783 [main] INFO  khppp.custom.listeners.CustomListener - addEmptyGroup --- SKIPPED
+12:04:06.869 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
+12:04:06.869 [main] INFO  khppp.custom.listeners.CustomListener - addGroupWithoutDep --- SKIPPED
+12:04:07.013 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
+12:04:07.013 [main] INFO  khppp.custom.listeners.CustomListener - addGroupWithoutName --- SKIPPED
+12:04:07.110 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
+12:04:07.111 [main] INFO  khppp.custom.listeners.CustomListener - groupNameFieldFromSpecialSymbol --- SKIPPED
+12:04:07.177 [main] ERROR khppp.excel.utils.ExcelReader - Exception happens java.lang.NullPointerException
+12:04:07.178 [main] INFO  khppp.custom.listeners.CustomListener - groupNameFieldOneSymbol --- SKIPPED
+12:04:07.181 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> validAddGroupTabName
+12:04:07.187 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:04:39.789 [main] ERROR khppp.custom.listeners.CustomListener - validAddGroupTabName --- FAILED
+12:04:39.789 [main] ERROR khppp.custom.listeners.CustomListener - org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //a[contains(.,'Groups')]
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'EPUAKHAW0662', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=18241eb0-2af2-400e-b692-5e996282595d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 18241eb0-2af2-400e-b692-5e996282595d
+
+12:04:39.794 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> verifyLabels
+12:04:39.795 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:05:12.299 [main] ERROR khppp.custom.listeners.CustomListener - verifyLabels --- FAILED
+12:05:12.300 [main] ERROR khppp.custom.listeners.CustomListener - org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //a[contains(.,'Groups')]
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'EPUAKHAW0662', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=18241eb0-2af2-400e-b692-5e996282595d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 18241eb0-2af2-400e-b692-5e996282595d
+
+12:05:12.304 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> verifyGroupNameField
+12:05:12.306 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:05:44.849 [main] ERROR khppp.custom.listeners.CustomListener - verifyGroupNameField --- FAILED
+12:05:44.850 [main] ERROR khppp.custom.listeners.CustomListener - org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //a[contains(.,'Groups')]
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'EPUAKHAW0662', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=18241eb0-2af2-400e-b692-5e996282595d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 18241eb0-2af2-400e-b692-5e996282595d
+
+12:05:44.862 [main] INFO  khppp.custom.listeners.CustomListener - Test Started -> verifyButtonsDisplayed
+12:05:44.863 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //a[contains(.,'Groups')]
+12:06:17.340 [main] ERROR khppp.custom.listeners.CustomListener - verifyButtonsDisplayed --- FAILED
+12:06:17.342 [main] ERROR khppp.custom.listeners.CustomListener - org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //a[contains(.,'Groups')]
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'EPUAKHAW0662', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=18241eb0-2af2-400e-b692-5e996282595d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 18241eb0-2af2-400e-b692-5e996282595d
+
+12:06:17.352 [main] INFO  khppp.custom.listeners.CustomListener - creationOfMentee --- SKIPPED
+12:06:17.353 [main] INFO  khppp.custom.listeners.CustomListener - displayGroupWithMentee --- SKIPPED
+12:06:17.354 [main] INFO  khppp.custom.listeners.CustomListener - menteeInAvailableMenteesField --- SKIPPED
+12:06:17.356 [main] INFO  khppp.custom.listeners.CustomListener - createGroupWithMentee --- SKIPPED
+12:06:17.357 [main] INFO  khppp.custom.listeners.CustomListener - removeMenteeFromGroup --- SKIPPED
+12:06:17.358 [main] INFO  khppp.application.components.Component - Wait for By.xpath: //ul[@class='nav navbar-nav navbar-right']/li/a

@@ -1,5 +1,6 @@
 package khppp.application.steps;
 
+import khppp.application.components.AssignTasksTab;
 import khppp.application.components.GroupJournalPage;
 import khppp.application.components.GroupsTab;
 import khppp.factory.PageFactory;
@@ -10,37 +11,68 @@ import khppp.factory.PageFactory;
 public class GroupJournalSteps {
     GroupJournalPage groupJournalPage;
     GroupsTab groupsTab;
+    AssignTasksTab assignTasksTab;
 
     public GroupJournalSteps(PageFactory factory) {
         this.groupJournalPage = factory.createPage(GroupJournalPage.class);
         this.groupsTab = factory.createPage(GroupsTab.class);
+        this.assignTasksTab = factory.createPage(AssignTasksTab.class);
     }
 
-    public void goToGroupJournalPAge(){
-        groupsTab.clickFirstGroup();
+
+    //public boolean isGroupJournalDisplayed() {
+    //    return groupJournalPage.isCreatedSubgroupDisplayed("irenSubgroup");
+    //}
+
+    public boolean isEmptyGroupJournalDisplayed() {
+        return groupJournalPage.isEmptySignDisplayed("irenEmptySubgroup");
     }
+
 
     public boolean isGroupJournalDisplayed() {
         return groupJournalPage.isPageNameDisplayed();
     }
-    public boolean isGroupDisplayed(){
+
+    public boolean isGroupDisplayed() {
         return groupJournalPage.isGroupNameDisplayed();
     }
-    //------------------Conflict--with--Iren-------------------------------------------
-    /*  public void clickAddSubgroup() {
-        groupJournalPage.getAddSubgroupBtn().click();
-    }*/
-//---------------------------------------------------------------------------------
+
+    public boolean isGroupJournalDisplayedI() {
+        return groupJournalPage.isCreatedSubgroupDisplayed("irenSubgroup");
+    }
+
     public boolean isAddSubgroupDisplayed() {
         return groupJournalPage.isBtnAddSubgroupDisplayed();
     }
+
     public boolean isAssignDisplayed() {
         return groupJournalPage.isBtnAssignDisplayed();
     }
+
     public boolean isExportDisplayed() {
         return groupJournalPage.isBtnExportDisplayed();
     }
+
     public boolean isBackDisplayed() {
         return groupJournalPage.isBtnBackDisplayed();
     }
+
+    public void goToAssignTaskPage() {
+        groupJournalPage.clickAssignBtn();
+    }
+
+    public boolean groupJournalTableHeadDisplayed() {
+        return groupJournalPage.getGroupJournalTableHead();
+    }
+
+    public boolean isTitleDisplayed(){
+        return groupJournalPage.checkWithoutSubGrDisplayed();
+    }
+    public void clickWithoutSubGrTitle(){
+        groupJournalPage.clickWithoutSubGr();
+    }
+    public void clickBackButton(){
+        groupJournalPage.getBackButton().click();
+    }
+
 }

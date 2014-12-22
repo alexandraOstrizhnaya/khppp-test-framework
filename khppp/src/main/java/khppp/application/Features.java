@@ -12,5 +12,8 @@ public interface Features {
     String USERS = "Users";
     String ROLES = "Roles";
     String GROUP_JOURNAL = "GroupJournal";
+    String GROUP_TASKS_PAGE = "GroupTasks page";
+    String FILTER = "Filter";
+    String ASSIGN_TASK = "Assign Task";
 
 }

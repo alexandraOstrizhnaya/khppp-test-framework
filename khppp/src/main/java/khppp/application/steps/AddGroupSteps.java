@@ -46,39 +46,54 @@ public class AddGroupSteps {
         addGroupTab.getSaveBtn().click();
     }
 
+    public boolean nameOfChosenMenteeDisplayed() {
+        return addGroupTab.chosenMenteeDisplayed();
+    }
+
+    public boolean nameOfCreatedMenteeDisplayed() {
+        return addGroupTab.createdMenteeDisplayed();
+    }
+
+    public boolean addGroupTabDisplayed() {
+        return addGroupTab.addGroupTabNameDisplayed();
+    }
+
+    public boolean groupNameFieldDisplayed() {
+        return addGroupTab.groupNameFieldDisplayed();
+    }
+
+    public boolean errorEmptyGroupNameDisplayed() {
+        return addGroupTab.errorEmptyGroupNameDisplayed();
+    }
+
+    public boolean errorNotSelectedDepDisplayed() {
+        return addGroupTab.errorNotSelectedDepDisplayed();
+    }
+
+    public boolean allLabelsAreCorrect() {
+        return addGroupTab.labelsDisplayedCorrectly();
+    }
+
+    public boolean errorIncorrectlyGroupNameDisplayed() {
+        return addGroupTab.errorOneSymbolInGroupNameDisplayed();
+    }
+
+    public boolean allButtonsAreDisplayed() {
+        return addGroupTab.getAddBtn().isDisplayed() && addGroupTab.getRemoveBtn().isDisplayed() && addGroupTab.getSaveBtn().isDisplayed();
+    }
+
+    public void addNewGroupWithOneMentee(String gName, String depName, String menteeName) {
+        addGroupTab.enterGroupName(gName);
+        addGroupTab.selectDepartment(depName);
+        addGroupTab.selectMentees(menteeName);
+        addGroupTab.getAddBtn().click();
+    }
+
     public boolean isNameOfChosenMenteeDisplayed() {
         return addGroupTab.isChosenMenteeDisplayed();
     }
 
     public boolean isNameOfCreatedMenteeDisplayed() {
         return addGroupTab.isCreatedMenteeDisplayed();
-    }
-
-    public boolean isAddGroupTabDisplayed() {
-        return addGroupTab.isAddGroupTabNameDisplayed();
-    }
-
-    public boolean isGroupNameFieldDisplayed() {
-        return addGroupTab.isGroupNameFieldDisplayed();
-    }
-
-    public boolean isErrorEmptyGroupNameDisplayed() {
-        return addGroupTab.ErrorEmptyGroupNameDisplayed();
-    }
-
-    public boolean isErrorNotSelectedDepDisplayed() {
-        return addGroupTab.ErrorNotSelectedDepDisplayed();
-    }
-
-    public boolean allLabelsAreCorrect() {
-        return addGroupTab.LabelsDisplayedCorrectly();
-    }
-
-    public boolean isErrorIncorrectlyGroupNameDisplayed() {
-        return addGroupTab.ErrorOneSymbolInGroupNameDisplayed();
-    }
-
-    public boolean allButtonsAreDisplayed() {
-        return addGroupTab.getAddBtn().isDisplayed() && addGroupTab.getRemoveBtn().isDisplayed() && addGroupTab.getSaveBtn().isDisplayed();
     }
 }

@@ -48,7 +48,8 @@ public class UsersTab extends Component {
     }
 
     public WebElement getFirstUser(String userName) {
-        WebElement firstUser = waitFor(xpath("//td[contains(.,'%s')][1]", userName));
+//        WebElement firstUser = waitFor(xpath("//td[contains(.,'%s')][1]", userName));
+        WebElement firstUser = waitFor(xpath("//*[@id='lastName'][contains(.,'%s')][1]", userName));
         return firstUser;
     }
 }

@@ -4,6 +4,7 @@ import khppp.application.entitites.Subgroup;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,10 +16,84 @@ public class GroupJournalPage extends Component {
     public GroupJournalPage(WebDriver driver) {
         super(driver);
     }
+    //------------Displaying of elements---------------------------------------------------------
+    public boolean isPageNameDisplayed() {
+        WebElement pageName = waitFor(xpath(".//span[text()='Group Journal']"));
+        return pageName.isDisplayed() && "Group Journal".equals(pageName.getText());
+    }
+
+    public boolean isGroupNameDisplayed() {
+        WebElement groupName = waitFor(xpath("./*//*[@id='group_name']"));
+        return groupName.isDisplayed();
+    }
+
+    public boolean isBtnAddSubgroupDisplayed() {
+        WebElement btnAddSubgroup = waitFor(xpath("//div[@class='submenu']/a[text()='Add Subgroup']"));
+        return btnAddSubgroup.isDisplayed() && "Add Subgroup".equals(btnAddSubgroup.getText());
+    }
+    public boolean isBtnAssignDisplayed() {
+        WebElement btnAssign = waitFor(xpath("//a[@class='btn btn-success'][2]"));
+        return btnAssign.isDisplayed() && "Assign".equals(btnAssign.getText());
+    }
+
+    public boolean isBtnExportDisplayed() {
+        WebElement btnExport = waitFor(id("create_csv_button"));
+        return btnExport.isDisplayed() && "Export".equals(btnExport.getText());
+    }
+
+    public boolean isBtnBackDisplayed() {
+        WebElement btnBack = waitFor(xpath(" .//*[@id='group_journal_submit']/div[2]/a"));
+        return btnBack.isDisplayed() && "Back".equals(btnBack.getText());
+    }
+    public boolean getGroupJournalTableHead() {
+        ArrayList<WebElement> headTableNames = new ArrayList<>();
+        //headTableNames.add(waitFor(xpath("//input/parent::th")).getText());
+        headTableNames.add(waitFor(xpath("//tr/th[text()='Subgroup name']")));
+        headTableNames.add(waitFor(xpath("//tr/th[text()='Date of Create']")));
+        headTableNames.add(waitFor(xpath("//tr/th[text()='Mentor']")));
+        headTableNames.add(waitFor(xpath("//tr/th[text()='Edit']")));
+        headTableNames.add(waitFor(xpath("//tr/th[text()='Remove']")));
+        return headTableNames.size()==5;
+    }
+    public boolean checkWithoutSubGrDisplayed(){
+        WebElement withoutSubGr = waitFor(xpath(" //*[@id='table_body']/tr[1]/td[2]"));
+        return withoutSubGr.isDisplayed() && "Without SubGroup".equals(withoutSubGr.getText());}
+
+    public boolean isCreatedSubgroupDisplayed(String subName) {
+        return displayed(xpath("//td[contains(.,'%s')][2]", subName));
+    }
+
+    public boolean isEmptySignDisplayed(String subName) {
+        return displayed(xpath("//td[contains(.,'%s')][2]/span[@class='badge']", subName));
+    }
+
+    //------------Work with buttons---------------------------------------------------------------
 
     public void clickAddSubgroupBtn() {
         WebElement addSubgroupBtn = waitFor(By.xpath("//div[@class='submenu']/a[text()='Add Subgroup']"));
         addSubgroupBtn.click();
+    }
+
+    public void clickAssignBtn() {
+        WebElement assignBtn = waitFor(xpath("//a[@class='btn btn-success'][text()='Assign']"));
+        assignBtn.click();
+    }
+
+    public WebElement getBackButton(){
+        return waitFor(xpath(" .//*[@id='group_journal_submit']/div[2]/a"));
+    }
+
+    //------------Work with another elements-------------------------------------------------------
+    public void clickGroupTasksTab() {waitFor(xpath("//a[text()='GroupTasks']")).click();}
+
+    public void clickFirstSubGroup() {
+        WebElement firstSubgroupFromList = waitFor(xpath(".//*[@id='table_body']/tr[1]/td[2]"));
+        firstSubgroupFromList.click();
+    }
+
+    public void selectFirstCheckboxInSubGroup() {
+        WebElement checkBox = waitFor(xpath(".//*[@id='table_body']/tr[2]/td[1]/input"));
+        checkBox.click();
     }
 
     public List<Subgroup> getAllSubgroups() {
@@ -36,54 +111,9 @@ public class GroupJournalPage extends Component {
         return subgroups;
     }
 
-    public boolean isCreatedSubgroupDisplayed(String subName) {
-        return displayed(xpath("//td[contains(.,'%s')][2]", subName));
+    public void clickWithoutSubGr(){
+        WebElement withoutSubGr = waitFor(xpath(" //*[@id='table_body']/tr[1]/td[2]"));
+        withoutSubGr.click();
     }
-
-    public boolean isEmptySignDisplayed(String subName) {
-        return displayed(xpath("//td[contains(.,'%s')][2]/span[@class='badge']", subName));
-    }
-
-    public WebElement getAddSubgroupButton() {
-        return waitFor(xpath("//div[@class='submenu']/a[text()='Add Subgroup']"));
-    }
-
-    public boolean isPageNameDisplayed() {
-        WebElement pageName = waitFor(xpath(".//span[text()='Group Journal']"));
-        return pageName.isDisplayed() && "Group Journal".equals(pageName.getText());
-    }
-
-    public boolean isGroupNameDisplayed() {
-        WebElement groupName = waitFor(xpath("./*//*[@id='group_name']"));
-        return groupName.isDisplayed();
-    }
-
-    public boolean isBtnAddSubgroupDisplayed() {
-        WebElement btnAddSubgroup = waitFor(xpath("//div[@class='submenu']/a[text()='Add Subgroup']"));
-        return btnAddSubgroup.isDisplayed() && "Add Subgroup".equals(btnAddSubgroup.getText());
-    }
-
-    public boolean isBtnAssignDisplayed() {
-        WebElement btnAssign = waitFor(xpath("//a[@class='btn btn-success'][2]"));
-        return btnAssign.isDisplayed() && "Assign".equals(btnAssign.getText());
-    }
-
-    public boolean isBtnExportDisplayed() {
-        WebElement btnExport = waitFor(id("create_csv_button"));
-        return btnExport.isDisplayed() && "Export".equals(btnExport.getText());
-    }
-
-    public boolean isBtnBackDisplayed() {
-        WebElement btnBack = waitFor(xpath(" .//*[@id='group_journal_submit']/div[2]/a"));
-        return btnBack.isDisplayed() && "Back".equals(btnBack.getText());
-    }
-
-        /*public boolean isCreatedSubgroupDisplayed(String subName) {
-            return displayed(xpath("//td[contains(.,'%s')][2]", subName));
-        }
-
-        public boolean isEmptySignDisplayed(String subName) {
-            return displayed(xpath("//td[contains(.,'%s')][2]/span[@class='badge']", subName));
-        }*/
 
 }
