@@ -3,7 +3,7 @@
 <suite name="TestRun" verbose="1">
     <test name="KhpppRun">
         <classes>
-            <class name="khppp.tests.BaseCase"/>
+            <!--<class name="khppp.tests.BaseCase"/>-->
             <class name="khppp.tests.LoginTest"/>
             <class name="khppp.tests.UsersTest"/>
             <class name="khppp.tests.GroupsTest"/>
