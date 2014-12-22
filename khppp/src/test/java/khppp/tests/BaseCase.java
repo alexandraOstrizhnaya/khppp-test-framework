@@ -50,8 +50,8 @@ public abstract class BaseCase {
 
     @DataProvider(name = "testData")
     public Object[][] testData(Method method) throws Exception {
-        String path = method.getDeclaringClass().getSimpleName() + ".xlsx";
-        return coreTest.testData(path, method.getName());
+        String sheet = method.getDeclaringClass().getSimpleName();
+        return coreTest.testData(method, sheet);
     }
 
     protected void open() {

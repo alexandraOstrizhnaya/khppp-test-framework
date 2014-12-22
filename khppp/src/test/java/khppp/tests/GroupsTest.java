@@ -1,14 +1,13 @@
 package khppp.tests;
 
 import khppp.application.steps.*;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.aspectj.lang.annotation.After;
+import org.testng.annotations.*;
 import ru.yandex.qatools.allure.annotations.Features;
 
-import java.util.List;
-
 import static khppp.application.Features.GROUP;
+
+import java.util.List;
 import static khppp.excel.utils.ExcelColumn.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
@@ -51,21 +50,21 @@ public class GroupsTest extends BaseCase {
     @Test(priority = 2)
     public void validTabName() {
         goToGroupsTab();
-        assertThat(groupsTabSteps.isGroupTabDisplayed(), is(true));
+        assertThat(groupsTabSteps.groupTabDisplayed(), is(true));
     }
 
     @Features(GROUP)
     @Test(priority = 2)
     public void addGroupBtnName() {
         goToGroupsTab();
-        assertThat(groupsTabSteps.isBtnAddGroupDisplayed(), is(true));
+        assertThat(groupsTabSteps.btnAddGroupDisplayed(), is(true));
     }
 
     @Features(GROUP)
     @Test(priority = 2)
     public void exportBtnName() {
         goToGroupsTab();
-        assertThat(groupsTabSteps.isBtnExportDisplayed(), is(true));
+        assertThat(groupsTabSteps.btnExportDisplayed(), is(true));
     }
 
     @Features(GROUP)
@@ -81,7 +80,7 @@ public class GroupsTest extends BaseCase {
     @Test(dataProvider = "testData", dependsOnMethods = "creationOfMentee")
     public void displayGroupWithMentee(List<String> data) {
         goToGroupsTab();
-        assertThat(groupsTabSteps.groupWithMenteeCreated(data.get(GROUP_NAME), "1"), is(true));
+        assertThat(groupsTabSteps.groupWithMenteeCreated(data.get(GROUP_NAME), 0), is(true));
     }
 
     @Features(GROUP)
@@ -89,7 +88,7 @@ public class GroupsTest extends BaseCase {
     public void menteeInAvailableMenteesField() {
         goToGroupsTab();
         goToAddGroupsTab();
-        assertThat(addGroupSteps.isNameOfCreatedMenteeDisplayed(), is(true));
+        assertThat(addGroupSteps.nameOfCreatedMenteeDisplayed(), is(true));
     }
 
     @Features(GROUP)
@@ -108,7 +107,7 @@ public class GroupsTest extends BaseCase {
         goToGroupsTab();
         goToAddGroupsTab();
         addGroupSteps.addNewGroupWithMentees(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME), data.get(USER_NAME));
-        assertThat(addGroupSteps.isNameOfChosenMenteeDisplayed(), is(true));
+        assertThat(addGroupSteps.nameOfChosenMenteeDisplayed(), is(true));
     }
 
     @Features(GROUP)
@@ -116,7 +115,7 @@ public class GroupsTest extends BaseCase {
     public void removeMenteeFromGroup() {
         addGroupSteps.clickRemoveMenteeBtn();
         addGroupSteps.clickSaveBtn();
-        assertThat(addGroupSteps.isNameOfCreatedMenteeDisplayed(), is(true));
+        assertThat(addGroupSteps.nameOfCreatedMenteeDisplayed(), is(true));
     }
 
     @Features(GROUP)
@@ -126,7 +125,7 @@ public class GroupsTest extends BaseCase {
         goToAddGroupsTab();
         addGroupSteps.addNewEmptyGroupWithoutName(data.get(DEPARTMENT_NAME));
         addGroupSteps.clickSaveBtn();
-        assertThat(addGroupSteps.isErrorEmptyGroupNameDisplayed(), is(true));
+        assertThat(addGroupSteps.errorEmptyGroupNameDisplayed(), is(true));
     }
 
     @Features(GROUP)
@@ -136,7 +135,7 @@ public class GroupsTest extends BaseCase {
         goToAddGroupsTab();
         addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
         addGroupSteps.clickSaveBtn();
-        assertThat(addGroupSteps.isErrorNotSelectedDepDisplayed(), is(true));
+        assertThat(addGroupSteps.errorNotSelectedDepDisplayed(), is(true));
     }
 
     @Features(GROUP)
@@ -144,7 +143,7 @@ public class GroupsTest extends BaseCase {
     public void validAddGroupTabName() {
         goToGroupsTab();
         goToAddGroupsTab();
-        assertThat(addGroupSteps.isAddGroupTabDisplayed(), is(true));
+        assertThat(addGroupSteps.addGroupTabDisplayed(), is(true));
     }
 
     @Features(GROUP)
@@ -168,7 +167,7 @@ public class GroupsTest extends BaseCase {
     public void verifyGroupNameField() {
         goToGroupsTab();
         goToAddGroupsTab();
-        assertThat(addGroupSteps.isGroupNameFieldDisplayed(), is(true));
+        assertThat(addGroupSteps.groupNameFieldDisplayed(), is(true));
     }
 
     @Features(GROUP)
@@ -178,7 +177,7 @@ public class GroupsTest extends BaseCase {
         goToAddGroupsTab();
         addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
         addGroupSteps.clickSaveBtn();
-        assertThat(addGroupSteps.isErrorIncorrectlyGroupNameDisplayed(), is(true));
+        assertThat(addGroupSteps.errorIncorrectlyGroupNameDisplayed(), is(true));
     }
 
     @Features(GROUP)
@@ -188,7 +187,7 @@ public class GroupsTest extends BaseCase {
         goToAddGroupsTab();
         addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
         addGroupSteps.clickSaveBtn();
-        assertThat(addGroupSteps.isErrorIncorrectlyGroupNameDisplayed(), is(true));
+        assertThat(addGroupSteps.errorIncorrectlyGroupNameDisplayed(), is(true));
     }
 
     @AfterClass

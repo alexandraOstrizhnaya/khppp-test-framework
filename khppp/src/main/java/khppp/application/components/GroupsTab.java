@@ -25,25 +25,29 @@ public class GroupsTab extends Component {
         return waitFor(xpath("//button[@class='btn btn-success']"));
     }
 
-    public void clickFirstGroup(){
+    public void clickFirstGroup() {
         waitFor(xpath("//tbody/tr[1]/td[1]")).click();
+    }
+
+    public void clickFirstNotEmptyGroup() {
+        waitFor(xpath(".//*[@id='table_group_journal']/tbody/tr/td[2][text()!=0]")).click();
     }
 
     public WebElement getExportBtn() {
         return waitFor(xpath(".//*[@id='create_csv_button']"));
     }
 
-    public boolean isGroupTabNameDisplayed() {
+    public boolean groupTabNameDisplayed() {
         WebElement tabName = waitFor(xpath("//div[@class='page_header_text']"));
         return tabName.isDisplayed() && "Groups".equals(tabName.getText());
     }
 
-    public boolean isBtnAddGroupDisplayed() {
+    public boolean btnAddGroupDisplayed() {
         WebElement btnName = waitFor(xpath("//button[@class='btn btn-success']"));
         return btnName.isDisplayed() && "Add Group".equals(btnName.getText());
     }
 
-    public boolean isBtnExportDisplayed() {
+    public boolean btnExportDisplayed() {
         WebElement btnName = waitFor(xpath(".//*[@id='create_csv_button']"));
         return btnName.isDisplayed() && "Export".equals(btnName.getText());
     }
@@ -60,37 +64,25 @@ public class GroupsTab extends Component {
         return headTableNames.size() == 7;
     }
 
-    public List<Group> getAllGroups() {
-        int numberOfRows = waitForAll(xpath("//*[@id='table_group_journal']//tr")).size();
-        System.out.println("ROWS " + numberOfRows);
-        List<Group> groups = new ArrayList<>();
-        for (int i = 1; i < numberOfRows - 1; i++) {
-            List<WebElement> columns = findAll(xpath(
-                    "//*[@id='table_group_journal']//tr[%s]//td", i));
-            Group group = new Group();
-            group.setGroupName(columns.get(0).getText());
-            group.setNumOfMentees(columns.get(1).getText());
-            group.setDepName(columns.get(2).getText());
-            group.setLabManName(columns.get(4).getText());
-            groups.add(group);
-        }
-        return groups;
-    }
-
-    public boolean isCreateGroupDisplayed(String groupName) {
+    public boolean createGroupDisplayed(String groupName) {
         return displayed(xpath("//td[contains('%s')][1]", groupName));
     }
 
-    public boolean isGroupWithMenteesDisplayed(String groupName, String numOfMentees) {
+    public boolean groupWithMenteesDisplayed(String groupName, int numOfMentees) {
         boolean flag = false;
         List<WebElement> numsofMentees = waitForAll(By.xpath("//tr//td[2]"));
         List<WebElement> namesOfGroups = waitForAll(By.xpath("//td[1]"));
         int numOfRows = namesOfGroups.size();
         for (int i = 0; i < numOfRows; i++) {
-            if (namesOfGroups.get(i).getText().equals(groupName) && numsofMentees.get(i).getText().equals(numOfMentees)) {
+            if (namesOfGroups.get(i).getText().equals(groupName) && Integer.valueOf(numsofMentees.get(i).getText()) == numOfMentees) {
                 flag = true;
             }
         }
         return flag;
+    }
+
+    public boolean isGroupTabNameDisplayed() {
+        WebElement tabName = waitFor(xpath("//div[@class='page_header_text']"));
+        return tabName.isDisplayed() && "Groups".equals(tabName.getText());
     }
 }

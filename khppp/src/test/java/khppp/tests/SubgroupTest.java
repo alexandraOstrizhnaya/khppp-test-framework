@@ -1,11 +1,9 @@
 package khppp.tests;
 
-import khppp.application.components.GroupJournalPage;
 import khppp.application.steps.*;
 import org.testng.annotations.*;
 import ru.yandex.qatools.allure.annotations.Features;
 import static khppp.excel.utils.ExcelColumn.*;
-import java.lang.reflect.Method;
 import java.util.List;
 
 import static khppp.application.Features.SUBGROUP;
@@ -21,7 +19,7 @@ public class SubgroupTest extends BaseCase {
     AddSubgroupSteps addSubgroupSteps;
     NavBarSteps navBarSteps;
     GroupsTabSteps groupsTabSteps;
-    GroupJournalPageSteps groupJournalPageSteps;
+    GroupJournalSteps groupJournalSteps;
 
     @BeforeClass
     public void setUp() {
@@ -29,7 +27,7 @@ public class SubgroupTest extends BaseCase {
         addSubgroupSteps = new AddSubgroupSteps(pages);
         navBarSteps = new NavBarSteps(pages);
         groupsTabSteps = new GroupsTabSteps(pages);
-        groupJournalPageSteps = new GroupJournalPageSteps(pages);
+        groupJournalSteps = new GroupJournalSteps(pages);
     }
 
     @Test(dataProvider = "testData")
@@ -41,14 +39,14 @@ public class SubgroupTest extends BaseCase {
     @Test(dataProvider = "testData", dependsOnMethods = "preConditions")
     public void addNewEmptySubgroup(List<String> data) {
         addSubgroupSteps.addNewEmptySubgroup(data.get(SUBGROUP_NAME));
-        assertThat(groupJournalPageSteps.isEmptyGroupJournalDisplayed(), is(true));
+        assertThat(groupJournalSteps.isEmptyGroupJournalDisplayed(), is(true));
     }
 
     @Features(SUBGROUP)
     @Test(dataProvider = "testData", dependsOnMethods = "preConditions")
     public void addNewSubgroup(List<String> data) {
         addSubgroupSteps.addNewSubgroup(data.get(SUBGROUP_NAME));
-        assertThat(groupJournalPageSteps.isGroupJournalDisplayed(), is(true));
+        assertThat(groupJournalSteps.isGroupJournalDisplayedI(), is(true));
     }
 
     @AfterClass

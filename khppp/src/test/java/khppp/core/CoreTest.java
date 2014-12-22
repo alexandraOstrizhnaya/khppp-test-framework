@@ -51,10 +51,10 @@ public final class CoreTest {
         }
     }
 
-	public Object[][] testData(String file, String method) throws Exception {
+	public Object[][] testData(Method method, String sheet) throws Exception {
 		ExcelReader excelReader = new ExcelReader();
-		excelReader.setExcelFile(file, method);
-		List<Integer> rowsNo = excelReader.getRowContains(COL_NUM);
+		excelReader.setExcelFile(config.getProperty("excel.workbook.path"), sheet);
+		List<Integer> rowsNo = excelReader.getRowContains(method.getName(), COL_NUM);
 		return excelReader.getTableArray(rowsNo);
 	}
 

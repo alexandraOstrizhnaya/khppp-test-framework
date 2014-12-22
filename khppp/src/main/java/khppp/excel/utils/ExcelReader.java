@@ -51,7 +51,7 @@ public class ExcelReader {
         List[] arr = new List[1];
         List<String> list = new ArrayList<>();
         // Access the required test data sheet
-        int startCol = 0;
+        int startCol = 1;
         int totalCols = excelWSheet.getRow(rowNo).getPhysicalNumberOfCells();
         for (int i = startCol; i < totalCols; i++) {
             String cellData = getCellData(rowNo, i);
@@ -75,15 +75,16 @@ public class ExcelReader {
         return result;
     }
 
-    public List<Integer> getRowContains(int colNum)
+    public List<Integer> getRowContains(String testCaseName, int colNum)
             throws Exception {
         List<Integer> list = new ArrayList<>();
         try {
             int rowCount = getRowUsed();
-            for (int i = 1; i <= rowCount; i++) {
-                list.add(i);
-                //String cellData = getCellData(i, colNum);
-                //if (cellData.equalsIgnoreCase(testCaseName)) {}
+            for (int i = 0; i <= rowCount; i++) {
+                String cellData = getCellData(i, colNum);
+                if (cellData.equalsIgnoreCase(testCaseName)) {
+                    list.add(i);
+                }
             }
             return list;
         } catch (Exception e) {
@@ -95,5 +96,4 @@ public class ExcelReader {
     public int getRowUsed() throws Exception {
         return excelWSheet.getLastRowNum();
     }
-
 }
