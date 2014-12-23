@@ -3,15 +3,15 @@ package khppp.custom.listeners;
  * Created by Sergey on 02.11.2014.
  */
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import lombok.extern.slf4j.Slf4j;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
+@Slf4j
 public class CustomListener extends TestListenerAdapter {
 
-    Logger log = LogManager.getLogger(getClass());
+    //Logger log = LogManager.getLogger(getClass());
 
     @Override
     public void onStart(ITestContext arg0) {

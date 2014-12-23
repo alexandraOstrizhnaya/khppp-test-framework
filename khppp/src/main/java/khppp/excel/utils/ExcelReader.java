@@ -1,7 +1,7 @@
 package khppp.excel.utils;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
+import lombok.extern.slf4j.Slf4j;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -15,9 +15,10 @@ import static org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC;
 /**
  * Created by Serhii_Pirohov on 26.11.2014.
  */
+@Slf4j
 public class ExcelReader {
 
-    public static final Logger LOG = LogManager.getLogger(ExcelReader.class);
+
 
     private XSSFSheet excelWSheet;
     private XSSFWorkbook excelWBook;
@@ -88,7 +89,7 @@ public class ExcelReader {
             }
             return list;
         } catch (Exception e) {
-            LOG.error("Exception happens " + e);
+            log.error("Exception happens " + e);
             throw (e);
         }
     }

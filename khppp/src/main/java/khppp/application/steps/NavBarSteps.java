@@ -3,7 +3,6 @@ package khppp.application.steps;
 import khppp.application.components.GroupsTab;
 import khppp.application.components.NavBar;
 import khppp.factory.PageFactory;
-import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.allure.annotations.Step;
 
 /**

@@ -1,6 +1,7 @@
 package khppp.tests;
 
 import khppp.application.steps.NavBarSteps;
+import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Features;
@@ -16,13 +17,8 @@ import static org.hamcrest.Matchers.is;
 /**
  * Created by Serhii_Pirohov on 18.11.2014.
  */
+@Slf4j
 public class LoginTest extends BaseCase {
-    /*NavBarSteps navBarSteps;
-
-	/*@DataProvider(name = "authentication")
-	public Object[][] credentials(Method method) throws Exception {
-		return testData(method, "Login");
-	}*/
 
     @BeforeClass
     public void setUp() {
