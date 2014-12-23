@@ -2,99 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c79f0af-476a-4d2d-b416-02af76e18867" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\dbnavigator.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__cglib_cglib_nodep_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__com_beust_jcommander_1_27.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__com_google_code_gson_gson_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__com_google_guava_guava_18_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__com_sun_istack_istack_commons_runtime_2_16.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__com_sun_xml_bind_jaxb_core_2_2_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__com_sun_xml_bind_jaxb_impl_2_2_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__commons_beanutils_commons_beanutils_core_1_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__commons_codec_commons_codec_1_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__commons_io_commons_io_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__io_netty_netty_3_5_2_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__javax_xml_bind_jaxb_api_2_2_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__javax_xml_bind_jsr173_api_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__log4j_log4j_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__mysql_mysql_connector_java_5_1_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__net_java_dev_jna_jna_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__net_java_dev_jna_platform_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__net_sourceforge_cssparser_cssparser_0_9_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__net_sourceforge_htmlunit_htmlunit_2_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__net_sourceforge_nekohtml_nekohtml_1_9_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_commons_commons_exec_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_httpcomponents_httpclient_4_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_httpcomponents_httpcore_4_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_httpcomponents_httpmime_4_3_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_ibatis_ibatis_sqlmap_2_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_logging_log4j_log4j_api_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_logging_log4j_log4j_core_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_poi_poi_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_poi_poi_ooxml_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_poi_poi_ooxml_schemas_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_tika_tika_core_1_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_aspectj_aspectjrt_1_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_aspectj_aspectjweaver_1_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_beanshell_bsh_2_0b4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_eclipse_jetty_jetty_http_8_1_15_v20140411.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_eclipse_jetty_jetty_io_8_1_15_v20140411.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_eclipse_jetty_jetty_util_8_1_15_v20140411.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_eclipse_jetty_jetty_websocket_8_1_15_v20140411.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_hamcrest_hamcrest_all_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_jvnet_jaxb2_commons_jaxb2_basics_runtime_0_6_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_mybatis_mybatis_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_api_2_44_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_44_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_44_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_44_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_ie_driver_2_44_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_java_2_44_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_remote_driver_2_44_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_safari_driver_2_44_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_support_2_44_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_slf4j_slf4j_simple_1_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_springframework_spring_aop_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_springframework_spring_beans_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_springframework_spring_context_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_springframework_spring_core_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_springframework_spring_expression_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_springframework_spring_test_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_testng_testng_6_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_testng_testng_6_8_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_w3c_css_sac_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__org_webbitserver_webbit_0_4_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__ru_yandex_qatools_allure_allure_java_annotations_1_4_0_RC4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__ru_yandex_qatools_allure_allure_java_aspects_1_4_0_RC4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__ru_yandex_qatools_allure_allure_java_commons_1_4_0_RC4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__ru_yandex_qatools_allure_allure_model_1_4_0_RC4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__ru_yandex_qatools_allure_allure_testng_adaptor_1_4_0_RC4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__ru_yandex_qatools_properties_properties_loader_1_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__stax_stax_api_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__xalan_serializer_2_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__xalan_xalan_2_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__xerces_xercesImpl_2_11_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\libraries\Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\sqldialects.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\khppp-test-framework\khppp\.idea\workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="4f0684b7-29de-496b-8f89-6059dcd3c442" name="Rejected commit: Default" comment="Merge branch 'dev' of https://github.com/Khppp/khppp-test-framework into dev&#10;&#10;" />
     <list id="356b5dea-624f-4a7a-8dd3-d67c0e46b6e8" name="Ignore" comment="" />
@@ -256,7 +164,6 @@
     <panes>
       <pane id="Revu" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -411,6 +318,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -895,7 +803,13 @@
       <option name="project" value="LOCAL" />
       <updated>1419325075807</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".idea folder was deleted">
+      <created>1419328577966</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1419328577966</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -914,7 +828,7 @@
       <window_info id="reVu" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18017058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18017058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2823276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -988,7 +902,8 @@
     <MESSAGE value="app log was deleted" />
     <MESSAGE value="folder target was deleted" />
     <MESSAGE value="dummy AfterClass logout was deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="dummy AfterClass logout was deleted" />
+    <MESSAGE value=".idea folder was deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea folder was deleted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
