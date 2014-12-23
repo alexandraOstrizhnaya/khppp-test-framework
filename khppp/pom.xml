@@ -180,6 +180,30 @@
                     </dependency>
                 </dependencies>
             </plugin>
+
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <id>start-third-parties</id>
+                        <phase>test-compile</phase>
+                        <configuration>
+                            <target>
+                                <exec
+                                        dir="${basedir}\selenium_grid"
+                                        executable="${basedir}\selenium_grid\start.bat"
+                                        spawn="true">
+                                </exec>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
         </plugins>
     </build>
 
