@@ -1,7 +1,6 @@
 package khppp.tests;
 
 import khppp.application.steps.*;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -57,6 +56,7 @@ public class StatusTest extends BaseCase {
         assertThat(statusSteps.statusChanged("Closed"), is(true));
         statusSteps.clickTaskNameStep();
         statusSteps.clickInProgressBtnStep();
+        navBarSteps.logout();
         assertThat(statusSteps.statusChanged("In progress"), is(true));
     }
 
@@ -64,13 +64,8 @@ public class StatusTest extends BaseCase {
     public void changeStatusByMentee() {
         statusSteps.clickTaskNameStep();
         statusSteps.clickResolvedBtn();
-        assertThat(statusSteps.statusChanged("Resolved"), is(true));
-
-    }
-
-    @AfterClass
-    public void logout() {
         navBarSteps.logout();
+        assertThat(statusSteps.statusChanged("Resolved"), is(true));
     }
 
 }

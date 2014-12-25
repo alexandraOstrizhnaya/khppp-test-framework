@@ -2,7 +2,6 @@ package khppp.tests;
 
 import khppp.application.steps.*;
 import khppp.excel.utils.ExcelColumn;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Features;
@@ -44,26 +43,63 @@ public class AssignTasksTest extends BaseCase {
     }
 
     @Features(ASSIGN_TASK)
-    @Test(dependsOnMethods = "preConditions")
-    public void allElementsAreDisplayed() {
-        assertThat(assignTasksSteps.assignTaskTabContainsAllElements(), is(true));
+    @Test(dependsOnMethods = "preConditions", priority = 2)
+    public void isOnAssignTaskTab() {
+        assertThat(assignTasksSteps.onAssignTaskTab(), is(true));
     }
 
     @Features(ASSIGN_TASK)
-    @Test(dataProvider = "testData", dependsOnMethods = "preConditions")
+    @Test(dataProvider = "testData", priority = 2)
+    public void allLabelsOnAssignTaskTab(List<String> data) {
+        assertThat(assignTasksSteps.allLabelsOnAssignTaskTab(Integer.valueOf(data.get(NUMBER_OF_ELEMENTS))), is(true));
+    }
+
+    @Features(ASSIGN_TASK)
+    @Test(priority = 2)
+    public void allSelectsOnAssignTaskTab() {
+        assertThat(assignTasksSteps.allSelectsOnAssignTaskTab(), is(true));
+    }
+
+    @Features(ASSIGN_TASK)
+    @Test(priority = 2)
+    public void allButtonsOnAssignTaskTab() {
+        assertThat(assignTasksSteps.allButtonsOnAssignTaskTab(), is(true));
+    }
+
+    @Features(ASSIGN_TASK)
+    @Test(dataProvider = "testData", priority = 3)
+    public void isOnAssignTaskPopUp(List<String> data) {
+        assignTasksSteps.getPopUpAssignTask(data.get(TASK_TYPE), data.get(DEPARTMENT_NAME), data.get(TASK_NAME));
+        assertThat(assignTasksSteps.popUpAssingTaskAppears(data.get(NAME_OF_TAB)), is(true));
+    }
+
+    @Features(ASSIGN_TASK)
+    @Test(dataProvider = "testData", priority = 4)
+    public void allLabelsOnAssignTaskPopUp(List<String> data) {
+        assertThat(assignTasksSteps.allLabelsOnAssignTaskPopUp(Integer.valueOf(data.get(NUMBER_OF_ELEMENTS))), is(true));
+    }
+
+    @Features(ASSIGN_TASK)
+    @Test(priority = 4)
+    public void allFieldsOnAssignTaskPopUp() {
+        assertThat(assignTasksSteps.allFieldsOnAssignTaskPopUp(), is(true));
+    }
+
+    @Features(ASSIGN_TASK)
+    @Test(dataProvider = "testData", priority = 4)
+    public void allButtonsOnAssignTaskPopUp(List<String> data) {
+        assertThat(assignTasksSteps.allButtonsOnAssignTaskPopUp(Integer.valueOf(data.get(NUMBER_OF_ELEMENTS))), is(true));
+    }
+
+    @Features(ASSIGN_TASK)
+    @Test(priority = 4)
+    public void allCheckboxesOnAssignTaskPopUp() {
+        assertThat(assignTasksSteps.allCheckboxesOnAssignTaskPopUp(), is(true));
+    }
+
+    @Features(ASSIGN_TASK)
+    @Test(dataProvider = "testData", dependsOnMethods = "isOnAssignTaskTab")
     public void menteesAreDisplayedInSelectedMenteesField(List<String> data) {
         assertThat(assignTasksSteps.menteeIsDisplayedInSelectedMenteesField(data.get(MENTEE_NAME)), is(true));
-    }
-
-
-    @Features(ASSIGN_TASK)
-    @Test(dataProvider = "testData", dependsOnMethods = "preConditions")
-    public void correctlyAssignTaskToOneMentee(List<String> data) {
-        assignTasksSteps.popUpWindowAssignTaskAppears(data.get(TASK_TYPE), data.get(DEPARTMENT_NAME), data.get(TASK_NAME), data.get(ASSIGN_TASK_DIALOG));
-    }
-
-    @AfterClass
-    public void logout() {
-        navBarSteps.logout();
     }
 }

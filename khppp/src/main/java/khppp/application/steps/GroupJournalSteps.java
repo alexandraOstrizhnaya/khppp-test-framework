@@ -20,14 +20,13 @@ public class GroupJournalSteps {
     }
 
 
-    //public boolean isGroupJournalDisplayed() {
-    //    return groupJournalPage.isCreatedSubgroupDisplayed("irenSubgroup");
-    //}
+    public void deleteSubgroupByName(String subGroupName){
+        groupJournalPage.deleteSubgroupByName(subGroupName);
+    }
 
     public boolean isEmptyGroupJournalDisplayed() {
         return groupJournalPage.isEmptySignDisplayed("irenEmptySubgroup");
     }
-
 
     public boolean isGroupJournalDisplayed() {
         return groupJournalPage.isPageNameDisplayed();
@@ -60,19 +59,4 @@ public class GroupJournalSteps {
     public void goToAssignTaskPage() {
         groupJournalPage.clickAssignBtn();
     }
-
-    public boolean groupJournalTableHeadDisplayed() {
-        return groupJournalPage.getGroupJournalTableHead();
-    }
-
-    public boolean isTitleDisplayed(){
-        return groupJournalPage.checkWithoutSubGrDisplayed();
-    }
-    public void clickWithoutSubGrTitle(){
-        groupJournalPage.clickWithoutSubGr();
-    }
-    public void clickBackButton(){
-        groupJournalPage.getBackButton().click();
-    }
-
 }

@@ -42,8 +42,8 @@ public class GroupsTabSteps {
         return groupsTab.groupWithMenteesDisplayed(groupName, numOfMentees);
     }
 
-    public boolean groupsTabTableHeadDisplayed() {
-        return groupsTab.getGroupsTableHead();
+    public boolean groupsTabTableHeadDisplayed(int numOfLabels) {
+        return groupsTab.getGroupsTableHead(numOfLabels);
     }
 
     public void goToGroupJournalPAge() {
@@ -54,10 +54,6 @@ public class GroupsTabSteps {
     public AddGroupTab goToAddGroupTab() {
         groupsTab.getAddGroupBtn().click();
         return addGroupTab;
-    }
-
-    public boolean isGroupTabDisplayed() {
-        return groupsTab.isGroupTabNameDisplayed();
     }
 
 }

@@ -3,10 +3,8 @@ package khppp.application.steps;
 import khppp.application.components.AssignTasksTab;
 import khppp.application.components.GroupJournalPage;
 import khppp.application.components.GroupsTab;
-import khppp.application.dialogs.AssignTaskDialog;
+import khppp.application.components.AssignTaskDialog;
 import khppp.factory.PageFactory;
-
-import javax.lang.model.element.Name;
 
 /**
  * Created by Oleksandra_Ostrizhna on 12/18/2014.
@@ -31,21 +29,52 @@ public class AssignTasksSteps {
         groupJournalPage.clickAssignBtn();
     }
 
-    public void popUpWindowAssignTaskAppears(String taskType, String taskDepartment, String assignTask, String dialogUrl) {
+    public void getPopUpAssignTask(String taskType, String taskDepartment, String assignTask) {
         assignTasksTab.selectTaskType(taskType);
         assignTasksTab.selectTaskDepartment(taskDepartment);
         assignTasksTab.selectAssignTasks(assignTask);
         assignTasksTab.getAddBtn().click();
-        assignTaskDialog.switchToDialog(dialogUrl);
+    }
+
+    public boolean popUpAssingTaskAppears(String popUp) {
+        return assignTaskDialog.getPopUpWindowName(popUp);
     }
 
     public boolean menteeIsDisplayedInSelectedMenteesField(String menteeName) {
         return assignTasksTab.selectedMenteesFieldContainsCorrectlyInf(menteeName);
     }
 
-    public boolean assignTaskTabContainsAllElements() {
-        return assignTasksTab.isAssignTasksTabNameDisplayed() && assignTasksTab.getAllSelectsFromAssignTaskTab() && assignTasksTab.labelsDisplayedCorrectly() && assignTasksTab.buttonsDisplayedCorrectly();
+
+    public boolean allLabelsOnAssignTaskPopUp(int numOfLabels) {
+        return assignTaskDialog.labelsFromPopUpDisplayedCorrectly(numOfLabels);
     }
 
+    public boolean allButtonsOnAssignTaskPopUp(int numOfButtons) {
+        return assignTaskDialog.buttonsFromPopUpDisplayedCorrectly(numOfButtons);
+    }
+
+    public boolean allFieldsOnAssignTaskPopUp() {
+        return assignTaskDialog.getAllFieldsFromAssignTaskPopUp();
+    }
+
+    public boolean allCheckboxesOnAssignTaskPopUp() {
+        return assignTaskDialog.getAllCheckboxesFromAssignTaskPopUp();
+    }
+
+    public boolean onAssignTaskTab() {
+        return assignTasksTab.assignTasksTabNameDisplayed();
+    }
+
+    public boolean allLabelsOnAssignTaskTab(int numOfLabels) {
+        return assignTasksTab.labelsDisplayedCorrectly(numOfLabels);
+    }
+
+    public boolean allButtonsOnAssignTaskTab() {
+        return assignTasksTab.buttonsDisplayedCorrectly();
+    }
+
+    public boolean allSelectsOnAssignTaskTab() {
+        return assignTasksTab.getAllSelectsFromAssignTaskTab();
+    }
 
 }

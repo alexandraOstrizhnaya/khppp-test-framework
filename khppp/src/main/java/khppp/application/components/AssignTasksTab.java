@@ -1,7 +1,5 @@
 package khppp.application.components;
 
-import khppp.application.dialogs.AbstractDialog;
-import khppp.application.dialogs.AssignTaskDialog;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,7 +17,7 @@ public class AssignTasksTab extends Component {
         super(driver);
     }
 
-    public boolean isAssignTasksTabNameDisplayed() {
+    public boolean assignTasksTabNameDisplayed() {
         WebElement tabName = waitFor(xpath("//div[@class='page_header_text']"));
         return tabName.isDisplayed() && "Assign Tasks".equals(tabName.getText());
     }
@@ -71,7 +69,6 @@ public class AssignTasksTab extends Component {
         sel.selectByVisibleText(name);
     }
 
-
     public boolean buttonsDisplayedCorrectly() {
         ArrayList<String> buttons = new ArrayList<>();
         ArrayList<String> btnCorrectNames = new ArrayList<>(Arrays.asList("Add >", "< Remove", "Save"));
@@ -81,12 +78,12 @@ public class AssignTasksTab extends Component {
         return btnCorrectNames.equals(buttons);
     }
 
-    public boolean labelsDisplayedCorrectly() {
+    public boolean labelsDisplayedCorrectly(int numOfLabels) {
         ArrayList<WebElement> labels = new ArrayList<>();
         labels.add(waitFor(xpath("//label[text()='Task type']")));
         labels.add(waitFor(xpath("//label[text()='Task department']")));
         labels.add(waitFor(xpath("//label[text()='Assign tasks']")));
-        return labels.size() == 3;
+        return labels.size() == numOfLabels;
     }
 
     public boolean getAllSelectsFromAssignTaskTab() {
@@ -94,6 +91,6 @@ public class AssignTasksTab extends Component {
     }
 
     public boolean selectedMenteesFieldContainsCorrectlyInf(String menteeName) {
-        return menteeName.equalsIgnoreCase(waitFor(xpath("//div[2]/div/div/form/div[1]/div/div[2]/div/ul/li/ul/li")).getText());
+        return menteeName.equalsIgnoreCase(waitFor(xpath("//div[@class='col-md-4 wrapper-div']//li/ul/li")).getText());
     }
 }

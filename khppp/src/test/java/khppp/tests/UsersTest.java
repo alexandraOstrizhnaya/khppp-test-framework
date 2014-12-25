@@ -34,6 +34,11 @@ public class UsersTest extends BaseCase {
         usersTabSteps = new UsersTabSteps(pages);
     }
 
+    @DataProvider(name = "users")
+    /*public Object[][] credentials(Method method) throws Exception {
+        return testData(method, "Users");
+	}*/
+
 //    @Test(dataProvider = "users")
 //    public void users(List<String> data) {
 //        login(data);
@@ -43,7 +48,7 @@ public class UsersTest extends BaseCase {
 //    }
 
     @Features(USERS)
-    @Test(dataProvider = "testData")
+    @Test(dataProvider = "users")
     public void addUserCustomEmail(List<String> data) {
         login(data);
         navBarSteps.navigateTo("Users");
@@ -52,31 +57,23 @@ public class UsersTest extends BaseCase {
         navBarSteps.logout();
     }
 
+
+
         /*--Admin creates Admin, Lab-Manager, Mentor, Mentee--*/
 
     @Features(USERS)
-    @Test(dataProvider = "testData")
+    @Test(dataProvider = "users")
     public void adminAddNewUser(List<String> data) {
         login(data);
         navBarSteps.navigateTo("Users");
         addUserSteps.addUserDifferentRoles(data.get(NEW_USER_NAME), data.get(NEW_USER_SURNAME), data.get(NEW_USER_ROLE));
-//        navBarSteps.navigateTo("Users");
         assertThat(usersTabSteps.userDisplayed(data.get(NEW_USER_SURNAME)), is(true));
         navBarSteps.logout();
     }
 
-//    @Test(dataProvider = "testData", priority = 3)
-//    public void addEmptyGroup(List<String> data) {
-//        goToGroupsTab();
-//        goToAddGroupsTab();
-//        addGroupSteps.addNewEmptyGroup(data.get(GROUP_NAME), data.get(DEPARTMENT_NAME));
-//        addGroupSteps.clickSaveBtn();
-//        assertThat(groupsTabSteps.emptyGroupCreated(data.get(GROUP_NAME)), is(true));
-//    }
-
     /* Verify it is impossible to create user without name or surname */
     @Features(USERS)
-    @Test(dataProvider = "testData", priority = 1)
+    @Test(dataProvider = "users")
     public void addUserWithoutName(List<String> data) {
         login(data);
         navBarSteps.navigateTo("Users");
@@ -86,7 +83,7 @@ public class UsersTest extends BaseCase {
     }
 
     @Features(USERS)
-    @Test(dataProvider = "testData", priority = 1)
+    @Test(dataProvider = "users")
     public void addUserWithoutSurname(List<String> data) {
         login(data);
         navBarSteps.navigateTo("Users");

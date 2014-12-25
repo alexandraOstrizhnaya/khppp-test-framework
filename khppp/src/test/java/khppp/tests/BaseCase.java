@@ -4,10 +4,10 @@ import khppp.application.steps.GroupsTabSteps;
 import khppp.application.steps.LoginSteps;
 import khppp.application.steps.NavBarSteps;
 import khppp.core.CoreTest;
+
 import khppp.custom.listeners.CustomListener;
 import khppp.custom.reporter.CustomReport;
 import khppp.factory.PageFactory;
-import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -23,7 +23,6 @@ import static khppp.excel.utils.ExcelColumn.USER_PASS;
 /**
  * Created by Sergey on 02.11.2014.
  */
-@Slf4j
 @Listeners(value = {CustomListener.class, CustomReport.class})
 public abstract class BaseCase {
 
@@ -55,9 +54,7 @@ public abstract class BaseCase {
         return coreTest.testData(method, sheet);
     }
 
-
     protected void open() {
-        log.info("open");
         coreTest.open();
     }
 
@@ -74,5 +71,4 @@ public abstract class BaseCase {
         goToGroupsTab();
         groupsTabSteps.goToAddGroupTab();
     }
-
 }

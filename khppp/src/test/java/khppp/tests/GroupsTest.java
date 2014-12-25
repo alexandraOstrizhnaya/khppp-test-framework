@@ -68,10 +68,10 @@ public class GroupsTest extends BaseCase {
     }
 
     @Features(GROUP)
-    @Test(priority = 2)
-    public void validGroupsTableHead() {
+    @Test(dataProvider = "testData", priority = 2)
+    public void validGroupsTableHead(List<String> data) {
         goToGroupsTab();
-        assertThat(groupsTabSteps.groupsTabTableHeadDisplayed(), is(true));
+        assertThat(groupsTabSteps.groupsTabTableHeadDisplayed(Integer.valueOf(data.get(NUMBER_OF_ELEMENTS))), is(true));
     }
 
     //************************AddGroup Tab Tests*************************
@@ -80,7 +80,7 @@ public class GroupsTest extends BaseCase {
     @Test(dataProvider = "testData", dependsOnMethods = "creationOfMentee")
     public void displayGroupWithMentee(List<String> data) {
         goToGroupsTab();
-        assertThat(groupsTabSteps.groupWithMenteeCreated(data.get(GROUP_NAME), 0), is(true));
+        assertThat(groupsTabSteps.groupWithMenteeCreated(data.get(GROUP_NAME), Integer.valueOf(data.get(GROUP_MENTEE))), is(true));
     }
 
     @Features(GROUP)
@@ -147,11 +147,11 @@ public class GroupsTest extends BaseCase {
     }
 
     @Features(GROUP)
-    @Test(priority = 3)
-    public void verifyLabels() {
+    @Test(dataProvider = "testData", priority = 3)
+    public void verifyLabels(List<String> data) {
         goToGroupsTab();
         goToAddGroupsTab();
-        assertThat(addGroupSteps.allLabelsAreCorrect(), is(true));
+        assertThat(addGroupSteps.allLabelsAreCorrect(Integer.valueOf(data.get(NUMBER_OF_ELEMENTS))), is(true));
     }
 
     @Features(GROUP)

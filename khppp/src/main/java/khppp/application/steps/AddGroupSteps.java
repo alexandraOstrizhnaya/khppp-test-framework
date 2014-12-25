@@ -70,8 +70,8 @@ public class AddGroupSteps {
         return addGroupTab.errorNotSelectedDepDisplayed();
     }
 
-    public boolean allLabelsAreCorrect() {
-        return addGroupTab.labelsDisplayedCorrectly();
+    public boolean allLabelsAreCorrect(int numOfLabels) {
+        return addGroupTab.labelsDisplayedCorrectly(numOfLabels);
     }
 
     public boolean errorIncorrectlyGroupNameDisplayed() {
@@ -80,20 +80,5 @@ public class AddGroupSteps {
 
     public boolean allButtonsAreDisplayed() {
         return addGroupTab.getAddBtn().isDisplayed() && addGroupTab.getRemoveBtn().isDisplayed() && addGroupTab.getSaveBtn().isDisplayed();
-    }
-
-    public void addNewGroupWithOneMentee(String gName, String depName, String menteeName) {
-        addGroupTab.enterGroupName(gName);
-        addGroupTab.selectDepartment(depName);
-        addGroupTab.selectMentees(menteeName);
-        addGroupTab.getAddBtn().click();
-    }
-
-    public boolean isNameOfChosenMenteeDisplayed() {
-        return addGroupTab.isChosenMenteeDisplayed();
-    }
-
-    public boolean isNameOfCreatedMenteeDisplayed() {
-        return addGroupTab.isCreatedMenteeDisplayed();
     }
 }

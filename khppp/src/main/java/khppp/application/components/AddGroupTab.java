@@ -18,6 +18,7 @@ public class AddGroupTab extends Component {
         super(driver);
     }
 
+
     public void enterGroupName(String groupName) {
         WebElement gName = waitFor(xpath("//input[@class='form-control page_changer']"));
         typeInto(gName, groupName);
@@ -34,7 +35,7 @@ public class AddGroupTab extends Component {
     }
 
     public void chosenMentees(String name) {
-        Select sel = new Select(find(By.xpath("//select[@name='allMentees']")));
+        Select sel = new Select(find(By.xpath("//select[@name='choosenMentees']")));
         sel.selectByVisibleText(name);
     }
 
@@ -59,14 +60,14 @@ public class AddGroupTab extends Component {
         return tabName.isDisplayed() && "Add Group".equals(tabName.getText());
     }
 
-    public boolean labelsDisplayedCorrectly() {
+    public boolean labelsDisplayedCorrectly(int numOfLabels) {
         ArrayList<WebElement> labels = new ArrayList<>();
         labels.add(waitFor(xpath("//div[@class='col-md-7 label_container float_left']/label[text()='Group name:']")));
         labels.add(waitFor(xpath("//div[@class='col-md-7 label_container float_left']/label[text()='Department:']")));
         labels.add(waitFor(xpath("//div[@class='col-md-7 label_container float_left']/label[text()='Lab manager:']")));
         labels.add(waitFor(xpath("//div[@class='col-md-4']/label[text()='Available mentees']")));
         labels.add(waitFor(xpath("//div[@class='col-md-4']/label[text()='Chosen Mentees']")));
-        return labels.size() == 5;
+        return labels.size() == numOfLabels;
     }
 
     public boolean chosenMenteeDisplayed() {
@@ -91,30 +92,5 @@ public class AddGroupTab extends Component {
 
     public boolean errorOneSymbolInGroupNameDisplayed() {
         return waitFor(xpath("//div[text() = 'Name must start with a letter and contains from 2 to 40 symbols']")).isDisplayed();
-    }
-
-    public boolean isAddGroupTabNameDisplayed() {
-        WebElement tabName = waitFor(xpath("//div[@class='page_header_text']"));
-        return tabName.isDisplayed() && "Add Group".equals(tabName.getText());
-    }
-
-    public boolean LabelsDisplayedCorrectly() {
-        ArrayList<WebElement> labels = new ArrayList<>();
-        labels.add(waitFor(xpath("//div[@class='col-md-7 label_container float_left']/label[text()='Group name:']")));
-        labels.add(waitFor(xpath("//div[@class='col-md-7 label_container float_left']/label[text()='Department:']")));
-        labels.add(waitFor(xpath("//div[@class='col-md-7 label_container float_left']/label[text()='Lab manager:']")));
-        labels.add(waitFor(xpath("//div[@class='col-md-4']/label[text()='Available mentees']")));
-        labels.add(waitFor(xpath("//div[@class='col-md-4']/label[text()='Chosen Mentees']")));
-        return labels.size() == 5;
-    }
-
-    public boolean isChosenMenteeDisplayed() {
-        WebElement chosenMentees = waitFor(By.xpath("//select[@name='choosenMentees']"));
-        return chosenMentees.isDisplayed();
-    }
-
-    public boolean isCreatedMenteeDisplayed() {
-        WebElement createdMentees = waitFor(By.xpath("//select[@name='allMentees']"));
-        return createdMentees.isDisplayed();
     }
 }
